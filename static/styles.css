@@ -147,3 +147,13 @@ th, td { border: 1px solid #1a3e34; padding: 4px; text-align: center; }
 th { background-color: #388e3c; color: #ffffff; }
 tbody tr:nth-child(even) { background-color: #e9f4e4; }
 tbody tr:nth-child(odd) { background-color: #b8d9b6; }
+.logs {
+    background-color: #eaf4e6;
+    color: #1a3e34;
+    border: 1px solid #1a3e34;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    white-space: pre-wrap;
+}

@@ -1,8 +1,10 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, Response
 from flask_cors import CORS
 import sqlite3
 import threading
+import os
 import time
+from variablesGlobales import IP_API, IP_CTC
 
 app = Flask(__name__)
 CORS(app)  # Habilita CORS para todas las rutas
@@ -11,6 +13,8 @@ CORS(app)  # Habilita CORS para todas las rutas
 taxis = []
 matriz = [[[] for _ in range(20)] for _ in range(20)] 
 traffic_status = {"status": "OK"}
+current_city = "Almoradi, ES"
+LOG_FILE = 'auditoriaEC.log'
 
 # Función para obtener destinos desde la base de datos
 def obtener_destinos():
@@ -54,7 +58,7 @@ def obtener_taxis():
 
 @app.route('/map')
 def map_page():
-    return render_template('index.html')
+    return render_template('index.html', ip_api=IP_API, ip_ctc=IP_CTC)
 
 # Endpoint: Estado del mapa
 @app.route('/map_data', methods=['GET'])
@@ -134,14 +138,50 @@ def delete_taxi(taxi_id):
 # Endpoint: Estado del tráfico
 @app.route('/traffic_status', methods=['GET'])
 def get_traffic_status():
-    return jsonify({"traffic_status": traffic_status["status"]})
+    return jsonify({
+        "traffic_status": traffic_status["status"],
+        "city": current_city
+    })
 
 # Endpoint para recibir actualizaciones de tráfico desde EC_CTC
 @app.route('/update-traffic', methods=['POST'])
 def update_traffic_status():
     data = request.json
+    global current_city
     traffic_status["status"] = data.get("status", "KO")
+    current_city = data.get("city", current_city)
     return jsonify({"message": "Traffic status updated"}), 200
+
+# ---------------------------------------------------------------------------
+# Auditoría de seguridad
+# ---------------------------------------------------------------------------
+
+def tail_f(log_file):
+    """Generator para transmitir nuevas entradas del archivo de log."""
+    with open(log_file, 'r') as f:
+        f.seek(0, os.SEEK_END)
+        while True:
+            line = f.readline()
+            if not line:
+                time.sleep(1)
+                continue
+            yield f"data: {line.strip()}\n\n"
+
+
+@app.route('/logs', methods=['GET'])
+def get_logs():
+    """Devuelve las últimas 100 líneas del log de auditoría."""
+    if not os.path.exists(LOG_FILE):
+        return jsonify({"logs": []})
+    with open(LOG_FILE, 'r') as f:
+        lines = f.readlines()[-100:]
+    return jsonify({"logs": [line.strip() for line in lines]})
+
+
+@app.route('/logs/stream')
+def stream_logs():
+    """Stream de nuevas entradas del log de auditoría mediante SSE."""
+    return Response(tail_f(LOG_FILE), mimetype='text/event-stream')
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=5000)

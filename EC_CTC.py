@@ -4,8 +4,10 @@ import os
 from flask import Flask, jsonify, request
 from variablesGlobales import CONFIG, IP_API, save_config
 import threading
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Variables globales para OpenWeather
 IP = IP_API
@@ -27,7 +29,10 @@ def fetch_temperature_and_update_central():
             traffic_status["status"] = "KO" if temperature < 0 else "OK"
             
             # Enviar estado de tráfico al API central
-            response = requests.post(urlUpdate, json={"status": traffic_status["status"]})
+            response = requests.post(
+                urlUpdate,
+                json={"status": traffic_status["status"], "city": CITYNAME},
+            )
             print(f"POST to {urlUpdate}: Status {response.status_code}, Response {response.text}")
 
             print(f"Sent traffic status: {traffic_status['status']} to Central API")
@@ -37,7 +42,10 @@ def fetch_temperature_and_update_central():
 
 @app.route('/traffic_status', methods=['GET'])
 def get_traffic_status():
-    return jsonify({"traffic_status": traffic_status["status"]})
+    return jsonify({
+        "traffic_status": traffic_status["status"],
+        "city": CONFIG.get("CITY", "")
+    })
 
 @app.route('/update_city', methods=['POST'])
 def update_city():

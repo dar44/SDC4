@@ -20,6 +20,11 @@
         <div class="seccion">
             <h3>Estado del Tráfico</h3>
             <div id="traffic_status">Cargando...</div>
+            <div id="city_name">Ciudad: -</div>
+            <div>
+                <input type="text" id="new_city" placeholder="Ciudad" />
+                <button onclick="updateCity()">Cambiar Ciudad</button>
+            </div>
         </div>
         <div class="seccion">
             <h3>Taxis</h3>
@@ -47,14 +52,20 @@
             <h3>Mensajes de Error</h3>
             <div id="error-messages">Ninguno</div>
         </div>
+         <div class="seccion">
+            <h3>Auditoría de Seguridad</h3>
+            <pre id="log-container" class="logs"></pre>
+        </div>
 
     </div>
 
     <script>
         const IP_API = "192.168.1.83";
+        const IP_CTC = "192.168.1.83";
         const tablero = document.getElementById('tablero');
         const numeros = document.getElementById('numeros');
         const filaNumeros = document.getElementById('fila-numeros');
+        const logContainer = document.getElementById('log-container');
 
         // Generar la columna de números (1-20)
         for (let i = 1; i <= 20; i++) {
@@ -88,6 +99,7 @@
                 const response = await fetch(`http://${IP_API}:5000/traffic_status`, { cache: 'no-store' });
                 const data = await response.json();
                 document.getElementById('traffic_status').textContent = `Estado: ${data.traffic_status}`;
+                document.getElementById('city_name').textContent = `Ciudad: ${data.city || '-'}`;
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error fetching traffic status: ${error}`;
             }
@@ -258,6 +270,40 @@
             }
         }
 
+        async function updateCity() {
+            const city = document.getElementById('new_city').value;
+            if (!city) return;
+            try {
+                await fetch(`http://${IP_CTC}:5001/update_city`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ city })
+                });
+                document.getElementById('new_city').value = '';
+                fetchTrafficStatus();
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error updating city: ${error}`;
+            }
+        }
+
+         async function fetchInitialLogs() {
+            try {
+                const response = await fetch(`http://${IP_API}:5000/logs`);
+                const data = await response.json();
+                logContainer.textContent = data.logs.join('\n');
+                logContainer.scrollTop = logContainer.scrollHeight;
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error fetching logs: ${error}`;
+            }
+        }
+
+        function startLogStream() {
+            const eventSource = new EventSource(`http://${IP_API}:5000/logs/stream`);
+            eventSource.onmessage = (e) => {
+                logContainer.textContent += '\n' + e.data;
+                logContainer.scrollTop = logContainer.scrollHeight;
+            };
+        }
         // Actualizar datos periódicamente
         setInterval(() => {
             fetchTrafficStatus();
@@ -268,6 +314,8 @@
 
         // Inicializar datos al cargar la página
         fetchTrafficStatus();
+        fetchInitialLogs();
+        startLogStream();
         fetchTaxis();
         fetchClientes();
         fetchMap();

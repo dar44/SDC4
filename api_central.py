@@ -47,7 +47,8 @@ def obtener_taxis():
             "posX": taxi[1],
             "posY": taxi[2],
             "estado": taxi[3],
-            "ocupado": ocupado
+            "ocupado": ocupado,
+            "clienteId": taxi[4]
         })
     return resultado
 
@@ -87,7 +88,8 @@ def get_taxis():
             "posX": taxi["posX"],
             "posY": taxi["posY"],
             "estado": taxi["estado"],
-            "ocupado": taxi["ocupado"]
+            "ocupado": taxi["ocupado"],
+            "clienteId": taxi["clienteId"],
         }
     for taxi in taxis_db])
 
@@ -117,7 +119,8 @@ def get_clientes():
             "id": cliente[0],
             "posX": cliente[1],
             "posY": cliente[2],
-            "estado": cliente[3]
+            "estado": cliente[3],
+            
         }
     for cliente in clientes])
     

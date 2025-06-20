@@ -85,7 +85,7 @@
         // Obtener el estado del tráfico
         async function fetchTrafficStatus() {
             try {
-                const response = await fetch(`http://${IP_API}:5000/traffic_status`);
+                const response = await fetch(`http://${IP_API}:5000/traffic_status`, { cache: 'no-store' });
                 const data = await response.json();
                 document.getElementById('traffic_status').textContent = `Estado: ${data.traffic_status}`;
             } catch (error) {
@@ -96,14 +96,18 @@
         // Obtener la lista de taxis
         async function fetchTaxis() {
             try {
-                const response = await fetch(`http://${IP_API}:5000/taxis`);
+                const response = await fetch(`http://${IP_API}:5000/taxis`, { cache: 'no-store' });
                 const taxis = await response.json();
                 const tbody = document.getElementById('taxi-table-body');
                 tbody.innerHTML = "";
 
                 taxis.forEach(taxi => {
                     const row = document.createElement('tr');
-                    row.innerHTML = `<td>${taxi.id}</td><td>(${taxi.posX}, ${taxi.posY})</td><td>${taxi.estado}</td><td>${taxi.ocupado}</td>`;
+                    let label = taxi.id;
+                    if (taxi.clienteId && taxi.clienteId !== '-') {
+                        label += taxi.clienteId;
+                    }
+                    row.innerHTML = `<td>${label}</td><td>(${taxi.posX}, ${taxi.posY})</td><td>${taxi.estado}</td><td>${taxi.ocupado}</td>`;
                     tbody.appendChild(row);
                 });
             } catch (error) {
@@ -113,7 +117,7 @@
         
         async function fetchClientes() {
             try {
-                const response = await fetch(`http://${IP_API}:5000/clientes`);
+                const response = await fetch(`http://${IP_API}:5000/clientes`, { cache: 'no-store' });
                 const clientes = await response.json();
                 const tbody = document.getElementById('cliente-table-body');
                 tbody.innerHTML = "";
@@ -131,7 +135,7 @@
         // Obtener la matriz de taxis, destinos y clientes
         async function fetchMap() {
             try {
-                const response = await fetch(`http://${IP_API}:5000/map_data`);
+                const response = await fetch(`http://${IP_API}:5000/map_data`, { cache: 'no-store' });
                 const data = await response.json();
                 const map = data.map;
                 const destinos = data.destinos;
@@ -171,7 +175,11 @@
                                     casilla.classList.add('casilla-destino');
                                     
                                 }
-                                casilla.textContent = elemento.id;
+                                let label = elemento.id;
+                                if (elemento.estado !== undefined && elemento.clienteId && elemento.clienteId !== '-') {
+                                    label += elemento.clienteId;
+                                }
+                                casilla.textContent = label;
                             }
                         });
                     });
@@ -205,7 +213,11 @@
                         } else {
                             casilla.classList.add('casilla-taxi-ok');
                         }
-                        casilla.textContent = taxi.id;
+                        let label = taxi.id;
+                        if (taxi.clienteId && taxi.clienteId !== '-') {
+                            label += taxi.clienteId;
+                        }
+                        casilla.textContent = label;
                     }
                 });
 

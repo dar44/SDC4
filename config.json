@@ -1,0 +1,15 @@
+{
+    "FILE": "taxis.db",
+    "FORMATO": "utf-8",
+    "HEADER": 64,
+    "VER": true,
+    "CANTIDADTAXI": 4,
+    "FILAS": 20,
+    "COLUMNAS": 20,
+    "TAMANO_CASILLA": 35,
+    "CITY": "Almoradi, ES",
+    "APICTC": "c31073c6041c4725d2cf4e489f449034",
+    "IP_API": "192.168.1.83",
+    "IP_CTC": "192.168.1.83",
+    "IP_REG": "192.168.1.83"
+}

@@ -2,27 +2,25 @@ import requests
 import time
 import os
 from flask import Flask, jsonify, request
-from variablesGlobales import APICTC, IP_API
+from variablesGlobales import CONFIG, IP_API, save_config
 import threading
 
 app = Flask(__name__)
 
 # Variables globales para OpenWeather
-API_KEY = APICTC
 IP = IP_API
 urlUpdate = f"http://{IP}:5000/update-traffic"
-CITY_FILE_PATH = os.path.join(os.path.dirname(__file__), 'cityname.txt')
 traffic_status = {"status": "OK"}
 
 def fetch_temperature_and_update_central():
     while True:
         try:
-            # Leer el nombre de la ciudad desde el archivo .txt
-            with open(CITY_FILE_PATH, 'r') as file:
-                CITYNAME = file.read().strip()
-            
+            # Leer el nombre de la ciudad desde la configuración
+            CITYNAME = CONFIG.get('CITY', 'Alicante,ES')
+            api_key = CONFIG.get('APICTC', '')
+
+            url = f'https://api.openweathermap.org/data/2.5/weather?q={CITYNAME}&appid={api_key}'
             # Consultar OpenWeather
-            url = f'https://api.openweathermap.org/data/2.5/weather?q={CITYNAME}&appid={API_KEY}'
             response = requests.get(url)
             data = response.json()
             temperature = data['main']['temp'] - 273.15  # Convertir a Celsius
@@ -40,6 +38,18 @@ def fetch_temperature_and_update_central():
 @app.route('/traffic_status', methods=['GET'])
 def get_traffic_status():
     return jsonify({"traffic_status": traffic_status["status"]})
+
+@app.route('/update_city', methods=['POST'])
+def update_city():
+    data = request.json
+    city = data.get('city')
+    api_key = data.get('api_key')
+    if city:
+        CONFIG['CITY'] = city
+    if api_key is not None:
+        CONFIG['APICTC'] = api_key
+    save_config()
+    return jsonify({"message": "Configuration updated"})
 
 if __name__ == "__main__":
     # Iniciar el hilo para actualizar el estado del tráfico

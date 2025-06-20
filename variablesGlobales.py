@@ -1,19 +1,53 @@
 #############################################################
 #     VARIABLES GLOBALES QUE USAREMOS PARA PARAMETRIZAR     #
 #############################################################
-FILE = 'taxis.db'
-FORMATO = 'utf-8'
-HEADER = 64
-VER = True
-CANTIDADTAXI = 4
-FILAS = 20
-COLUMNAS = 20
-TAMANO_CASILLA = 35
-CITY = 'Alicante,ES'
-APICTC = 'c31073c6041c4725d2cf4e489f449034'
-IP_API = '192.168.1.83'
-IP_CTC = '192.168.1.83'
-IP_REG = '192.168.1.83'
+
+import json
+import os
+
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.json')
+
+def _load_config():
+    if os.path.exists(CONFIG_PATH):
+        with open(CONFIG_PATH, 'r') as cfg:
+            return json.load(cfg)
+    return {}
+
+def _save_config(cfg):
+    with open(CONFIG_PATH, 'w') as cfg_file:
+        json.dump(cfg, cfg_file, indent=4)
+
+CONFIG = _load_config()
+
+FILE = CONFIG.get('FILE', 'taxis.db')
+FORMATO = CONFIG.get('FORMATO', 'utf-8')
+HEADER = CONFIG.get('HEADER', 64)
+VER = CONFIG.get('VER', True)
+CANTIDADTAXI = CONFIG.get('CANTIDADTAXI', 4)
+FILAS = CONFIG.get('FILAS', 20)
+COLUMNAS = CONFIG.get('COLUMNAS', 20)
+TAMANO_CASILLA = CONFIG.get('TAMANO_CASILLA', 35)
+CITY = CONFIG.get('CITY', 'Alicante,ES')
+APICTC = CONFIG.get('APICTC', '')
+IP_API = CONFIG.get('IP_API', '127.0.0.1')
+IP_CTC = CONFIG.get('IP_CTC', '127.0.0.1')
+IP_REG = CONFIG.get('IP_REG', '127.0.0.1')
+
+def save_config():
+    CONFIG['FILE'] = FILE
+    CONFIG['FORMATO'] = FORMATO
+    CONFIG['HEADER'] = HEADER
+    CONFIG['VER'] = VER
+    CONFIG['CANTIDADTAXI'] = CANTIDADTAXI
+    CONFIG['FILAS'] = FILAS
+    CONFIG['COLUMNAS'] = COLUMNAS
+    CONFIG['TAMANO_CASILLA'] = TAMANO_CASILLA
+    CONFIG['CITY'] = CITY
+    CONFIG['APICTC'] = APICTC
+    CONFIG['IP_API'] = IP_API
+    CONFIG['IP_CTC'] = IP_CTC
+    CONFIG['IP_REG'] = IP_REG
+    _save_config(CONFIG)
  #Borovoy,RU
 
 # 172.21.48.1

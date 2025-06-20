@@ -1,0 +1,494 @@
+2024-12-04 16:53:57,069 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-04 16:56:45,252 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-04 17:07:32,053 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-05 17:51:50,009 INFO ERROR: Se necesitan estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>. IP: 172.21.48.1
+2024-12-07 01:20:20,752 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:27:38,793 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:28:43,433 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 01:28:43,433 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 01:29:18,377 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 01:29:18,377 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 01:39:09,703 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:40:58,591 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:44:19,006 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:45:09,088 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:48:57,128 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 01:49:40,476 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 01:49:40,476 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 01:53:27,186 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:00:06,128 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:00:32,905 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 02:00:32,905 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:08:07,233 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:10:34,755 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:11:12,117 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:11:19,169 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:11:26,236 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:11:33,301 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:11:40,367 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:11:47,420 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:11:54,484 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:01,535 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:09,630 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:12:20,767 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:27,821 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:34,854 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:41,893 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:48,946 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:12:56,003 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:13:03,039 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:13:10,100 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:13:17,154 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:13:24,186 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:13:35,304 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:13:42,340 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:13:49,373 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:15:38,579 INFO ERROR: Se necesitan estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>. IP: 172.21.48.1
+2024-12-07 02:16:11,222 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:16:30,396 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:16:37,452 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:16:45,522 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:16:52,599 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:16:59,653 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:17:06,727 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:17:13,762 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:17:20,836 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:17:27,899 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:17:38,989 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:17:46,025 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:17:53,059 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:00,106 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:07,160 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:14,203 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:21,264 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:28,318 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:35,382 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:18:42,432 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:18:53,536 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:00,598 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:07,632 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:14,692 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:21,763 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:28,823 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:35,868 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:42,899 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:49,946 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:19:56,993 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:20:04,078 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:20:15,166 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:20:22,217 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:20:29,273 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:20:36,307 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:20:43,356 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:20:50,414 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:21:01,509 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:08,564 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:15,607 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:22,640 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:29,675 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:36,723 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:43,771 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:50,802 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:21:57,847 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:04,904 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:11,964 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:22:23,079 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:30,111 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:37,163 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:44,209 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:51,269 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:22:58,312 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:05,366 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:12,398 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:19,458 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:26,520 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:23:37,638 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:44,674 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:51,742 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:23:58,778 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:05,870 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:12,937 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:24:24,015 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:31,064 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:38,128 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:45,216 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:52,270 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:24:59,307 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:06,339 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:13,373 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:20,429 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:27,461 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:25:38,562 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:45,598 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:52,637 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:25:59,672 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:06,704 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:13,737 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:20,784 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:27,865 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:34,893 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:41,960 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:26:48,998 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:27:09,818 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:16,869 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:23,899 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:30,932 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:38,000 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:45,042 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:52,074 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:27:59,103 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:00,962 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 02:28:00,962 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:28:06,146 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:13,201 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:28:24,305 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:31,358 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:38,419 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:45,463 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:52,507 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:28:59,559 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:29:06,613 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:29:13,659 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:29:20,690 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:29:27,744 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:31:42,440 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:32:20,844 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:32:27,890 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:32:34,924 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:32:41,968 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:32:49,033 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:32:56,092 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:03,160 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:10,207 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:17,263 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:33:28,386 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:35,453 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:42,488 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:49,549 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:33:56,600 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:03,633 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:10,691 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:17,746 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:24,783 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:31,827 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:34:42,917 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:49,958 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:34:57,016 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:35:04,055 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:36:36,358 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:37:02,778 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:09,841 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:16,912 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:23,991 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:31,044 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:38,103 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:45,162 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:52,227 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:37:59,277 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:38:10,367 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:38:17,421 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:38:24,470 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:38:31,524 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:38:38,582 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:38:45,612 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:38:52,643 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:42:14,312 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:42:33,559 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:42:40,622 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:42:47,682 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:42:54,731 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:01,800 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:08,847 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:15,903 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:22,939 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:29,989 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:43:41,128 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:48,167 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:43:56,220 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:03,290 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:10,324 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:17,380 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:24,477 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:31,524 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:38,588 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:44:45,654 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:44:56,738 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:03,788 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:10,844 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:17,901 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:24,954 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:32,009 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:39,053 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:46,103 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:45:53,143 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:46:00,182 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:48:17,688 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:48:35,707 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:48:42,753 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:48:49,807 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:48:56,859 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:03,906 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:10,971 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:18,004 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:25,060 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:32,115 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:49:43,236 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:50,275 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:49:57,346 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:04,399 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:11,451 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:18,519 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:25,573 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:32,628 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:39,681 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:50:46,743 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:50:57,856 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:04,901 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:11,964 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:19,044 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:26,095 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:33,129 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:40,224 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:47,280 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:51:55,399 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:02,482 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:09,549 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:52:20,653 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:27,720 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:34,771 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:41,820 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:48,879 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:52:55,950 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:53:07,027 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:14,088 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:21,144 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:28,189 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:35,253 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:42,337 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:49,395 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:53:56,456 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:03,507 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:10,566 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:17,617 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:54:28,734 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:35,806 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:42,863 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:49,911 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:54:51,861 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 02:54:51,861 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:54:56,991 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:55:04,035 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:56:09,029 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 02:56:28,381 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:56:35,447 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:56:42,486 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:56:49,556 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:56:56,615 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:03,670 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:10,708 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:17,764 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:24,844 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:31,876 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:38,950 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:57:50,078 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:57:57,138 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:05,229 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:12,277 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:19,327 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:26,399 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 02:58:37,515 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:44,576 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:51,626 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:58:58,684 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:59:05,735 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 02:59:12,814 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 03:05:04,138 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 03:05:23,737 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:05:30,802 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:05:38,865 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:05:45,929 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:05:52,992 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:06:00,032 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:09:53,593 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 03:09:57,886 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-07 03:09:57,886 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 03:12:13,356 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-07 03:12:29,488 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:12:36,536 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:12:43,571 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:12:50,625 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:12:57,716 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:04,771 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:11,828 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:18,874 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:26,941 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:34,009 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:41,095 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 03:13:52,205 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:13:59,250 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:06,304 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:13,355 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:20,416 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:27,473 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-07 03:14:38,556 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:45,588 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:52,646 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:14:59,722 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-07 03:15:06,808 INFO Se envía taxi para que se mueva a la siguiente posición. IP: 172.21.48.1
+2024-12-09 18:23:00,271 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:26:13,804 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:29:28,939 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:36:15,608 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:37:21,033 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:40:01,765 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:42:26,404 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:47:41,342 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:55:19,194 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 18:56:45,949 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 18:59:42,582 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 19:04:45,466 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 19:07:19,057 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:08:03,730 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:08:52,607 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:09:21,118 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:10:10,015 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:10:54,820 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:11:23,358 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:12:08,190 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:12:57,035 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-09 19:57:20,388 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 20:00:54,890 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-09 20:36:32,647 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-10 16:40:55,152 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-10 16:43:57,081 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-10 16:44:48,583 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-10 16:47:21,685 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-10 16:47:33,886 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-13 18:00:19,978 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:09:42,960 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:10:59,157 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:12:15,127 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:13:17,871 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-13 18:21:32,302 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:25:21,328 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:26:44,529 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:33:56,525 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:34:48,177 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-13 18:35:51,531 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-14 17:42:27,342 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-14 17:44:24,663 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 17:45:39,388 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 17:48:17,864 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-14 17:54:23,205 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-14 17:55:39,435 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 17:56:54,101 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 17:58:15,877 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 18:15:08,233 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-14 18:16:33,616 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 18:19:46,914 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-14 18:22:22,392 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 18:22:25,541 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-14 18:23:11,913 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:06:01,241 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-16 19:09:44,560 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:10:59,233 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:12:20,928 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:13:07,289 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:14:29,036 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:15:43,773 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:16:30,157 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:17:44,835 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:19:06,576 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:45:03,856 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-16 19:48:40,997 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-16 19:53:01,460 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:54:16,025 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-16 19:56:25,866 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-16 19:57:45,637 INFO Se avisa al cliente de que el taxi de ha desconectado. IP: 172.21.48.1
+2024-12-16 19:57:45,637 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-18 18:18:35,557 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-18 18:21:45,993 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-18 18:21:55,142 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 192.168.56.1
+2024-12-18 18:21:55,142 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-18 18:26:22,360 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1
+2024-12-18 18:26:37,103 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 192.168.56.1
+2024-12-18 18:26:37,104 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.56.1
+2024-12-19 17:52:45,951 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 18:20:17,594 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 18:30:12,923 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 18:35:28,795 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 18:40:58,683 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 18:50:04,144 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:07:27,137 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:09:54,882 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:12:01,682 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-19 19:12:01,682 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:13:53,955 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:14:02,037 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-19 19:14:02,037 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:15:14,437 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:16:49,413 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:20:24,451 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:43:18,517 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:45:19,543 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:46:06,035 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:46:53,583 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:51:52,784 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 19:53:00,760 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:53:29,278 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 19:53:57,720 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:02:26,187 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:03:47,195 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:04:31,960 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:05:20,864 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:05:49,388 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:06:38,272 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:07:22,927 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:07:51,393 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:08:37,165 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:09:25,827 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:12:27,736 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:14:03,108 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:14:47,852 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:15:36,723 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:16:05,114 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:18:04,092 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:18:16,091 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 172.21.48.1
+2024-12-19 20:18:16,091 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:19:54,210 INFO Se avisa al cliente de que el taxi de ha desconectado. IP: 172.21.48.1
+2024-12-19 20:19:54,211 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:23:46,121 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:24:51,991 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:25:20,501 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:25:48,955 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:28:23,993 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:29:28,869 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:29:57,267 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:44:13,239 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:48:56,467 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:50:10,191 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 20:53:52,302 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 20:58:36,745 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 21:03:32,811 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 21:08:37,695 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 21:09:51,798 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:10:20,260 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:10:48,736 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:19:22,294 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 21:25:00,981 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 21:26:09,369 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:26:37,831 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:27:06,354 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:34:40,597 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 172.21.48.1
+2024-12-19 21:36:12,154 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 21:36:40,611 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 172.21.48.1
+2024-12-19 22:09:42,722 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.24.1
+2024-12-19 22:11:35,061 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.24.1
+2024-12-19 22:12:03,553 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.24.1
+2024-12-19 22:12:32,009 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.24.1
+2024-12-19 22:22:48,202 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.24.1
+2024-12-19 22:23:24,154 INFO Se establece la conexión segura por socket con EC_ENGINE. IP: 192.168.24.1
+2024-12-19 22:24:20,010 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.24.1
+2024-12-19 22:24:48,456 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.24.1
+2024-12-19 22:25:17,104 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.24.1
+2025-03-26 16:03:16,987 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.56.1

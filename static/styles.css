@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: #eaf4e6;
+    color: #1a3e34;
+}
+
+.mitad-izquierda {
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d1e7d0;
+    position: relative;
+}
+
+.tablero-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.numeros {
+    display: flex;
+    flex-direction: column;
+    margin-right: 1px; /* Ajuste para alineación */
+    margin-top: 31px; /* Ajuste para alinear una fila más abajo */
+}
+
+.fila-numeros {
+    display: flex;
+    margin-bottom: 1px; /* Ajuste para alineación */
+}
+
+.numero {
+    width: 30px;
+    height: 30px;
+    background-color: #13371b; /* Fondo negro */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff; /* Números en blanco */
+    margin-bottom: 1px;
+    margin-right: 1px; /* Ajuste para alineación */
+}
+
+.tablero {
+    display: grid;
+    grid-template-columns: repeat(20, 30px); /* Ajuste para alineación */
+    grid-template-rows: repeat(20, 30px); /* Ajuste para alineación */
+    gap: 1px;
+}
+
+.casilla {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #1a3e34;
+}
+
+.casilla-taxi-ok {
+    background-color: green;
+    color: white;
+}
+
+.casilla-taxi-ko {
+    background-color: red;
+    color: white;
+}
+
+.casilla-destino {
+    background-color: lightblue;
+    color: black;
+}
+
+.casilla-cliente {
+    background-color: yellow;
+    color: black;
+}
+
+.casilla-ocupada {
+    background-color: #81c784; /* Verde claro para taxis activos */
+    color: #ffffff;
+}
+
+.casilla-problema {
+    background-color: #c62828; /* Rojo para taxis con problemas */
+    color: #ffffff;
+}
+
+.mitad-derecha {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1a3e34;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.seccion {
+    margin-bottom: 20px;
+}
+
+.seccion h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.lista {
+    background-color: #eaf4e6;
+    color: #1a3e34;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #388e3c;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}

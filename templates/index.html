@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyCab Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="mitad-izquierda">
+        <div class="tablero-container">
+            <div class="numeros" id="numeros"></div>
+            <div>
+                <div class="fila-numeros" id="fila-numeros"></div>
+                <div class="tablero" id="tablero"></div>
+            </div>
+        </div>
+    </div>
+    <div class="mitad-derecha">
+        <div class="seccion">
+            <h3>Estado del Tráfico</h3>
+            <div id="traffic_status">Cargando...</div>
+        </div>
+        <div class="seccion">
+            <div class="lista" id="taxi-list">Cargando...</div>
+        </div>
+        <div class="seccion">
+            <h3>Mensajes de Error</h3>
+            <div id="error-messages">Ninguno</div>
+        </div>
+
+    </div>
+
+    <script>
+        const IP_API = "192.168.1.83";
+        const tablero = document.getElementById('tablero');
+        const numeros = document.getElementById('numeros');
+        const filaNumeros = document.getElementById('fila-numeros');
+
+        // Generar la columna de números (1-20)
+        for (let i = 1; i <= 20; i++) {
+            const numero = document.createElement('div');
+            numero.classList.add('numero');
+            numero.textContent = i;
+            numeros.appendChild(numero);
+        }
+
+        // Generar la fila de números (1-20)
+        for (let i = 1; i <= 20; i++) {
+            const numero = document.createElement('div');
+            numero.classList.add('numero');
+            numero.textContent = i;
+            filaNumeros.appendChild(numero);
+        }
+
+        // Generar el tablero dinámicamente (20x20)
+        for (let i = 0; i < 20; i++) {
+            for (let j = 0; j < 20; j++) {
+                const casilla = document.createElement('div');
+                casilla.classList.add('casilla');
+                casilla.id = `casilla-${i}-${j}`;
+                tablero.appendChild(casilla);
+            }
+        }
+
+        // Obtener el estado del tráfico
+        async function fetchTrafficStatus() {
+            try {
+                const response = await fetch(`http://${IP_API}:5000/traffic_status`);
+                const data = await response.json();
+                document.getElementById('traffic_status').textContent = `Estado: ${data.traffic_status}`;
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error fetching traffic status: ${error}`;
+            }
+        }
+
+        // Obtener la lista de taxis
+        async function fetchTaxis() {
+            try {
+                const response = await fetch(`http://${IP_API}:5000/taxis`);
+                const taxis = await response.json();
+                const taxiList = document.getElementById('taxi-list');
+                taxiList.innerHTML = "";
+
+                taxis.forEach(taxi => {
+                    const item = document.createElement('div');
+                    item.textContent = `ID: ${taxi.id}, Posición: (${taxi.posX}, ${taxi.posY}), Estado: ${taxi.estado}`;
+                    taxiList.appendChild(item);
+
+                    // Actualizar el tablero con la posición del taxi
+                    const casilla = document.getElementById(`casilla-${taxi.posX}-${taxi.posY}`);
+                    if (casilla) {
+                        casilla.classList.remove('casilla-taxi-ok', 'casilla-taxi-ko', 'casilla-destino', 'casilla-cliente');
+                        casilla.classList.add(taxi.estado === "ok" ? 'casilla-taxi-ok' : 'casilla-taxi-ko');
+                        casilla.textContent = taxi.id;
+                    }
+                });
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error fetching taxis: ${error}`;
+            }
+        }
+
+        // Obtener la matriz de taxis, destinos y clientes
+        async function fetchMap() {
+            try {
+                const response = await fetch(`http://${IP_API}:5000/map`);
+                const data = await response.json();
+                const map = data.map;
+                const destinos = data.destinos;
+                const clientes = data.clientes;
+                const taxis = data.taxis;
+
+                // Limpiar el tablero
+                for (let i = 0; i < 20; i++) {
+                    for (let j = 0; j < 20; j++) {
+                        const casilla = document.getElementById(`casilla-${i}-${j}`);
+                        casilla.classList.remove('casilla-taxi-ok', 'casilla-taxi-ko', 'casilla-destino', 'casilla-cliente');
+                        casilla.textContent = '';
+                    }
+                }
+
+                // Actualizar el tablero con la matriz de taxis, destinos y clientes
+                map.forEach((fila, i) => {
+                    fila.forEach((columna, j) => {
+                        columna.forEach(elemento => {
+                            const casilla = document.getElementById(`casilla-${i}-${j}`);
+                            if (casilla) {
+                                if (elemento.color === "yellow") { // Es un cliente
+                                    casilla.classList.add('casilla-cliente');
+                                } else if (elemento.estado === "ok" || elemento.estado === "ko") { // Es un taxi
+                                    casilla.classList.add(elemento.estado === "ok" ? 'casilla-taxi-ok' : 'casilla-taxi-ko');
+                                } else if (elemento.color === "light blue") { // Es un destino
+                                    casilla.classList.add('casilla-destino');
+                                }
+                                casilla.textContent = elemento.id;
+                            }
+                        });
+                    });
+                });
+
+                // Actualizar el tablero con los destinos
+                destinos.forEach(destino => {
+                    const casilla = document.getElementById(`casilla-${destino.x}-${destino.y}`);
+                    if (casilla) {
+                        casilla.classList.add('casilla-destino');
+                        casilla.textContent = destino.id;
+                    }
+                });
+
+                // Actualizar el tablero con los clientes
+                clientes.forEach(cliente => {
+                    const casilla = document.getElementById(`casilla-${cliente.x}-${cliente.y}`);
+                    if (casilla) {
+                        casilla.classList.add('casilla-cliente');
+                        casilla.textContent = cliente.id;
+                    }
+                });
+
+                // Actualizar el tablero con los taxis
+                taxis.forEach(taxi => {
+                    const casilla = document.getElementById(`casilla-${taxi.x}-${taxi.y}`);
+                    if (casilla) {
+                        casilla.classList.add('casilla-taxi-ok');
+                        casilla.textContent = taxi.id;
+                    }
+                });
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error fetching map: ${error}`;
+            }
+        }
+
+        // Añadir taxi
+        async function addTaxi() {
+            const taxi = { id: Date.now(), posX: Math.floor(Math.random() * 20), posY: Math.floor(Math.random() * 20), estado: "OK" };
+            try {
+                await fetch(`http://${IP_API}:5000/taxis`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(taxi),
+                });
+                fetchTaxis();
+                fetchMap();
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error adding taxi: ${error}`;
+            }
+        }
+
+        // Eliminar taxi
+        async function deleteTaxi() {
+            const taxiId = prompt("Ingrese el ID del taxi a eliminar:");
+            if (taxiId) {
+                try {
+                    await fetch(`http://${IP_API}:5000/taxis/${taxiId}`, {
+                        method: 'DELETE',
+                    });
+                    fetchTaxis();
+                    fetchMap();
+                } catch (error) {
+                    document.getElementById('error-messages').textContent = `Error deleting taxi: ${error}`;
+                }
+            }
+        }
+
+        // Actualizar datos periódicamente
+        setInterval(() => {
+            fetchTrafficStatus();
+            fetchTaxis();
+            fetchMap();
+        }, 5000);
+
+        // Inicializar datos al cargar la página
+        fetchTrafficStatus();
+        fetchTaxis();
+        fetchMap();
+    </script>
+</body>
+</html>

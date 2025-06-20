@@ -142,7 +142,13 @@ class Tablero:
                 if not elemento:
                     self.cambiarColor(fila, columna, "white", "")
                 else:
-                    self.cambiarColor(fila, columna, elemento[0].getColor(), elemento[0].id)
+                    obj = elemento[0]
+                    color = obj.getColor()
+                    texto = obj.id
+                    if isinstance(obj, Taxi) and (obj.ocupado is True or obj.ocupado == "True"):
+                        color = "#81c784"  # verde claro
+                        texto = f"{obj.id}{obj.clienteId}"
+                    self.cambiarColor(fila, columna, color, texto)
 
 #############################################################
 #        FUNCIÓN QUE MUESTRA TAXISAUTENTICADOS              #

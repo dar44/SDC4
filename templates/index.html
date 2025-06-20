@@ -155,16 +155,21 @@
                             if (casilla) {
                                 if (elemento.color === "yellow") { // Es un cliente
                                     casilla.classList.add('casilla-cliente');
+                                    
                                 } else if (elemento.estado !== undefined) { // Taxi
                                     if (elemento.estado !== "ok") {
                                         casilla.classList.add('casilla-problema');
+                                        
                                     } else if (elemento.ocupado === true || elemento.ocupado === "True") {
                                         casilla.classList.add('casilla-ocupada');
+                                        
                                     } else {
                                         casilla.classList.add('casilla-taxi-ok');
+                                        
                                     }
                                 } else if (elemento.color === "light blue") {
                                     casilla.classList.add('casilla-destino');
+                                    
                                 }
                                 casilla.textContent = elemento.id;
                             }
@@ -189,8 +194,21 @@
                         casilla.textContent = cliente.id;
                     }
                 });
+                // Actualizar el tablero con los taxis obtenidos de la base de datos
+                taxis.forEach(taxi => {
+                    const casilla = document.getElementById(`casilla-${taxi.x}-${taxi.y}`);
+                    if (casilla) {
+                        if (taxi.estado !== 'ok') {
+                            casilla.classList.add('casilla-problema');
+                        } else if (taxi.ocupado === true || taxi.ocupado === 'True') {
+                            casilla.classList.add('casilla-ocupada');
+                        } else {
+                            casilla.classList.add('casilla-taxi-ok');
+                        }
+                        casilla.textContent = taxi.id;
+                    }
+                });
 
-                
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error fetching map: ${error}`;
             }

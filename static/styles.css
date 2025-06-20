@@ -145,5 +145,5 @@ button:hover {
 table { width: 100%; border-collapse: collapse; margin-bottom: 10px; }
 th, td { border: 1px solid #1a3e34; padding: 4px; text-align: center; }
 th { background-color: #388e3c; color: #ffffff; }
-tbody tr:nth-child(even) { background-color: #eaf4e6; }
-tbody tr:nth-child(odd) { background-color: #d1e7d0; }
+tbody tr:nth-child(even) { background-color: #e9f4e4; }
+tbody tr:nth-child(odd) { background-color: #b8d9b6; }

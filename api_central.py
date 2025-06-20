@@ -34,10 +34,22 @@ def obtener_clientes():
 def obtener_taxis():
     conn = sqlite3.connect('easycab.db')
     cursor = conn.cursor()
-    cursor.execute('SELECT id, posX, posY FROM taxis2')
+    cursor.execute('SELECT id, posX, posY, estado, clienteId FROM taxis2')
     taxis = cursor.fetchall()
     conn.close()
-    return [{"id": taxi[0], "x": taxi[1] - 1, "y": taxi[2] - 1} for taxi in taxis]  # Ajustar índices
+    resultado = []
+    for taxi in taxis:
+        ocupado = taxi[4] not in (None, '-', '')
+        resultado.append({
+            "id": taxi[0],
+            "x": taxi[1] - 1,
+            "y": taxi[2] - 1,
+            "posX": taxi[1],
+            "posY": taxi[2],
+            "estado": taxi[3],
+            "ocupado": ocupado
+        })
+    return resultado
 
 @app.route('/map')
 def map_page():
@@ -68,15 +80,16 @@ def update_map():
 # Endpoint: Listar taxis autenticados
 @app.route('/taxis', methods=['GET'])
 def get_taxis():
+    taxis_db = obtener_taxis()
     return jsonify([
         {
             "id": taxi["id"],
             "posX": taxi["posX"],
             "posY": taxi["posY"],
             "estado": taxi["estado"],
-            "ocupado": taxi.get("ocupado", False)
+            "ocupado": taxi["ocupado"]
         }
-    for taxi in taxis])
+    for taxi in taxis_db])
 
 # Endpoint: Añadir un taxi
 @app.route('/taxis', methods=['POST'])

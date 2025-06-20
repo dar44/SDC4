@@ -14,6 +14,7 @@ taxis = []
 matriz = [[[] for _ in range(20)] for _ in range(20)] 
 traffic_status = {"status": "OK"}
 current_city = "Almoradi, ES"
+current_temperature = 0.0
 LOG_FILE = 'auditoriaEC.log'
 
 # Función para obtener destinos desde la base de datos
@@ -140,16 +141,20 @@ def delete_taxi(taxi_id):
 def get_traffic_status():
     return jsonify({
         "traffic_status": traffic_status["status"],
-        "city": current_city
+        "city": current_city,
+        "temperature": round(current_temperature, 2)
+        
     })
 
 # Endpoint para recibir actualizaciones de tráfico desde EC_CTC
 @app.route('/update-traffic', methods=['POST'])
 def update_traffic_status():
     data = request.json
-    global current_city
+    global current_city, current_temperature
     traffic_status["status"] = data.get("status", "KO")
     current_city = data.get("city", current_city)
+    if "temperature" in data:
+        current_temperature = data["temperature"]
     return jsonify({"message": "Traffic status updated"}), 200
 
 # ---------------------------------------------------------------------------

@@ -21,8 +21,11 @@
             <h3>Estado del Tráfico</h3>
             <div id="traffic_status">Cargando...</div>
             <div id="city_name">Ciudad: -</div>
+            <div id="temperature">Temperatura: - °C</div>
             <div>
                 <input type="text" id="new_city" placeholder="Ciudad" />
+                <input type="text" id="api_key" placeholder="API key" />
+
                 <button onclick="updateCity()">Cambiar Ciudad</button>
             </div>
         </div>
@@ -100,6 +103,7 @@
                 const data = await response.json();
                 document.getElementById('traffic_status').textContent = `Estado: ${data.traffic_status}`;
                 document.getElementById('city_name').textContent = `Ciudad: ${data.city || '-'}`;
+                document.getElementById('temperature').textContent = `Temperatura: ${data.temperature?.toFixed(2) || '-'} °C`;
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error fetching traffic status: ${error}`;
             }
@@ -272,14 +276,16 @@
 
         async function updateCity() {
             const city = document.getElementById('new_city').value;
-            if (!city) return;
+            const apiKey = document.getElementById('api_key').value;
+            if (!city && !apiKey) return;
             try {
                 await fetch(`http://${IP_CTC}:5001/update_city`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ city })
+                    body: JSON.stringify({ city, api_key: apiKey })
                 });
                 document.getElementById('new_city').value = '';
+                document.getElementById('api_key').value = '';
                 fetchTrafficStatus();
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error updating city: ${error}`;

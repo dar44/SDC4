@@ -13,8 +13,10 @@ CORS(app)
 IP = IP_API
 urlUpdate = f"http://{IP}:5000/update-traffic"
 traffic_status = {"status": "OK"}
+current_temperature = 0.0
 
 def fetch_temperature_and_update_central():
+    global current_temperature
     while True:
         try:
             # Leer el nombre de la ciudad desde la configuración
@@ -25,13 +27,16 @@ def fetch_temperature_and_update_central():
             # Consultar OpenWeather
             response = requests.get(url)
             data = response.json()
-            temperature = data['main']['temp'] - 273.15  # Convertir a Celsius
-            traffic_status["status"] = "KO" if temperature < 0 else "OK"
+            current_temperature = data['main']['temp'] - 273.15  # Convertir a Celsius
+            traffic_status["status"] = "KO" if current_temperature < 0 else "OK"
             
             # Enviar estado de tráfico al API central
             response = requests.post(
-                urlUpdate,
-                json={"status": traffic_status["status"], "city": CITYNAME},
+                json={
+                    "status": traffic_status["status"],
+                    "city": CITYNAME,
+                    "temperature": current_temperature,
+                },
             )
             print(f"POST to {urlUpdate}: Status {response.status_code}, Response {response.text}")
 
@@ -44,7 +49,8 @@ def fetch_temperature_and_update_central():
 def get_traffic_status():
     return jsonify({
         "traffic_status": traffic_status["status"],
-        "city": CONFIG.get("CITY", "")
+        "city": CONFIG.get("CITY", ""),
+        "temperature": round(current_temperature, 2)
     })
 
 @app.route('/update_city', methods=['POST'])

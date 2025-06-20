@@ -15,32 +15,46 @@ urlUpdate = f"http://{IP}:5000/update-traffic"
 traffic_status = {"status": "OK"}
 current_temperature = 0.0
 
+def _fetch_temperature():
+    """Consults OpenWeather and updates ``traffic_status``."""
+    CITYNAME = CONFIG.get('CITY', 'Alicante,ES')
+    api_key = CONFIG.get('APICTC', '')
+
+    url = (
+        "https://api.openweathermap.org/data/2.5/weather"
+        f"?q={CITYNAME}&appid={api_key}"
+    )
+    response = requests.get(url)
+    data = response.json()
+    temp = data['main']['temp'] - 273.15
+    traffic_status["status"] = "KO" if temp < 0 else "OK"
+    return CITYNAME, temp
+
+
+def _send_status(city, temperature):
+    """Sends the status to the central API."""
+    resp = requests.post(
+        urlUpdate,
+        json={
+            "status": traffic_status["status"],
+            "city": city,
+            "temperature": temperature,
+        },
+    )
+    print(
+        f"POST to {urlUpdate}: Status {resp.status_code}, Response {resp.text}"
+    )
+    
 def fetch_temperature_and_update_central():
     global current_temperature
     while True:
         try:
-            # Leer el nombre de la ciudad desde la configuración
-            CITYNAME = CONFIG.get('CITY', 'Alicante,ES')
-            api_key = CONFIG.get('APICTC', '')
-
-            url = f'https://api.openweathermap.org/data/2.5/weather?q={CITYNAME}&appid={api_key}'
-            # Consultar OpenWeather
-            response = requests.get(url)
-            data = response.json()
-            current_temperature = data['main']['temp'] - 273.15  # Convertir a Celsius
-            traffic_status["status"] = "KO" if current_temperature < 0 else "OK"
-            
-            # Enviar estado de tráfico al API central
-            response = requests.post(
-                json={
-                    "status": traffic_status["status"],
-                    "city": CITYNAME,
-                    "temperature": current_temperature,
-                },
+            city, temp = _fetch_temperature()
+            current_temperature = temp
+            _send_status(city, temp)
+            print(
+                f"Sent traffic status: {traffic_status['status']} to Central API"
             )
-            print(f"POST to {urlUpdate}: Status {response.status_code}, Response {response.text}")
-
-            print(f"Sent traffic status: {traffic_status['status']} to Central API")
         except Exception as e:
             print(f"Error updating traffic status: {e}")
         time.sleep(10)  # Actualizar cada 10 segundos
@@ -53,6 +67,18 @@ def get_traffic_status():
         "temperature": round(current_temperature, 2)
     })
 
+@app.route('/send_status', methods=['POST'])
+def send_status_route():
+    """Force an immediate status update to the central API."""
+    try:
+        city, temp = _fetch_temperature()
+        global current_temperature
+        current_temperature = temp
+        _send_status(city, temp)
+        return jsonify({"message": "Traffic status sent", "status": traffic_status["status"]})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
 @app.route('/update_city', methods=['POST'])
 def update_city():
     data = request.json

@@ -27,6 +27,7 @@
                 <input type="text" id="api_key" placeholder="API key" />
 
                 <button onclick="updateCity()">Cambiar Ciudad</button>
+                <button onclick="sendStatus()">Enviar Estado</button>
             </div>
         </div>
         <div class="seccion">
@@ -291,8 +292,17 @@
                 document.getElementById('error-messages').textContent = `Error updating city: ${error}`;
             }
         }
-
-         async function fetchInitialLogs() {
+        async function sendStatus() {
+            try {
+                await fetch(`http://${IP_CTC}:5001/send_status`, {
+                    method: 'POST'
+                });
+                fetchTrafficStatus();
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error sending status: ${error}`;
+            }
+        }
+        async function fetchInitialLogs() {
             try {
                 const response = await fetch(`http://${IP_API}:5000/logs`);
                 const data = await response.json();

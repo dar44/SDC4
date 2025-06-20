@@ -1,0 +1,54 @@
+Guia de corrección:   
+Funcionamiento base
+-Se pueden parametrizar distintos aspectos de la solución en cada uno de los módulos  
+evitando que dichos parámetros se encuentren definidos de forma fija en el código. Así 
+será posible indicar el API_KEY del OpenWeather en un archivo (o menú a tal propósito). 
+De la misma forma la ciudad de la que se solicita el clima podrá ser cambiada a voluntad 
+en tiempo de ejecución en el módulo CTC para validar los requerimientos expresados en 
+el enunciado.
+-La aplicación no falla durante el transcurso normal de su ejecución mostrando todas las  
+figuras encontradas en el archivo json.
+-El módulo Front se puede invocar tantas veces como se desee simultáneamente desde  
+cualquier navegador de manera que el estado global del servicio (mapa con 
+localizaciones, clima, movimiento de los taxis, clientes, mensajes de estado, errores, …)
+pueda ser visualizable desde varias pantallas a la vez.
+-El API REST expone la información de la auditoría de seguridad y se muestra a través de  
+un Front Web en un navegador web (se valorará la actualización del cliente web en 
+tiempo real)
+Seguridad
+-Se ha incorporado la seguridad entre el Registry y los taxis con la protección adecuada  
+del canal. El API expuesto por el Registry estará disponible para ser consumido desde 
+cualquier aplicación externa que se autentique correctamente (Taxi, Postman,…)
+-Se ha incorporado la seguridad adecuada entre la central y los taxis y la autenticación  
+con tokens caducables. Las claves de cifrado no residen en el código.
+-Se ha incorporado el cifrado de mensajes que se publican y consumen en los Topics 
+mediante **cifrado simétrico**. Las claves de cifrado no residen en el código. 
+Las claves simétricas son distintas para cada taxi. Un cambio en una clave simétrica de
+solo en uno de los extremos provocará una incidencia de comunicación del taxi afectado 
+con la central. El error se mostrará en todos los interfaces oportunos (taxi , front, central). 
+El sistema se recuperará cuando las claves vuelvan a ser correctas.
+-El sistema dispone del registro de auditoría solicitado en el documento de especificación. 
+ Resiliencia 
+-Cualquier fallo en cualquier componente solo invalida el servicio proporcionado por ese  
+componente. El resto de los componentes del sistema pueden seguir con su operativa 
+normal salvo en lo que se vea afectado por el componente caído. Así, por ejemplo, si el 
+Front o el API_Central no funciona, la operación del servicio puede continuar sin 
+problemas. 
+-El sistema se recupera de forma correcta cuando se restituye el servicio de cualquier  
+componente caído debiendo reiniciarse el mínimo número de módulos el sistema. Se 
+mostrarán los mensajes de restauración del sistema en los distintos módulos.
+-Se capturan los errores derivados de cualquier caída y se muestran al usuario de forma  
+controlada en todos los módulos afectados incluido el Front. Ej.: Si el CTC deja de estar 
+disponible por cualquier problema, la central lo detectará mostrando un error lo más 
+específico posible.
+Entre otros, algunos ejemplos no exhaustivos de errores podrían ser: 
+Visualizables en Central y Front:
+“Imposible conectar con Taxi X. Mensajes no comprensibles”. 
+“ Taxi X no disponible. Taxi fuera de servicio.”
+“Imposible acceder al clima. Conexión con Openweather no disponible”.
+Etc …
+Visualizables en Taxi:
+“Imposible conectar con Central”
+“Registry no responde”
+“Mensajes con central no comprensibles”
+Etc …

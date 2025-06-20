@@ -238,15 +238,19 @@ def iniciar_servidor():
 #             FUNCIÓN QUE CONECTA CON CENTRAL               #
 #############################################################
 def conectarCentral(taxiID):
+    #global conexion
+
+    #ADDR_C = (SERVER_C, PORT_C)
+    #context = ssl._create_unverified_context()
+    #with socket.create_connection(ADDR_C) as sock:
+    #    conexion = context.wrap_socket(sock, server_hostname=SERVER_C)
+    #    print(f"Establecida conexión con Central en [{ADDR_C}]")
+    #    enviar(taxiID)
     global conexion
-
-    ADDR_C = (SERVER_C, PORT_C)
-    context = ssl._create_unverified_context()
-    with socket.create_connection(ADDR_C) as sock:
-        conexion = context.wrap_socket(sock, server_hostname=SERVER_C)
-        print(f"Establecida conexión con Central en [{ADDR_C}]")
-        enviar(taxiID)
-
+    conexion = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    conexion.connect(ADDR_C)
+    print(f"Establecida conexión con Central en [{ADDR_C}]")
+    enviar(taxiID)
 
 
 #############################################################
@@ -435,6 +439,7 @@ def reciboMapa():
                     taxi.ocupado = False
                     taxi.destino = '-'
                     taxi.estado = "END"
+                    
                     recogido = False
                     FINALIZADO = False
                     enviarMovimiento(taxi)
@@ -442,6 +447,7 @@ def reciboMapa():
                     taxi.ocupado = False
                     taxi.destino = '-'
                     taxi.estado = "ENDB"
+                    
                     recogido = False
                     BASE = False
                     enviarMovimiento(taxi)
@@ -449,6 +455,7 @@ def reciboMapa():
                     enviarMovimiento(taxi)
 
                 break
+        break
 
 ##########################################################################
 #   FUNCIÓN QUE CALCULA LA DIRECCIÓN POR LA QUE IRÁ (GEOMETRÍA ESFÉRICA) #

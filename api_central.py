@@ -39,12 +39,12 @@ def obtener_taxis():
     conn.close()
     return [{"id": taxi[0], "x": taxi[1] - 1, "y": taxi[2] - 1} for taxi in taxis]  # Ajustar índices
 
-@app.route('/')
-def dashboard():
+@app.route('/map')
+def map_page():
     return render_template('index.html')
 
 # Endpoint: Estado del mapa
-@app.route('/map', methods=['GET'])
+@app.route('/map_data', methods=['GET'])
 def get_map():
     destinos = obtener_destinos()
     clientes = obtener_clientes()
@@ -68,12 +68,15 @@ def update_map():
 # Endpoint: Listar taxis autenticados
 @app.route('/taxis', methods=['GET'])
 def get_taxis():
-    return jsonify([{
-        "id": taxi["id"],
-        "posX": taxi["posX"],
-        "posY": taxi["posY"],
-        "estado": taxi["estado"]
-    } for taxi in taxis])
+    return jsonify([
+        {
+            "id": taxi["id"],
+            "posX": taxi["posX"],
+            "posY": taxi["posY"],
+            "estado": taxi["estado"],
+            "ocupado": taxi.get("ocupado", False)
+        }
+    for taxi in taxis])
 
 # Endpoint: Añadir un taxi
 @app.route('/taxis', methods=['POST'])
@@ -88,6 +91,23 @@ def add_taxi():
     taxis.append(taxi)
     return jsonify({"message": "Taxi added successfully"}), 201
 
+# Endpoint: Listar clientes
+@app.route('/clientes', methods=['GET'])
+def get_clientes():
+    conn = sqlite3.connect('easycab.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT id, posX, posY, estado FROM clientes')
+    clientes = cursor.fetchall()
+    conn.close()
+    return jsonify([
+        {
+            "id": cliente[0],
+            "posX": cliente[1],
+            "posY": cliente[2],
+            "estado": cliente[3]
+        }
+    for cliente in clientes])
+    
 # Endpoint: Eliminar un taxi
 @app.route('/taxis/<int:taxi_id>', methods=['DELETE'])
 def delete_taxi(taxi_id):

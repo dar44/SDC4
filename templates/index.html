@@ -22,7 +22,26 @@
             <div id="traffic_status">Cargando...</div>
         </div>
         <div class="seccion">
-            <div class="lista" id="taxi-list">Cargando...</div>
+            <h3>Taxis</h3>
+            <table id="taxi-table">
+                <thead>
+                    <tr><th>ID</th><th>Posición</th><th>Estado</th><th>Ocupado</th></tr>
+                </thead>
+                <tbody id="taxi-table-body">
+                    <tr><td colspan="4">Cargando...</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="seccion">
+            <h3>Clientes</h3>
+            <table id="cliente-table">
+                <thead>
+                    <tr><th>ID</th><th>Posición</th><th>Estado</th></tr>
+                </thead>
+                <tbody id="cliente-table-body">
+                    <tr><td colspan="3">Cargando...</td></tr>
+                </tbody>
+            </table>
         </div>
         <div class="seccion">
             <h3>Mensajes de Error</h3>
@@ -79,31 +98,40 @@
             try {
                 const response = await fetch(`http://${IP_API}:5000/taxis`);
                 const taxis = await response.json();
-                const taxiList = document.getElementById('taxi-list');
-                taxiList.innerHTML = "";
+                const tbody = document.getElementById('taxi-table-body');
+                tbody.innerHTML = "";
 
                 taxis.forEach(taxi => {
-                    const item = document.createElement('div');
-                    item.textContent = `ID: ${taxi.id}, Posición: (${taxi.posX}, ${taxi.posY}), Estado: ${taxi.estado}`;
-                    taxiList.appendChild(item);
-
-                    // Actualizar el tablero con la posición del taxi
-                    const casilla = document.getElementById(`casilla-${taxi.posX}-${taxi.posY}`);
-                    if (casilla) {
-                        casilla.classList.remove('casilla-taxi-ok', 'casilla-taxi-ko', 'casilla-destino', 'casilla-cliente');
-                        casilla.classList.add(taxi.estado === "ok" ? 'casilla-taxi-ok' : 'casilla-taxi-ko');
-                        casilla.textContent = taxi.id;
-                    }
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td>${taxi.id}</td><td>(${taxi.posX}, ${taxi.posY})</td><td>${taxi.estado}</td><td>${taxi.ocupado}</td>`;
+                    tbody.appendChild(row);
                 });
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error fetching taxis: ${error}`;
+            }
+        }
+        
+        async function fetchClientes() {
+            try {
+                const response = await fetch(`http://${IP_API}:5000/clientes`);
+                const clientes = await response.json();
+                const tbody = document.getElementById('cliente-table-body');
+                tbody.innerHTML = "";
+
+                clientes.forEach(cliente => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `<td>${cliente.id}</td><td>(${cliente.posX}, ${cliente.posY})</td><td>${cliente.estado}</td>`;
+                    tbody.appendChild(row);
+                });
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error fetching clientes: ${error}`;
             }
         }
 
         // Obtener la matriz de taxis, destinos y clientes
         async function fetchMap() {
             try {
-                const response = await fetch(`http://${IP_API}:5000/map`);
+                const response = await fetch(`http://${IP_API}:5000/map_data`);
                 const data = await response.json();
                 const map = data.map;
                 const destinos = data.destinos;
@@ -114,7 +142,7 @@
                 for (let i = 0; i < 20; i++) {
                     for (let j = 0; j < 20; j++) {
                         const casilla = document.getElementById(`casilla-${i}-${j}`);
-                        casilla.classList.remove('casilla-taxi-ok', 'casilla-taxi-ko', 'casilla-destino', 'casilla-cliente');
+                        casilla.classList.remove('casilla-taxi-ok', 'casilla-taxi-ko', 'casilla-destino', 'casilla-cliente', 'casilla-ocupada', 'casilla-problema');
                         casilla.textContent = '';
                     }
                 }
@@ -127,9 +155,15 @@
                             if (casilla) {
                                 if (elemento.color === "yellow") { // Es un cliente
                                     casilla.classList.add('casilla-cliente');
-                                } else if (elemento.estado === "ok" || elemento.estado === "ko") { // Es un taxi
-                                    casilla.classList.add(elemento.estado === "ok" ? 'casilla-taxi-ok' : 'casilla-taxi-ko');
-                                } else if (elemento.color === "light blue") { // Es un destino
+                                } else if (elemento.estado !== undefined) { // Taxi
+                                    if (elemento.estado !== "ok") {
+                                        casilla.classList.add('casilla-problema');
+                                    } else if (elemento.ocupado === true || elemento.ocupado === "True") {
+                                        casilla.classList.add('casilla-ocupada');
+                                    } else {
+                                        casilla.classList.add('casilla-taxi-ok');
+                                    }
+                                } else if (elemento.color === "light blue") {
                                     casilla.classList.add('casilla-destino');
                                 }
                                 casilla.textContent = elemento.id;
@@ -156,14 +190,7 @@
                     }
                 });
 
-                // Actualizar el tablero con los taxis
-                taxis.forEach(taxi => {
-                    const casilla = document.getElementById(`casilla-${taxi.x}-${taxi.y}`);
-                    if (casilla) {
-                        casilla.classList.add('casilla-taxi-ok');
-                        casilla.textContent = taxi.id;
-                    }
-                });
+                
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error fetching map: ${error}`;
             }
@@ -205,12 +232,14 @@
         setInterval(() => {
             fetchTrafficStatus();
             fetchTaxis();
+            fetchClientes();
             fetchMap();
         }, 5000);
 
         // Inicializar datos al cargar la página
         fetchTrafficStatus();
         fetchTaxis();
+        fetchClientes();
         fetchMap();
     </script>
 </body>

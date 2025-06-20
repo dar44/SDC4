@@ -5,8 +5,9 @@ import os
 
 app = Flask(__name__)
 
+#db_path = os.path.join(os.path.dirname(__file__), 'easycab.db')
 # Ruta al directorio compartido en la red
-shared_directory = r'\\BONILLA\abab4-ggr23'
+shared_directory = r'\\Desktop-ee5cv8c\sd prueba'
 db_path = os.path.join(shared_directory, 'easycab.db')
 
 # Initialize the database

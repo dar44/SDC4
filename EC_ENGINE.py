@@ -5,7 +5,7 @@ import socket
 import sys
 import os
 from cliente import Cliente
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN, REGISTRY_CERT
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN
 from taxi import Taxi
 import threading
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
@@ -32,20 +32,20 @@ IP = IP_REG
 
 # Función para registrar el taxi
 def register_taxi(taxi_id):
-    url = f"https://{IP}:5002/register"
+    url = f"http://{IP}:5002/register"
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {REGISTRY_TOKEN}'
     }
     data = json.dumps({"id": taxi_id})
-    response = requests.post(url, headers=headers, data=data, verify=REGISTRY_CERT)
+    response = requests.post(url, headers=headers, data=data, verify=False)
     return response
 
 # Función para dar de baja el taxi
 def deregister_taxi(taxi_id):
-    url = f"https://{IP}:5002/deregister/{taxi_id}"
+    url = f"http://{IP}:5002/deregister/{taxi_id}"
     headers = {'Authorization': f'Bearer {REGISTRY_TOKEN}'}
-    response = requests.delete(url, headers=headers, verify=REGISTRY_CERT)
+    response = requests.delete(url, headers=headers, verify=False)
     return response
 
 def menu(taxiID):
@@ -618,4 +618,3 @@ if __name__ == "__main__":
         kafka_thread.start()
     else:
         print("Necesito estos argumentos: <ServerIP_K> <Puerto_K> <ServerIP_C> <Puerto_C> <ServerIP_S> <Puerto_S> <TAXI_ID")
-

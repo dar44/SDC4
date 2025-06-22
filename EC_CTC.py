@@ -24,11 +24,22 @@ def _fetch_temperature():
         "https://api.openweathermap.org/data/2.5/weather"
         f"?q={CITYNAME}&appid={api_key}"
     )
-    response = requests.get(url)
-    data = response.json()
-    temp = data['main']['temp'] - 273.15
-    traffic_status["status"] = "KO" if temp < 0 else "OK"
-    return CITYNAME, temp
+    #response = requests.get(url)
+    #data = response.json()
+    #temp = data['main']['temp'] - 273.15
+    #traffic_status["status"] = "KO" if temp < 0 else "OK"
+    #return CITYNAME, temp
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        data = response.json()
+        temp = data['main']['temp'] - 273.15
+        traffic_status["status"] = "KO" if temp < 0 else "OK"
+        return CITYNAME, temp
+    except Exception:
+        # Ante cualquier error se marca el estado como KO para avisar a la central
+        traffic_status["status"] = "KO"
+        raise
 
 
 def _send_status(city, temperature):
@@ -89,7 +100,21 @@ def update_city():
     if api_key is not None:
         CONFIG['APICTC'] = api_key
     save_config()
-    return jsonify({"message": "Configuration updated"})
+    global current_temperature
+    try:
+        city_name, temp = _fetch_temperature()
+        current_temperature = temp
+    except Exception:
+        city_name = city if city else CONFIG.get('CITY', 'Alicante,ES')
+        temp = 0.0
+    _send_status(city_name, temp)
+    return jsonify({
+        "message": "Configuration updated",
+        "status": traffic_status["status"],
+        "city": city_name,
+        "temperature": round(temp, 2)
+    })
+
 
 if __name__ == "__main__":
     # Iniciar el hilo para actualizar el estado del tráfico

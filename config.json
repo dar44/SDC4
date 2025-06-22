@@ -11,5 +11,6 @@
     "APICTC": "c31073c6041c4725d2cf4e489f449034",
     "IP_API": "192.168.1.83",
     "IP_CTC": "192.168.1.83",
-    "IP_REG": "192.168.1.83"
+    "IP_REG": "192.168.1.83",
+    "REGISTRY_TOKEN": "secret-token"
 }

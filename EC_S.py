@@ -27,7 +27,7 @@ def enviar_mensajes(sensor):
     while True:
         try:
             sensor.send(estado_colision.encode(FORMATO))
-            logging.info(f"Sensor envía estado {estado_colision}")
+            
             time.sleep(1)  # Enviar mensaje cada segundo
         except ConnectionAbortedError as e:
             logging.error(f"Error de conexión con Engine: {e}")
@@ -46,7 +46,7 @@ def manejar_entrada():
             logging.info("Sensor cambia estado a KO")
         else:
             estado_colision = "ok"
-            logging.info("Sensor vuelve a OK")
+            
 
 #############################################################
 #                         MAIN                              #

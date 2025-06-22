@@ -81,6 +81,12 @@ def register_taxi():
     
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
+    cursor.execute('SELECT 1 FROM taxis WHERE id = ?', (taxi_id,))
+    if cursor.fetchone():
+        conn.close()
+        logging.warning(f"Taxi {taxi_id} ya estaba registrado")
+        return jsonify({"error": "Taxi already registered"}), 409
+        
     cursor.execute('''
         INSERT INTO taxis (id, estado, posicionX, posicionY, destino, destinoX, destinoY, ocupado)
         VALUES (?, 'ok', 1, 1, '-', 0, 0, 0)

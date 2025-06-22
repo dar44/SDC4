@@ -769,3 +769,91 @@
 2025-06-22 20:16:55,202 INFO  * Debugger PIN: 539-442-905
 2025-06-22 20:16:57,858 INFO Tabla de taxis vaciada
 2025-06-22 20:16:57,897 INFO Tabla de taxis vaciada
+2025-06-22 20:23:15,677 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:23:15,677 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:23:49,277 INFO Tabla de taxis vaciada
+2025-06-22 20:23:51,422 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:23:51,422 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:25:07,034 INFO Tabla de taxis vaciada
+2025-06-22 20:25:42,500 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:25:42,500 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:25:50,322 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:25:50,322 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:28:22,827 INFO Tabla de taxis vaciada
+2025-06-22 20:28:24,675 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:28:24,675 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:28:27,751 INFO Tabla de taxis vaciada
+2025-06-22 20:28:51,104 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:28:51,104 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:28:51,105 INFO  * Restarting with stat
+2025-06-22 20:28:51,385 WARNING  * Debugger is active!
+2025-06-22 20:28:51,388 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:29:40,785 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 20:29:47,901 INFO Tabla de taxis vaciada
+2025-06-22 20:29:47,939 INFO Tabla de taxis vaciada
+2025-06-22 20:29:49,792 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:29:49,792 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:29:49,793 INFO  * Restarting with stat
+2025-06-22 20:29:50,084 WARNING  * Debugger is active!
+2025-06-22 20:29:50,088 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:32:28,973 INFO Taxi 42 registrado en Registry
+2025-06-22 20:32:28,974 INFO 127.0.0.1 - - [22/Jun/2025 20:32:28] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-22 20:33:10,349 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 20:33:13,701 INFO Taxi 42 conectando con central
+2025-06-22 20:33:13,702 INFO Taxi 42 conectado con Central en ('192.168.1.83', 9001)
+2025-06-22 20:33:13,704 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-22 20:33:37,451 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 20:33:41,172 INFO Taxi 42 sale de la aplicación
+2025-06-22 20:34:07,385 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 20:34:08,901 INFO Taxi 42 eliminado del Registry
+2025-06-22 20:34:08,901 INFO 192.168.1.83 - - [22/Jun/2025 20:34:08] "DELETE /deregister/42 HTTP/1.1" 200 -
+2025-06-22 20:34:08,902 INFO Taxi 42 dado de baja correctamente
+2025-06-22 20:34:08,902 INFO Taxi 42 eliminado exitosamente
+2025-06-22 20:34:21,535 INFO Taxi 42 sale de la aplicación
+2025-06-22 20:34:21,537 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-22 20:35:48,121 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_Registry.py', reloading
+2025-06-22 20:35:48,136 INFO Tabla de taxis vaciada
+2025-06-22 20:35:48,162 INFO  * Restarting with stat
+2025-06-22 20:35:48,501 WARNING  * Debugger is active!
+2025-06-22 20:35:48,506 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:36:11,606 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 20:36:31,485 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 20:36:43,663 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 20:36:46,796 INFO Taxi 21 registrado en Registry
+2025-06-22 20:36:46,796 INFO 192.168.1.83 - - [22/Jun/2025 20:36:46] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-22 20:36:46,797 INFO Taxi 21 registrado correctamente
+2025-06-22 20:36:46,797 INFO Taxi 21 registrado exitosamente
+2025-06-22 20:36:54,099 INFO Taxi 21 conectando con central
+2025-06-22 20:36:54,100 INFO Taxi 21 conectado con Central en ('192.168.1.83', 9001)
+2025-06-22 20:36:54,102 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-22 20:37:18,460 INFO Taxi 2 eliminado del Registry
+2025-06-22 20:37:18,461 INFO 127.0.0.1 - - [22/Jun/2025 20:37:18] "DELETE /deregister/2 HTTP/1.1" 200 -
+2025-06-22 20:37:27,619 INFO Taxi 21 eliminado del Registry
+2025-06-22 20:37:27,619 INFO 127.0.0.1 - - [22/Jun/2025 20:37:27] "DELETE /deregister/21 HTTP/1.1" 200 -
+2025-06-22 20:38:30,165 INFO 127.0.0.1 - - [22/Jun/2025 20:38:30] "[31m[1mGET /register HTTP/1.1[0m" 405 -
+2025-06-22 20:38:38,095 INFO Taxi 21 registrado en Registry
+2025-06-22 20:38:38,095 INFO 127.0.0.1 - - [22/Jun/2025 20:38:38] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-22 20:38:50,375 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 20:38:52,636 INFO Taxi 21 conectando con central
+2025-06-22 20:38:52,637 INFO Taxi 21 conectado con Central en ('192.168.1.83', 9001)

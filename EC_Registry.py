@@ -97,6 +97,7 @@ def deregister_taxi(taxi_id):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute('DELETE FROM taxis WHERE id = ?', (taxi_id,))
+    cursor.execute('DELETE FROM taxis2 WHERE id = ?', (taxi_id,))
     conn.commit()
     conn.close()
     

@@ -4,6 +4,7 @@
 import socket
 import sys
 import os
+import logging
 from cliente import Cliente
 from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN
 from taxi import Taxi
@@ -15,9 +16,14 @@ import json
 from destino import Destino
 import tkinter as tk
 import requests
-import json
 import ssl
 
+logging.basicConfig(filename='auditoriaEC.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s')
+
+def obtener_ip():
+    hostname = socket.gethostname()
+    return socket.gethostbyname(hostname)
 
 #############################################################
 #                   VARIABLES GLOBALES                      #
@@ -32,21 +38,37 @@ IP = IP_REG
 
 # Función para registrar el taxi
 def register_taxi(taxi_id):
-    url = f"http://{IP}:5002/register"
+    url = f"https://{IP}:5002/register"
     headers = {
         'Content-Type': 'application/json',
         'Authorization': f'Bearer {REGISTRY_TOKEN}'
     }
     data = json.dumps({"id": taxi_id})
-    response = requests.post(url, headers=headers, data=data, verify=False)
-    return response
+    try:
+        response = requests.post(url, headers=headers, data=data, verify=False)
+        if response.status_code == 201:
+            logging.info(f"Taxi {taxi_id} registrado correctamente")
+        else:
+            logging.error(f"Error registrando taxi {taxi_id}: {response.status_code}")
+        return response
+    except Exception as e:
+        logging.error(f"Fallo al registrar taxi {taxi_id}: {e}")
+        raise
 
 # Función para dar de baja el taxi
 def deregister_taxi(taxi_id):
-    url = f"http://{IP}:5002/deregister/{taxi_id}"
+    url = f"https://{IP}:5002/deregister/{taxi_id}"
     headers = {'Authorization': f'Bearer {REGISTRY_TOKEN}'}
-    response = requests.delete(url, headers=headers, verify=False)
-    return response
+    try:
+        response = requests.delete(url, headers=headers, verify=False)
+        if response.status_code == 200:
+            logging.info(f"Taxi {taxi_id} dado de baja correctamente")
+        else:
+            logging.error(f"Error al dar de baja taxi {taxi_id}: {response.status_code}")
+        return response
+    except Exception as e:
+        logging.error(f"Fallo al dar de baja taxi {taxi_id}: {e}")
+        raise
 
 def menu(taxiID):
     while True:
@@ -60,19 +82,25 @@ def menu(taxiID):
             response = register_taxi(taxiID)
             if response.status_code == 201:
                 print("Taxi registrado exitosamente")
+                logging.info(f"Taxi {taxiID} registrado exitosamente")
             else:
                 print("Error al registrar el taxi")
+                logging.error(f"Error al registrar taxi {taxiID}: {response.status_code}")
         elif choice == '2':
             response = deregister_taxi(taxiID)
             if response.status_code == 200:
                 print("Taxi eliminado exitosamente")
+                logging.info(f"Taxi {taxiID} eliminado exitosamente")
             else:
                 print("Error al eliminar el taxi")
+                logging.error(f"Error al eliminar taxi {taxiID}: {response.status_code}")
         elif choice == '3':
+            logging.info(f"Taxi {taxiID} conectando con central")
             conectarCentral(taxiID)
             break
         elif choice == '4':
             print("Saliendo...")
+            logging.info(f"Taxi {taxiID} sale de la aplicación")
             break
         else:
             print("Opción no válida, por favor intenta de nuevo.")
@@ -187,6 +215,7 @@ def enviar(msg):
 #############################################################
 def manejarSensor(conn, addr):
     global CambioEstado, estado_actual
+    logging.info(f"Sensor conectado desde {addr}")
     print(f"Conectado a {addr}")
     estado_anterior = None  
     try:
@@ -212,6 +241,7 @@ def manejarSensor(conn, addr):
             elif mensaje not in ["ko", "ok"]:
                 print("Mensaje desconocido.")
     except ConnectionResetError as e:
+        logging.error(f"Sensor desconectado: {e}")
         print(f"Sensor cerrado, esperando de nuevo su conexión...")
         if estado_actual == "ok":
             estado_anterior = "ko"
@@ -229,6 +259,7 @@ def iniciar_servidor():
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind(ADDR_S)
     server.listen()
+    logging.info(f"Esperando conexión de sensor en {ADDR_S}")
     print(f"Escuchando conexión con Sensor en [{ADDR_S}]")
 
     while True:
@@ -252,9 +283,14 @@ def conectarCentral(taxiID):
     #    enviar(taxiID)
     global conexion
     conexion = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    conexion.connect(ADDR_C)
-    print(f"Establecida conexión con Central en [{ADDR_C}]")
-    enviar(taxiID)
+    try:
+        conexion.connect(ADDR_C)
+        logging.info(f"Taxi {taxiID} conectado con Central en {ADDR_C}")
+        print(f"Establecida conexión con Central en [{ADDR_C}]")
+        enviar(taxiID)
+    except Exception as e:
+        logging.error(f"No se pudo conectar con Central: {e}")
+        print("Imposible conectar con Central")
 
 
 #############################################################
@@ -592,6 +628,9 @@ matriz = matrizVACIA()
 #############################################################
 if __name__ == "__main__":
     if  (len(sys.argv) == 8):
+        ip_address = obtener_ip()
+        logging.info(f"Engine iniciado. IP: {ip_address}")
+        
         SERVER_K = sys.argv[1]
         PORT_K = int(sys.argv[2])
         ADDR_K = (SERVER_K, PORT_K)
@@ -618,3 +657,4 @@ if __name__ == "__main__":
         kafka_thread.start()
     else:
         print("Necesito estos argumentos: <ServerIP_K> <Puerto_K> <ServerIP_C> <Puerto_C> <ServerIP_S> <Puerto_S> <TAXI_ID")
+        logging.info("ERROR: Argumentos insuficientes para iniciar el Engine")

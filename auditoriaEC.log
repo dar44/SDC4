@@ -594,3 +594,178 @@
 2025-06-22 17:38:32,428 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
 2025-06-22 18:38:13,179 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
 2025-06-22 18:38:41,936 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 18:45:58,925 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 18:47:11,687 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:48:01,138 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:48:40,513 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:49:34,949 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:50:14,271 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:51:04,618 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:51:18,795 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:51:32,910 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 18:51:49,069 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 19:34:40,631 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 19:42:58,686 WARNING  * Debugger is active!
+2025-06-22 19:42:58,691 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:43:48,165 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_Registry.py', reloading
+2025-06-22 19:43:48,189 INFO Tabla de taxis vaciada
+2025-06-22 19:43:48,832 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:43:48,895 WARNING  * Debugger is active!
+2025-06-22 19:43:48,901 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:44:08,107 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_S.py', reloading
+2025-06-22 19:44:08,128 INFO Tabla de taxis vaciada
+2025-06-22 19:44:08,638 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:44:08,686 WARNING  * Debugger is active!
+2025-06-22 19:44:08,691 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:45:19,367 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_S.py', reloading
+2025-06-22 19:45:19,394 INFO Tabla de taxis vaciada
+2025-06-22 19:45:20,032 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:45:20,085 WARNING  * Debugger is active!
+2025-06-22 19:45:20,090 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:47:39,373 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_ENGINE.py', reloading
+2025-06-22 19:47:39,389 INFO Tabla de taxis vaciada
+2025-06-22 19:47:39,687 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:47:39,717 WARNING  * Debugger is active!
+2025-06-22 19:47:39,721 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:48:56,237 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 19:48:59,144 INFO Taxi 1 registrado en Registry
+2025-06-22 19:48:59,144 INFO 192.168.1.83 - - [22/Jun/2025 19:48:59] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-22 19:48:59,145 INFO Taxi 1 registrado correctamente
+2025-06-22 19:48:59,145 INFO Taxi 1 registrado exitosamente
+2025-06-22 19:49:04,302 INFO Taxi 1 eliminado del Registry
+2025-06-22 19:49:04,302 INFO 192.168.1.83 - - [22/Jun/2025 19:49:04] "DELETE /deregister/1 HTTP/1.1" 200 -
+2025-06-22 19:49:04,303 INFO Taxi 1 dado de baja correctamente
+2025-06-22 19:52:10,007 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_ENGINE.py', reloading
+2025-06-22 19:52:10,027 INFO Tabla de taxis vaciada
+2025-06-22 19:52:10,562 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:52:10,614 WARNING  * Debugger is active!
+2025-06-22 19:52:10,619 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:52:49,994 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_ENGINE.py', reloading
+2025-06-22 19:52:50,011 INFO Tabla de taxis vaciada
+2025-06-22 19:52:50,448 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:52:50,481 WARNING  * Debugger is active!
+2025-06-22 19:52:50,485 INFO  * Debugger PIN: 539-442-905
+2025-06-22 19:54:37,423 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-22 19:54:38,184 INFO Taxi 2 registrado en Registry
+2025-06-22 19:54:38,185 INFO 192.168.1.83 - - [22/Jun/2025 19:54:38] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-22 19:54:38,185 INFO Taxi 2 registrado correctamente
+2025-06-22 19:54:38,186 INFO Taxi 2 registrado exitosamente
+2025-06-22 19:54:43,708 INFO Taxi 2 conectando con central
+2025-06-22 19:54:43,709 INFO Taxi 2 conectado con Central en ('192.168.1.83', 9001)
+2025-06-22 19:54:43,711 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-22 19:56:38,346 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 19:57:27,753 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 19:58:07,005 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-22 19:59:43,029 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_ENGINE.py', reloading
+2025-06-22 19:59:43,043 INFO Tabla de taxis vaciada
+2025-06-22 19:59:43,368 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 19:59:43,402 WARNING  * Debugger is active!
+2025-06-22 19:59:43,407 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:05:10,992 INFO Taxi 2 eliminado del Registry
+2025-06-22 20:05:10,993 INFO 127.0.0.1 - - [22/Jun/2025 20:05:10] "DELETE /deregister/2 HTTP/1.1" 200 -
+2025-06-22 20:08:53,721 INFO Taxi 1 registrado en Registry
+2025-06-22 20:08:53,721 INFO 127.0.0.1 - - [22/Jun/2025 20:08:53] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-22 20:11:59,829 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_Registry.py', reloading
+2025-06-22 20:11:59,843 INFO Tabla de taxis vaciada
+2025-06-22 20:12:00,183 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:12:00,216 WARNING  * Debugger is active!
+2025-06-22 20:12:00,220 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:12:11,085 INFO Tabla de taxis vaciada
+2025-06-22 20:12:13,323 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:12:13,367 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:12:13,367 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:12:13,368 INFO  * Restarting with stat
+2025-06-22 20:12:13,662 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:12:13,694 WARNING  * Debugger is active!
+2025-06-22 20:12:13,698 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:13:24,143 INFO Tabla de taxis vaciada
+2025-06-22 20:13:24,181 INFO Tabla de taxis vaciada
+2025-06-22 20:13:55,941 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:13:55,983 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:13:55,983 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:13:55,984 INFO  * Restarting with stat
+2025-06-22 20:13:56,241 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:13:56,272 WARNING  * Debugger is active!
+2025-06-22 20:13:56,275 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:15:08,943 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_Registry.py', reloading
+2025-06-22 20:15:08,958 INFO Tabla de taxis vaciada
+2025-06-22 20:15:08,996 INFO  * Restarting with stat
+2025-06-22 20:15:09,411 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:09,449 WARNING  * Debugger is active!
+2025-06-22 20:15:09,454 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:15:13,533 INFO Tabla de taxis vaciada
+2025-06-22 20:15:13,599 INFO Tabla de taxis vaciada
+2025-06-22 20:15:16,289 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:16,332 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:15:16,332 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:15:16,333 INFO  * Restarting with stat
+2025-06-22 20:15:16,619 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:16,666 WARNING  * Debugger is active!
+2025-06-22 20:15:16,674 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:15:18,744 INFO Tabla de taxis vaciada
+2025-06-22 20:15:18,787 INFO Tabla de taxis vaciada
+2025-06-22 20:15:29,719 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:29,762 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:15:29,762 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:15:29,763 INFO  * Restarting with stat
+2025-06-22 20:15:30,026 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:30,057 WARNING  * Debugger is active!
+2025-06-22 20:15:30,060 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:15:43,339 INFO Tabla de taxis vaciada
+2025-06-22 20:15:43,377 INFO Tabla de taxis vaciada
+2025-06-22 20:15:44,326 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:44,369 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:15:44,369 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:15:44,370 INFO  * Restarting with stat
+2025-06-22 20:15:44,649 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:15:44,682 WARNING  * Debugger is active!
+2025-06-22 20:15:44,685 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:15:45,738 INFO Tabla de taxis vaciada
+2025-06-22 20:15:45,778 INFO Tabla de taxis vaciada
+2025-06-22 20:16:27,564 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:16:27,607 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:16:27,607 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:16:27,608 INFO  * Restarting with stat
+2025-06-22 20:16:27,876 INFO Registry iniciado. IP: 192.168.1.83
+2025-06-22 20:16:27,908 WARNING  * Debugger is active!
+2025-06-22 20:16:27,911 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:16:29,639 INFO Tabla de taxis vaciada
+2025-06-22 20:16:29,677 INFO Tabla de taxis vaciada
+2025-06-22 20:16:45,929 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:16:45,929 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:16:45,930 INFO  * Restarting with stat
+2025-06-22 20:16:46,222 WARNING  * Debugger is active!
+2025-06-22 20:16:46,226 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:16:47,592 INFO Tabla de taxis vaciada
+2025-06-22 20:16:47,631 INFO Tabla de taxis vaciada
+2025-06-22 20:16:54,911 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-22 20:16:54,911 INFO [33mPress CTRL+C to quit[0m
+2025-06-22 20:16:54,912 INFO  * Restarting with stat
+2025-06-22 20:16:55,198 WARNING  * Debugger is active!
+2025-06-22 20:16:55,202 INFO  * Debugger PIN: 539-442-905
+2025-06-22 20:16:57,858 INFO Tabla de taxis vaciada
+2025-06-22 20:16:57,897 INFO Tabla de taxis vaciada

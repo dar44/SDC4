@@ -12,5 +12,7 @@
     "IP_API": "192.168.1.83",
     "IP_CTC": "192.168.1.83",
     "IP_REG": "192.168.1.83",
-    "REGISTRY_TOKEN": "secret-token"
+    "REGISTRY_TOKEN": "secret-token",
+    "REGISTRY_CERT": "registry.crt",
+    "REGISTRY_KEY": "registry.key"
 }

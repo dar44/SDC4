@@ -5,8 +5,15 @@ import socket
 import threading
 import time
 import sys
+import logging
 from variablesGlobales import FORMATO
 
+logging.basicConfig(filename='auditoriaEC.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s')
+
+def obtener_ip():
+    hostname = socket.gethostname()
+    return socket.gethostbyname(hostname)
 #############################################################
 #                   VARIABLES GLOBALES                      #
 #############################################################
@@ -20,8 +27,10 @@ def enviar_mensajes(sensor):
     while True:
         try:
             sensor.send(estado_colision.encode(FORMATO))
+            logging.info(f"Sensor envía estado {estado_colision}")
             time.sleep(1)  # Enviar mensaje cada segundo
         except ConnectionAbortedError as e:
+            logging.error(f"Error de conexión con Engine: {e}")
             print(f"Error de conexión: {e}")
             break
 
@@ -34,14 +43,17 @@ def manejar_entrada():
         input("Presiona cualquier tecla para cambiar el estado de colisión: ")
         if estado_colision == "ok":
             estado_colision = "ko"
+            logging.info("Sensor cambia estado a KO")
         else:
             estado_colision = "ok"
+            logging.info("Sensor vuelve a OK")
 
 #############################################################
 #                         MAIN                              #
 #############################################################
 if __name__ == "__main__":
     if len(sys.argv) != 3:
+        logging.info("ERROR: argumentos insuficientes en sensor")
         print("Necesito estos argumentos: <ServerIP_E> <Puerto_E>")
         sys.exit(1)
 
@@ -51,6 +63,8 @@ if __name__ == "__main__":
 
     sensor_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sensor_socket.connect(ADDR)
+    ip_address = obtener_ip()
+    logging.info(f"Sensor iniciado. IP: {ip_address} Conectado a {ADDR}")
     print(f"Establecida conexión en [{ADDR}]")
 
     hilo_envio = threading.Thread(target=enviar_mensajes, args=(sensor_socket,))
@@ -61,3 +75,4 @@ if __name__ == "__main__":
 
     hilo_envio.join()
     hilo_entrada.join()
+    logging.info("Sensor finalizado")

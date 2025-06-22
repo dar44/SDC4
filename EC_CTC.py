@@ -117,7 +117,10 @@ def update_city():
 
 
 if __name__ == "__main__":
-    # Iniciar el hilo para actualizar el estado del tráfico
-    threading.Thread(target=fetch_temperature_and_update_central).start()
-    # Iniciar el servidor Flask
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    try:
+        # Iniciar el hilo para actualizar el estado del tráfico
+        threading.Thread(target=fetch_temperature_and_update_central, daemon=True).start()
+        # Iniciar el servidor Flask
+        app.run(debug=True, host='0.0.0.0', port=5001)
+    except KeyboardInterrupt:
+        print("CTC detenido por el usuario.")

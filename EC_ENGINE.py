@@ -6,7 +6,7 @@ import sys
 import os
 import logging
 from cliente import Cliente
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN, get_key
 from taxi import Taxi
 import threading
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
@@ -17,6 +17,7 @@ from destino import Destino
 import tkinter as tk
 import requests
 import ssl
+from utils import encrypt_message, decrypt_message
 
 logging.basicConfig(filename='auditoriaEC.log', level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
@@ -323,10 +324,17 @@ def esperandoTaxi( ):
                 break
 
         mensaje_completo = msg.value().decode(FORMATO)
-        # Separar el mensaje y el token
-        mensaje, tokenTaxi = mensaje_completo.split('%')
-        mensaje = mensaje.strip()
-        tokenTaxi = tokenTaxi.strip()
+        # Nuevo formato: id%mensajeCifrado%token
+        try:
+            taxi_id, mensaje_cifrado, tokenTaxi = mensaje_completo.split('%')
+            key = get_key(taxi_id)
+            if not key:
+                print(f"No se encontró clave para el taxi {taxi_id}")
+                continue
+            mensaje = decrypt_message(mensaje_cifrado.strip(), key)
+        except Exception as e:
+            print(f"Error al descifrar mensaje para taxi {taxi_id}: {e}")
+            continue
         #print("Mensaje recibido")
         consumer.close()
         taxiData = mensaje.split(':')
@@ -374,7 +382,12 @@ def enviarMovimiento(taxi):
     
 
     topicRecorrido = 'recorrido'
-    mensaje = taxi.imprimirTaxi()
+    key = get_key(taxi.id)
+    if not key:
+        print(f"No se encontró clave para el taxi {taxi.id}")
+        return
+    mensaje_cifrado = encrypt_message(taxi.imprimirTaxi(), key)
+    mensaje = f"{taxi.id}%{mensaje_cifrado}"
     producer.produce(topicRecorrido, key=None, value=mensaje.encode(FORMATO), callback=comprobacion)
     time.sleep(1)
     producer.flush()
@@ -627,34 +640,37 @@ matriz = matrizVACIA()
 #                         MAIN                              #
 #############################################################
 if __name__ == "__main__":
-    if  (len(sys.argv) == 8):
-        ip_address = obtener_ip()
-        logging.info(f"Engine iniciado. IP: {ip_address}")
-        
-        SERVER_K = sys.argv[1]
-        PORT_K = int(sys.argv[2])
-        ADDR_K = (SERVER_K, PORT_K)
-        SERVER_C = sys.argv[3]
-        PORT_C = int(sys.argv[4])
-        ADDR_C = (SERVER_C, PORT_C)
-        SERVER_S = sys.argv[5]
-        PORT_S = int(sys.argv[6])
-        ADDR_S = (SERVER_S, PORT_S)
-        taxiID = str(sys.argv[7])
+    try:
+        if  (len(sys.argv) == 8):
+            ip_address = obtener_ip()
+            logging.info(f"Engine iniciado. IP: {ip_address}")
 
-                # Registrar el taxi
-        menu(taxiID)
-        #map_thread = threading.Thread(target=iniciarMapa)
-        #map_thread.start()
-        
-        destinos = leer_mapa('EC_locations.json')
+            SERVER_K = sys.argv[1]
+            PORT_K = int(sys.argv[2])
+            ADDR_K = (SERVER_K, PORT_K)
+            SERVER_C = sys.argv[3]
+            PORT_C = int(sys.argv[4])
+            ADDR_C = (SERVER_C, PORT_C)
+            SERVER_S = sys.argv[5]
+            PORT_S = int(sys.argv[6])
+            ADDR_S = (SERVER_S, PORT_S)
+            taxiID = str(sys.argv[7])
 
-        
-        kafka_thread = threading.Thread(target=iniciar_servidor)
-        kafka_thread.start()
+            # Registrar el taxi
+            menu(taxiID)
+            #map_thread = threading.Thread(target=iniciarMapa)
+            #map_thread.start()
 
-        kafka_thread = threading.Thread(target=esperandoTaxi)
-        kafka_thread.start()
-    else:
-        print("Necesito estos argumentos: <ServerIP_K> <Puerto_K> <ServerIP_C> <Puerto_C> <ServerIP_S> <Puerto_S> <TAXI_ID")
-        logging.info("ERROR: Argumentos insuficientes para iniciar el Engine")
+            destinos = leer_mapa('EC_locations.json')
+
+            kafka_thread = threading.Thread(target=iniciar_servidor)
+            kafka_thread.start()
+
+            kafka_thread = threading.Thread(target=esperandoTaxi)
+            kafka_thread.start()
+        else:
+            print("Necesito estos argumentos: <ServerIP_K> <Puerto_K> <ServerIP_C> <Puerto_C> <ServerIP_S> <Puerto_S> <TAXI_ID")
+            logging.info("ERROR: Argumentos insuficientes para iniciar el Engine")
+    except KeyboardInterrupt:
+        print("Engine detenido por el usuario.")
+        logging.info("Engine detenido por el usuario.")

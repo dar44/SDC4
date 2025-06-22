@@ -52,27 +52,31 @@ def manejar_entrada():
 #                         MAIN                              #
 #############################################################
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        logging.info("ERROR: argumentos insuficientes en sensor")
-        print("Necesito estos argumentos: <ServerIP_E> <Puerto_E>")
-        sys.exit(1)
+    try:
+        if len(sys.argv) != 3:
+            logging.info("ERROR: argumentos insuficientes en sensor")
+            print("Necesito estos argumentos: <ServerIP_E> <Puerto_E>")
+            sys.exit(1)
 
-    SERVER = sys.argv[1]
-    PORT = int(sys.argv[2])
-    ADDR = (SERVER, PORT)
+        SERVER = sys.argv[1]
+        PORT = int(sys.argv[2])
+        ADDR = (SERVER, PORT)
 
-    sensor_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sensor_socket.connect(ADDR)
-    ip_address = obtener_ip()
-    logging.info(f"Sensor iniciado. IP: {ip_address} Conectado a {ADDR}")
-    print(f"Establecida conexión en [{ADDR}]")
+        sensor_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sensor_socket.connect(ADDR)
+        ip_address = obtener_ip()
+        logging.info(f"Sensor iniciado. IP: {ip_address} Conectado a {ADDR}")
+        print(f"Establecida conexión en [{ADDR}]")
 
-    hilo_envio = threading.Thread(target=enviar_mensajes, args=(sensor_socket,))
-    hilo_envio.start()
+        hilo_envio = threading.Thread(target=enviar_mensajes, args=(sensor_socket,))
+        hilo_envio.start()
 
-    hilo_entrada = threading.Thread(target=manejar_entrada)
-    hilo_entrada.start()
+        hilo_entrada = threading.Thread(target=manejar_entrada)
+        hilo_entrada.start()
 
-    hilo_envio.join()
-    hilo_entrada.join()
-    logging.info("Sensor finalizado")
+        hilo_envio.join()
+        hilo_entrada.join()
+        logging.info("Sensor finalizado")
+    except KeyboardInterrupt:
+        print("Sensor detenido por el usuario.")
+        logging.info("Sensor detenido por el usuario.")

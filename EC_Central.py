@@ -14,10 +14,14 @@ import json
 from cliente import Cliente 
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
 import sys
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_API, IP_CTC
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_API, IP_CTC, get_key
 import time
 import secrets
 import ssl
+from utils import encrypt_message, decrypt_message
+from cryptography.fernet import Fernet
+
+
 
 logging.basicConfig(filename='auditoriaEC.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 # Función para enviar la matriz de taxis a api_central
@@ -205,6 +209,7 @@ def autenticarTaxi(taxiID):
     global taxis
     malId = True
     token = secrets.token_hex(16 // 2)
+    key = Fernet.generate_key().decode('utf-8')
 
     conn = sqlite3.connect('easycab.db')
     cursor = conn.cursor()
@@ -242,10 +247,10 @@ def autenticarTaxi(taxiID):
         cursor = conn.cursor()
         # Insertar un nuevo taxi en la tabla taxis2
         cursor.execute('''
-            INSERT INTO taxis2 (id, posX, posY, estado, clienteId, token)
-            VALUES (?, ?, ?, ?, ?, ?)
-        ''', (taxi.id, taxi.posicionX, taxi.posicionY, taxi.estado, taxi.clienteId, token))
-        
+            INSERT INTO taxis2 (id, posX, posY, estado, clienteId, token, sym_key)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        ''', (taxi.id, taxi.posicionX, taxi.posicionY, taxi.estado, taxi.clienteId, token, key))
+
         # Confirmar los cambios
         conn.commit()
         
@@ -448,12 +453,17 @@ def moverTaxi(taxi):
     
     if traffic_status == "KO":
         taxi.base = 1
-        mensaje = f"{taxi.imprimirTaxi()} % {token}"
-        print("mensaje base")
+        
     else:
         taxi.base = 0
-        mensaje = f"{taxi.imprimirTaxi()} % {token}"
-        print("mensaje taxi")
+        
+    key = get_key(taxi.id)
+    if not key:
+        print(f"No se encontró clave para el taxi {taxi.id}")
+        return
+    mensaje_cifrado = encrypt_message(taxi.imprimirTaxi(), key)
+    mensaje = f"{taxi.id}%{mensaje_cifrado}%{token}"
+    
 
     producer.produce(topicMovimiento, key=None, value=mensaje.encode(FORMATO), callback=comprobacion)
     time.sleep(1)
@@ -489,10 +499,19 @@ def recibirMovimientoEngine():
             else:
                 print(f'Error while receiving message: {msg.error()}' )
                 break
-        mensaje = msg.value().decode(FORMATO)
-        #print("Mensaje recibido")
+        mensaje_bruto = msg.value().decode(FORMATO)
+        try:
+            taxi_id, mensaje_cifrado = mensaje_bruto.split('%')
+            key = get_key(taxi_id)
+            if not key:
+                print(f"No se encontró clave para el taxi {taxi_id}")
+                continue
+            mensaje = decrypt_message(mensaje_cifrado.strip(), key)
+        except Exception as e:
+            print(f"Error al descifrar mensaje del taxi {taxi_id}: {e}")
+            continue
         consumer.close()
-        # Deserializar el mensaje y crear una instancia de Cliente
+
         taxiData = mensaje.split(':')
         taxirecibido = Taxi(
             id=int(taxiData[0]),
@@ -744,7 +763,8 @@ def crearTablas():
             posY INTEGER,
             estado TEXT,
             clienteId TEXT,
-            token TEXT
+            token TEXT,
+            sym_key TEXT
         )
     ''')
 
@@ -769,16 +789,13 @@ matriz = matrizVACIA()
 #############################################################
 if __name__ == "__main__":
     ip_address = obtener_ip()
-    if  (len(sys.argv) == 5):
-        SERVER = sys.argv[1]      
-        PORT_E = int(sys.argv[2]) 
-        ADDR = (SERVER, PORT_E)     
-        SERVER_K = sys.argv[3] 
-        PORT_K = int(sys.argv[4]) 
-
-
-
-
+    try:
+        if  (len(sys.argv) == 5):
+            SERVER = sys.argv[1]
+            PORT_E = int(sys.argv[2])
+            ADDR = (SERVER, PORT_E)
+            SERVER_K = sys.argv[3]
+            PORT_K = int(sys.argv[4])
         destinos = leer_mapa('EC_locations.json')
         anyadirDestino(destinos)
 
@@ -804,7 +821,10 @@ if __name__ == "__main__":
             thread = threading.Thread(target=manejarTaxi, args=(conn, addr))
             thread.start()
 
-    else:
-        print("Necesito estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>")
-        logging.info(f"ERROR: Se necesitan estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>. IP: {ip_address}")
+        else:
+            print("Necesito estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>")
+            logging.info(f"ERROR: Se necesitan estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>. IP: {ip_address}")
+    except KeyboardInterrupt:
+        print("Central detenida por el usuario.")
+        logging.info("Central detenida por el usuario.")
         

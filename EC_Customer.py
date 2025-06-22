@@ -145,17 +145,20 @@ def actualizarDestinos():
 #                         MAIN                              #
 #############################################################
 if __name__ == "__main__":
-    if len(sys.argv) == 6:
-        SERVER_K = sys.argv[1]   #IP del servidor de kafka
-        PORT_K = int(sys.argv[2]) 
-        ADDR = (SERVER_K, PORT_K)  
-        CLIENTEID = str(sys.argv[3])
-        posicionX = int(sys.argv[4])
-        posicionY = int(sys.argv[5])
-        archivo = "EC_Requests_" + CLIENTEID + ".json"
-        primerMensaje = "Primer mensaje"
-        leerDestinos(archivo, posicionX, posicionY)
-        enchufoAplicacion(primerMensaje)
-    else:
-        print("Necesito estos argumentos: <KAFKA IP> <Puerto KAFKA> <ID CLIENTE>")
+    try:
+        if len(sys.argv) == 6:
+            SERVER_K = sys.argv[1]   #IP del servidor de kafka
+            PORT_K = int(sys.argv[2])
+            ADDR = (SERVER_K, PORT_K)
+            CLIENTEID = str(sys.argv[3])
+            posicionX = int(sys.argv[4])
+            posicionY = int(sys.argv[5])
+            archivo = "EC_Requests_" + CLIENTEID + ".json"
+            primerMensaje = "Primer mensaje"
+            leerDestinos(archivo, posicionX, posicionY)
+            enchufoAplicacion(primerMensaje)
+        else:
+            print("Necesito estos argumentos: <KAFKA IP> <Puerto KAFKA> <ID CLIENTE>")
+    except KeyboardInterrupt:
+        print("Cliente detenido por el usuario.")
     #establecer_conexion()

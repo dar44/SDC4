@@ -4,6 +4,7 @@
 
 import json
 import os
+import sqlite3
 
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.json')
 
@@ -19,7 +20,32 @@ def _save_config(cfg):
 
 CONFIG = _load_config()
 
-FILE = CONFIG.get('FILE', 'taxis.db')
+DB_PATH = os.path.join(os.path.dirname(__file__), 'easycab.db')
+
+def get_key(taxi_id):
+    """Return the symmetric key for the given taxi ID from the database."""
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("SELECT sym_key FROM taxis2 WHERE id = ?", (taxi_id,))
+        result = cursor.fetchone()
+        return result[0] if result else None
+    finally:
+        if 'conn' in locals():
+            conn.close()
+
+def set_key(taxi_id, key):
+    """Store the symmetric key for the given taxi ID."""
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute(
+        "UPDATE taxis2 SET sym_key = ? WHERE id = ?",
+        (key, taxi_id),
+    )
+    conn.commit()
+    conn.close()
+
+FILE = CONFIG.get('FILE', 'easycab.db')
 FORMATO = CONFIG.get('FORMATO', 'utf-8')
 HEADER = CONFIG.get('HEADER', 64)
 VER = CONFIG.get('VER', True)

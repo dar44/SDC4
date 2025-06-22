@@ -6,6 +6,8 @@ import os
 import time
 from variablesGlobales import IP_API, IP_CTC
 
+
+
 app = Flask(__name__)
 CORS(app)  # Habilita CORS para todas las rutas
 
@@ -189,4 +191,8 @@ def stream_logs():
     return Response(tail_f(LOG_FILE), mimetype='text/event-stream')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    try:
+        app.run(debug=True, host='0.0.0.0', port=5000)
+    except KeyboardInterrupt:
+        print("API Central detenida por el usuario.")
+        

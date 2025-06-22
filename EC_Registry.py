@@ -86,7 +86,7 @@ def register_taxi():
         conn.close()
         logging.warning(f"Taxi {taxi_id} ya estaba registrado")
         return jsonify({"error": "Taxi already registered"}), 409
-        
+
     cursor.execute('''
         INSERT INTO taxis (id, estado, posicionX, posicionY, destino, destinoX, destinoY, ocupado)
         VALUES (?, 'ok', 1, 1, '-', 0, 0, 0)
@@ -129,4 +129,10 @@ def is_registered(taxi_id):
 if __name__ == '__main__':
     init_db()
     atexit.register(clear_taxis_table)
-    app.run(debug=True, host='0.0.0.0', port=5002, ssl_context=('cert.pem', 'cert.pem'))
+    try:
+        init_db()
+        atexit.register(clear_taxis_table)
+        app.run(debug=True, host='0.0.0.0', port=5002, ssl_context=('cert.pem', 'cert.pem'))
+    except KeyboardInterrupt:
+        print("Registry detenido por el usuario.")
+        logging.info("Registry detenido por el usuario.")

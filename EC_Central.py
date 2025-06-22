@@ -808,4 +808,3 @@ if __name__ == "__main__":
         print("Necesito estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>")
         logging.info(f"ERROR: Se necesitan estos argumentos: <ServerIP_C> <Puerto_C> <ServerIP_K> <Puerto_K>. IP: {ip_address}")
         
-

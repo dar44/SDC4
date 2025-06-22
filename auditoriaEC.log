@@ -589,3 +589,6 @@
 2025-06-22 17:13:20,656 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
 2025-06-22 17:15:23,252 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
 2025-06-22 17:18:11,055 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 17:38:28,375 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-22 17:38:32,427 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 192.168.1.83
+2025-06-22 17:38:32,428 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83

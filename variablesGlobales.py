@@ -33,6 +33,8 @@ IP_API = CONFIG.get('IP_API', '127.0.0.1')
 IP_CTC = CONFIG.get('IP_CTC', '127.0.0.1')
 IP_REG = CONFIG.get('IP_REG', '127.0.0.1')
 REGISTRY_TOKEN = CONFIG.get('REGISTRY_TOKEN', 'secret-token')
+REGISTRY_CERT = CONFIG.get('REGISTRY_CERT', 'registry.crt')
+REGISTRY_KEY = CONFIG.get('REGISTRY_KEY', 'registry.key')
 
 def save_config():
     CONFIG['FILE'] = FILE
@@ -49,6 +51,8 @@ def save_config():
     CONFIG['IP_CTC'] = IP_CTC
     CONFIG['IP_REG'] = IP_REG
     CONFIG['REGISTRY_TOKEN'] = REGISTRY_TOKEN
+    CONFIG['REGISTRY_CERT'] = REGISTRY_CERT
+    CONFIG['REGISTRY_KEY'] = REGISTRY_KEY
     _save_config(CONFIG)
  #Borovoy,RU
 

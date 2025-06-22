@@ -4,18 +4,17 @@ import atexit
 import os
 from variablesGlobales import REGISTRY_TOKEN
 
+TOKEN_FILE = 'registry_secret.txt'
+
+def load_token():
+    try:
+        with open(TOKEN_FILE, 'r') as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        return ''
+
 app = Flask(__name__)
 
-# Simple authentication decorator without functools
-def require_auth(func):
-    def wrapper(*args, **kwargs):
-        auth = request.headers.get('Authorization', '')
-        token = auth.replace('Bearer ', '')
-        if token != REGISTRY_TOKEN:
-            return jsonify({"error": "Unauthorized"}), 401
-        return func(*args, **kwargs)
-    wrapper.__name__ = func.__name__
-    return wrapper
 
 #db_path = os.path.join(os.path.dirname(__file__), 'easycab.db')
 # Ruta al directorio compartido en la red
@@ -50,9 +49,15 @@ def clear_taxis_table():
     conn.close()
 
 # Register a new taxi
+def authorized(request):
+    token = request.headers.get('Authorization', '').replace('Bearer ', '')
+    return token == load_token()
+
 @app.route('/register', methods=['POST'])
-@require_auth
 def register_taxi():
+    if not authorized(request):
+        return jsonify({"error": "Unauthorized"}), 401
+
     data = request.get_json()
     taxi_id = data.get('id')
     
@@ -62,7 +67,7 @@ def register_taxi():
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute('''
-        INSERT INTO taxis (id, estado, posicionX, posicionY, destino, destinoX, destinoY, ocupado) 
+        INSERT INTO taxis (id, estado, posicionX, posicionY, destino, destinoX, destinoY, ocupado)
         VALUES (?, 'ok', 1, 1, '-', 0, 0, 0)
     ''', (taxi_id,))
     conn.commit()
@@ -72,8 +77,10 @@ def register_taxi():
 
 # Deregister a taxi
 @app.route('/deregister/<int:taxi_id>', methods=['DELETE'])
-@require_auth
 def deregister_taxi(taxi_id):
+    if not authorized(request):
+        return jsonify({"error": "Unauthorized"}), 401
+
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute('DELETE FROM taxis WHERE id = ?', (taxi_id,))
@@ -84,8 +91,9 @@ def deregister_taxi(taxi_id):
 
 # Check if a taxi is registered
 @app.route('/is_registered/<int:taxi_id>', methods=['GET'])
-@require_auth
 def is_registered(taxi_id):
+    if not authorized(request):
+        return jsonify({'error': 'Unauthorized'}), 401
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     cursor.execute('SELECT id FROM taxis WHERE id = ?', (taxi_id,))
@@ -100,4 +108,4 @@ def is_registered(taxi_id):
 if __name__ == '__main__':
     init_db()
     atexit.register(clear_taxis_table)
-    app.run(debug=True, host='0.0.0.0', port=5002, ssl_context='adhoc')
+    app.run(debug=True, host='0.0.0.0', port=5002, ssl_context=('cert.pem', 'cert.pem'))

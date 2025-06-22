@@ -5,7 +5,7 @@ import socket
 import sys
 import os
 from cliente import Cliente
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN, REGISTRY_CERT
 from taxi import Taxi
 import threading
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
@@ -38,14 +38,14 @@ def register_taxi(taxi_id):
         'Authorization': f'Bearer {REGISTRY_TOKEN}'
     }
     data = json.dumps({"id": taxi_id})
-    response = requests.post(url, headers=headers, data=data, verify=False)
+    response = requests.post(url, headers=headers, data=data, verify=REGISTRY_CERT)
     return response
 
 # Función para dar de baja el taxi
 def deregister_taxi(taxi_id):
     url = f"https://{IP}:5002/deregister/{taxi_id}"
     headers = {'Authorization': f'Bearer {REGISTRY_TOKEN}'}
-    response = requests.delete(url, headers=headers, verify=False)
+    response = requests.delete(url, headers=headers, verify=REGISTRY_CERT)
     return response
 
 def menu(taxiID):

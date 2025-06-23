@@ -820,7 +820,8 @@ if __name__ == "__main__":
         
         servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         servidor.bind(ADDR)
-        
+        context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+        context.load_cert_chain(certfile=cert, keyfile=cert)
 
         #map_thread = threading.Thread(target=iniciarMapa)
         #map_thread.start()
@@ -834,7 +835,13 @@ if __name__ == "__main__":
         logging.info(f"Central se encuentra escuchando a los demás componentes del proyecto. IP: {ip_address}")
         print("Escuchando a los demás componentes del proyecto.",  "\n")
         while True:
-            conn, addr = servidor.accept()
+            raw_conn, addr = servidor.accept()
+            try:
+                conn = context.wrap_socket(raw_conn, server_side=True)
+            except ssl.SSLError as e:
+                print(f"Error SSL: {e}")
+                raw_conn.close()
+                continue
             thread = threading.Thread(target=manejarTaxi, args=(conn, addr))
             thread.start()
 

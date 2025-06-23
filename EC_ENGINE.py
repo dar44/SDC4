@@ -284,9 +284,12 @@ def conectarCentral(taxiID):
     #    print(f"Establecida conexión con Central en [{ADDR_C}]")
     #    enviar(taxiID)
     global conexion
-    conexion = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    context = ssl.create_default_context()
+    context.check_hostname = False
+    context.verify_mode = ssl.CERT_NONE
     try:
-        conexion.connect(ADDR_C)
+        raw_sock = socket.create_connection(ADDR_C)
+        conexion = context.wrap_socket(raw_sock, server_hostname=SERVER_C)
         logging.info(f"Taxi {taxiID} conectado con Central en {ADDR_C}")
         print(f"Establecida conexión con Central en [{ADDR_C}]")
         enviar(taxiID)

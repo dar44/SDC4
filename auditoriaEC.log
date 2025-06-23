@@ -7121,3 +7121,2984 @@
 ; city=Ouarzazate, temp=36.06C
 2025-06-23 14:53:01,243 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
 2025-06-23 14:53:04,846 INFO 192.168.1.83 - - [23/Jun/2025 14:53:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:53:08,026 INFO 192.168.1.83 - - [23/Jun/2025 14:53:08] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:53:08,029 INFO Received update_city request: city=Elche
+2025-06-23 14:53:08,179 INFO Fetched temperature for Elche: 32.62C, status OK
+2025-06-23 14:53:08,182 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.62C
+2025-06-23 14:53:08,182 INFO Updated city to Elche, temp=32.62C, status=OK
+2025-06-23 14:53:08,183 INFO 192.168.1.83 - - [23/Jun/2025 14:53:08] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:53:10,814 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:10,818 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:10,818 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:11,392 INFO Fetched temperature for Elche: 32.62C, status OK
+2025-06-23 14:53:11,396 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.62C
+2025-06-23 14:53:11,396 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.62C
+2025-06-23 14:53:14,849 INFO 192.168.1.83 - - [23/Jun/2025 14:53:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:53:15,774 INFO 192.168.1.83 - - [23/Jun/2025 14:53:15] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:53:15,776 INFO Received update_city request: city=Marrakesh
+2025-06-23 14:53:15,915 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:53:15,919 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:53:15,920 INFO Updated city to Marrakesh, temp=28.04C, status=OK
+2025-06-23 14:53:15,920 INFO 192.168.1.83 - - [23/Jun/2025 14:53:15] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:53:20,978 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:20,982 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:20,982 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:21,537 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:53:21,541 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:53:21,541 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:53:24,853 INFO 192.168.1.83 - - [23/Jun/2025 14:53:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:53:25,569 INFO 192.168.1.83 - - [23/Jun/2025 14:53:25] "OPTIONS /update_api_key HTTP/1.1" 200 -
+2025-06-23 14:53:25,571 INFO Received update_api_key request: api_key=provided
+2025-06-23 14:53:25,739 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:53:25,743 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:53:25,743 INFO Updated API key, city=Marrakesh, temp=28.04C, status=OK
+2025-06-23 14:53:25,743 INFO 192.168.1.83 - - [23/Jun/2025 14:53:25] "POST /update_api_key HTTP/1.1" 200 -
+2025-06-23 14:53:31,130 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:31,134 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:31,134 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:31,490 INFO 192.168.1.83 - - [23/Jun/2025 14:53:31] "OPTIONS /update_api_key HTTP/1.1" 200 -
+2025-06-23 14:53:31,493 INFO Received update_api_key request: api_key=provided
+2025-06-23 14:53:31,634 ERROR Error fetching temperature for Marrakesh: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Marrakesh&appid=patata
+2025-06-23 14:53:31,637 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=-1.00C
+2025-06-23 14:53:31,638 INFO Updated API key, city=Marrakesh, temp=-1.00C, status=KO
+2025-06-23 14:53:31,638 INFO 192.168.1.83 - - [23/Jun/2025 14:53:31] "POST /update_api_key HTTP/1.1" 200 -
+2025-06-23 14:53:31,716 ERROR Error fetching temperature for Marrakesh: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Marrakesh&appid=patata
+2025-06-23 14:53:34,857 INFO 192.168.1.83 - - [23/Jun/2025 14:53:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:53:41,054 INFO 192.168.1.83 - - [23/Jun/2025 14:53:41] "OPTIONS /update_api_key HTTP/1.1" 200 -
+2025-06-23 14:53:41,056 INFO Received update_api_key request: api_key=provided
+2025-06-23 14:53:41,205 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:53:41,208 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:53:41,208 INFO Updated API key, city=Marrakesh, temp=28.04C, status=OK
+2025-06-23 14:53:41,209 INFO 192.168.1.83 - - [23/Jun/2025 14:53:41] "POST /update_api_key HTTP/1.1" 200 -
+2025-06-23 14:53:41,286 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:41,289 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:41,289 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:41,870 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:53:41,872 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:53:41,873 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:53:44,861 INFO 192.168.1.83 - - [23/Jun/2025 14:53:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:53:51,438 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:51,442 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:51,442 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:52,021 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:53:52,024 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:53:52,025 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:53:54,865 INFO 192.168.1.83 - - [23/Jun/2025 14:53:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:54:01,590 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:54:01,593 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:01,593 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:02,161 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:54:02,164 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:54:02,164 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:54:04,868 INFO 192.168.1.83 - - [23/Jun/2025 14:54:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:54:11,727 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:54:11,730 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:11,730 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:12,315 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:54:12,318 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:54:12,318 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:54:14,871 INFO 192.168.1.83 - - [23/Jun/2025 14:54:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:54:21,863 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:54:21,866 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:21,866 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:22,460 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:54:22,463 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:54:22,463 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:54:24,874 INFO 192.168.1.83 - - [23/Jun/2025 14:54:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:54:32,021 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:54:32,024 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:32,025 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:32,613 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:54:32,617 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:54:32,617 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:54:34,878 INFO 192.168.1.83 - - [23/Jun/2025 14:54:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:54:42,175 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:54:42,179 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:42,179 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:42,754 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:54:42,758 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:54:42,758 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:54:44,882 INFO 192.168.1.83 - - [23/Jun/2025 14:54:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:54:52,327 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:54:52,331 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:52,331 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:54:52,916 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:54:52,920 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:54:52,920 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:54:54,886 INFO 192.168.1.83 - - [23/Jun/2025 14:54:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:55:02,485 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:55:02,488 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:02,489 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:03,079 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:55:03,083 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:55:03,083 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:55:04,891 INFO 192.168.1.83 - - [23/Jun/2025 14:55:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:55:12,659 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:55:12,662 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:12,663 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:13,221 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:55:13,225 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:55:13,225 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:55:14,895 INFO 192.168.1.83 - - [23/Jun/2025 14:55:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:55:22,788 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:55:22,791 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:22,791 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:23,364 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:55:23,367 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:55:23,368 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:55:24,899 INFO 192.168.1.83 - - [23/Jun/2025 14:55:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:55:32,928 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:55:32,932 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:32,933 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:33,494 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:55:33,498 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:55:33,499 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:55:34,903 INFO 192.168.1.83 - - [23/Jun/2025 14:55:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:55:43,072 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:55:43,075 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:43,075 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:43,636 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:55:43,640 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:55:43,640 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:55:44,907 INFO 192.168.1.83 - - [23/Jun/2025 14:55:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:55:53,235 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:55:53,239 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:53,239 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:55:53,783 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:55:53,787 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:55:53,787 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:55:54,910 INFO 192.168.1.83 - - [23/Jun/2025 14:55:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:56:03,381 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:56:03,384 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:03,384 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:03,926 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:56:03,930 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:56:03,930 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:56:04,914 INFO 192.168.1.83 - - [23/Jun/2025 14:56:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:56:13,527 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:56:13,530 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:13,530 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:14,074 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:56:14,077 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:56:14,077 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:56:14,917 INFO 192.168.1.83 - - [23/Jun/2025 14:56:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:56:23,659 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:56:23,662 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:23,663 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:24,214 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:56:24,218 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:56:24,218 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:56:24,921 INFO 192.168.1.83 - - [23/Jun/2025 14:56:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:56:33,790 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:56:33,794 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:33,794 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:34,345 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:56:34,348 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:56:34,349 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:56:34,925 INFO 192.168.1.83 - - [23/Jun/2025 14:56:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:56:43,933 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:56:43,937 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:43,937 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:44,499 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:56:44,503 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:56:44,503 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:56:44,928 INFO 192.168.1.83 - - [23/Jun/2025 14:56:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:56:54,072 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:56:54,076 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:54,076 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:56:54,637 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:56:54,640 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:56:54,640 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:56:54,932 INFO 192.168.1.83 - - [23/Jun/2025 14:56:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:04,217 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:57:04,221 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:04,221 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:04,772 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:57:04,777 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:57:04,777 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:57:04,935 INFO 192.168.1.83 - - [23/Jun/2025 14:57:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:14,346 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:57:14,349 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:14,350 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:14,911 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:57:14,914 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:57:14,915 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:57:14,939 INFO 192.168.1.83 - - [23/Jun/2025 14:57:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:24,497 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:57:24,500 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:24,501 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:24,943 INFO 192.168.1.83 - - [23/Jun/2025 14:57:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:25,052 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:57:25,056 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:57:25,056 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:57:34,639 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:57:34,643 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:34,643 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:34,946 INFO 192.168.1.83 - - [23/Jun/2025 14:57:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:35,193 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:57:35,197 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:57:35,197 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:57:44,782 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:57:44,785 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:44,786 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:44,950 INFO 192.168.1.83 - - [23/Jun/2025 14:57:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:45,336 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:57:45,340 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:57:45,340 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:57:54,932 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:57:54,936 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:54,936 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:57:54,954 INFO 192.168.1.83 - - [23/Jun/2025 14:57:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:57:55,475 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:57:55,478 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:57:55,478 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:58:04,958 INFO 192.168.1.83 - - [23/Jun/2025 14:58:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:58:05,111 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:58:05,115 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:05,115 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:05,614 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:58:05,620 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:58:05,621 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:58:14,962 INFO 192.168.1.83 - - [23/Jun/2025 14:58:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:58:15,254 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:58:15,258 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:15,259 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:15,753 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:58:15,756 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:58:15,756 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:58:24,966 INFO 192.168.1.83 - - [23/Jun/2025 14:58:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:58:25,396 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:58:25,399 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:25,399 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:25,892 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:58:25,895 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:58:25,896 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:58:34,969 INFO 192.168.1.83 - - [23/Jun/2025 14:58:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:58:35,537 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:58:35,541 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:35,541 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:36,030 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:58:36,033 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:58:36,034 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:58:44,972 INFO 192.168.1.83 - - [23/Jun/2025 14:58:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:58:45,675 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:58:45,679 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:45,679 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:46,174 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:58:46,178 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:58:46,178 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:58:54,976 INFO 192.168.1.83 - - [23/Jun/2025 14:58:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:58:55,822 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:58:55,826 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:55,826 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:58:56,314 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:58:56,318 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:58:56,318 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:59:04,980 INFO 192.168.1.83 - - [23/Jun/2025 14:59:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:59:05,963 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:59:05,967 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:05,968 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:06,454 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:59:06,458 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:59:06,458 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:59:14,983 INFO 192.168.1.83 - - [23/Jun/2025 14:59:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:59:16,113 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:59:16,117 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:16,118 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:16,593 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:59:16,597 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:59:16,597 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:59:24,987 INFO 192.168.1.83 - - [23/Jun/2025 14:59:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:59:26,252 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:59:26,255 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:26,256 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:26,737 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:59:26,740 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:59:26,740 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:59:34,991 INFO 192.168.1.83 - - [23/Jun/2025 14:59:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:59:36,404 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:59:36,408 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:36,408 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:36,885 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:59:36,889 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:59:36,889 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:59:44,994 INFO 192.168.1.83 - - [23/Jun/2025 14:59:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:59:46,603 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:59:46,607 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:46,607 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:47,040 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:59:47,042 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:59:47,043 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 14:59:54,999 INFO 192.168.1.83 - - [23/Jun/2025 14:59:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:59:56,763 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:59:56,767 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:56,767 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:59:57,190 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 14:59:57,193 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 14:59:57,194 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:00:05,002 INFO 192.168.1.83 - - [23/Jun/2025 15:00:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:00:06,921 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:00:06,924 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:06,924 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:07,340 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:00:07,344 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:00:07,344 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:00:15,005 INFO 192.168.1.83 - - [23/Jun/2025 15:00:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:00:17,061 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:00:17,065 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:17,065 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:17,486 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:00:17,489 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:00:17,490 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:00:25,010 INFO 192.168.1.83 - - [23/Jun/2025 15:00:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:00:27,218 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:00:27,222 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:27,222 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:27,632 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:00:27,636 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:00:27,636 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:00:35,013 INFO 192.168.1.83 - - [23/Jun/2025 15:00:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:00:37,365 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:00:37,369 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:37,369 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:37,794 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:00:37,797 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:00:37,798 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:00:45,017 INFO 192.168.1.83 - - [23/Jun/2025 15:00:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:00:47,506 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:00:47,511 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:47,511 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:47,944 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:00:47,948 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:00:47,948 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:00:55,021 INFO 192.168.1.83 - - [23/Jun/2025 15:00:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:00:57,661 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:00:57,664 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:57,665 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:00:58,104 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:00:58,108 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:00:58,108 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:01:05,025 INFO 192.168.1.83 - - [23/Jun/2025 15:01:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:01:07,801 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:01:07,804 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:07,805 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:08,249 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:01:08,253 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:01:08,253 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:01:15,028 INFO 192.168.1.83 - - [23/Jun/2025 15:01:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:01:17,938 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:01:17,941 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:17,941 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:18,400 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:01:18,403 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:01:18,404 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:01:25,032 INFO 192.168.1.83 - - [23/Jun/2025 15:01:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:01:28,084 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:01:28,088 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:28,088 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:28,545 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:01:28,549 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:01:28,549 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:01:35,036 INFO 192.168.1.83 - - [23/Jun/2025 15:01:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:01:38,224 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:01:38,228 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:38,229 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:38,689 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:01:38,692 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:01:38,692 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:01:45,040 INFO 192.168.1.83 - - [23/Jun/2025 15:01:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:01:48,361 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:01:48,364 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:48,365 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:48,828 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:01:48,831 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:01:48,832 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:01:55,044 INFO 192.168.1.83 - - [23/Jun/2025 15:01:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:01:58,517 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:01:58,521 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:58,521 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:01:58,966 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:01:58,969 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:01:58,969 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:02:05,048 INFO 192.168.1.83 - - [23/Jun/2025 15:02:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:02:08,677 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:02:08,681 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:08,681 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:09,109 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:02:09,113 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:02:09,114 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:02:15,051 INFO 192.168.1.83 - - [23/Jun/2025 15:02:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:02:18,819 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:02:18,823 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:18,824 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:19,284 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:02:19,287 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:02:19,287 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:02:25,055 INFO 192.168.1.83 - - [23/Jun/2025 15:02:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:02:28,970 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:02:28,973 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:28,973 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:29,423 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:02:29,427 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:02:29,427 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:02:35,058 INFO 192.168.1.83 - - [23/Jun/2025 15:02:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:02:39,114 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:02:39,118 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:39,118 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:39,567 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:02:39,571 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:02:39,572 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:02:45,062 INFO 192.168.1.83 - - [23/Jun/2025 15:02:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:02:49,260 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:02:49,264 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:49,264 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:49,711 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:02:49,715 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:02:49,715 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:02:55,066 INFO 192.168.1.83 - - [23/Jun/2025 15:02:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:02:59,409 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:02:59,413 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:59,413 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:02:59,848 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:02:59,852 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:02:59,852 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:03:05,069 INFO 192.168.1.83 - - [23/Jun/2025 15:03:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:03:09,564 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:03:09,567 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:09,568 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:10,011 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:03:10,015 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:03:10,015 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:03:15,073 INFO 192.168.1.83 - - [23/Jun/2025 15:03:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:03:19,720 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:03:19,724 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:19,725 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:20,166 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:03:20,169 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:03:20,170 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:03:25,076 INFO 192.168.1.83 - - [23/Jun/2025 15:03:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:03:29,860 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:03:29,864 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:29,865 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:30,311 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:03:30,315 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:03:30,316 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:03:35,080 INFO 192.168.1.83 - - [23/Jun/2025 15:03:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:03:40,025 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:03:40,029 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:40,029 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:40,457 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:03:40,461 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:03:40,461 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:03:45,084 INFO 192.168.1.83 - - [23/Jun/2025 15:03:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:03:50,167 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:03:50,172 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:50,172 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:03:50,613 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:03:50,616 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:03:50,617 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:03:55,088 INFO 192.168.1.83 - - [23/Jun/2025 15:03:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:04:00,311 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:04:00,314 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:00,315 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:00,758 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:04:00,762 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:04:00,762 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:04:05,091 INFO 192.168.1.83 - - [23/Jun/2025 15:04:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:04:10,467 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:04:10,469 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:10,470 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:10,903 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:04:10,906 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:04:10,906 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:04:15,093 INFO 192.168.1.83 - - [23/Jun/2025 15:04:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:04:20,611 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:04:20,614 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:20,614 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:21,042 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:04:21,045 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:04:21,045 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:04:25,097 INFO 192.168.1.83 - - [23/Jun/2025 15:04:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:04:30,773 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:04:30,777 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:30,777 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:31,194 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:04:31,197 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:04:31,198 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:04:35,101 INFO 192.168.1.83 - - [23/Jun/2025 15:04:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:04:40,924 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:04:40,928 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:40,928 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:41,334 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:04:41,338 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:04:41,338 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:04:45,105 INFO 192.168.1.83 - - [23/Jun/2025 15:04:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:04:51,064 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:04:51,068 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:51,068 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:04:51,477 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:04:51,481 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:04:51,481 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:04:55,109 INFO 192.168.1.83 - - [23/Jun/2025 15:04:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:05:01,224 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:05:01,228 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:01,228 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:01,619 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:05:01,623 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:05:01,623 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:05:05,114 INFO 192.168.1.83 - - [23/Jun/2025 15:05:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:05:11,394 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:05:11,398 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:11,398 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:11,779 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:05:11,783 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:05:11,783 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:05:15,119 INFO 192.168.1.83 - - [23/Jun/2025 15:05:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:05:21,572 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:05:21,576 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:21,577 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:21,917 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:05:21,920 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:05:21,921 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:05:25,123 INFO 192.168.1.83 - - [23/Jun/2025 15:05:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:05:31,705 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:05:31,709 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:31,709 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:32,070 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:05:32,073 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:05:32,074 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:05:35,127 INFO 192.168.1.83 - - [23/Jun/2025 15:05:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:05:41,858 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:05:41,860 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:41,861 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:42,196 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:05:42,200 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:05:42,200 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:05:45,132 INFO 192.168.1.83 - - [23/Jun/2025 15:05:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:05:52,008 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:05:52,012 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:52,012 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:05:52,338 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:05:52,342 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:05:52,342 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:05:55,136 INFO 192.168.1.83 - - [23/Jun/2025 15:05:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:06:02,170 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:06:02,174 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:02,174 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:02,472 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:06:02,477 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:06:02,477 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:06:05,139 INFO 192.168.1.83 - - [23/Jun/2025 15:06:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:06:12,321 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:06:12,325 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:12,325 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:12,623 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:06:12,627 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:06:12,628 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:06:15,144 INFO 192.168.1.83 - - [23/Jun/2025 15:06:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:06:22,472 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:06:22,476 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:22,476 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:22,769 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:06:22,773 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:06:22,773 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:06:25,149 INFO 192.168.1.83 - - [23/Jun/2025 15:06:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:06:32,604 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:06:32,608 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:32,608 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:32,908 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:06:32,912 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:06:32,912 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:06:35,153 INFO 192.168.1.83 - - [23/Jun/2025 15:06:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:06:42,735 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:06:42,738 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:42,738 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:43,053 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:06:43,056 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:06:43,056 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:06:45,156 INFO 192.168.1.83 - - [23/Jun/2025 15:06:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:06:52,889 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:06:52,893 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:52,893 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:06:53,216 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:06:53,220 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:06:53,220 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:06:55,159 INFO 192.168.1.83 - - [23/Jun/2025 15:06:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:07:03,025 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:07:03,029 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:03,029 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:03,367 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:07:03,371 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:07:03,371 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:07:05,163 INFO 192.168.1.83 - - [23/Jun/2025 15:07:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:07:13,157 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:07:13,160 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:13,160 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:13,497 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:07:13,500 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:07:13,501 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:07:15,167 INFO 192.168.1.83 - - [23/Jun/2025 15:07:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:07:23,319 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:07:23,322 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:23,323 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:23,643 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:07:23,646 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:07:23,646 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:07:25,171 INFO 192.168.1.83 - - [23/Jun/2025 15:07:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:07:33,461 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:07:33,465 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:33,465 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:33,781 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:07:33,785 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:07:33,785 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:07:35,174 INFO 192.168.1.83 - - [23/Jun/2025 15:07:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:07:43,613 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:07:43,617 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:43,617 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:07:43,920 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:07:43,923 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:07:43,923 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:07:45,178 INFO 192.168.1.83 - - [23/Jun/2025 15:07:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:07:53,773 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:07:53,776 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:07:53,777 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:07:54,059 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:07:54,062 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:07:54,062 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:07:55,183 INFO 192.168.1.83 - - [23/Jun/2025 15:07:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:08:03,913 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:08:03,917 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:03,917 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:04,232 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:08:04,236 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:08:04,236 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:08:05,187 INFO 192.168.1.83 - - [23/Jun/2025 15:08:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:08:14,054 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:08:14,057 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:14,057 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:14,372 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:08:14,376 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:08:14,376 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:08:15,190 INFO 192.168.1.83 - - [23/Jun/2025 15:08:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:08:24,194 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:08:24,198 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:24,198 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:24,511 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:08:24,515 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:08:24,515 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:08:25,194 INFO 192.168.1.83 - - [23/Jun/2025 15:08:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:08:34,343 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:08:34,347 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:34,347 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:34,660 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:08:34,664 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:08:34,664 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:08:35,197 INFO 192.168.1.83 - - [23/Jun/2025 15:08:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:08:44,492 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:08:44,496 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:44,496 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:44,803 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:08:44,807 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:08:44,807 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:08:45,201 INFO 192.168.1.83 - - [23/Jun/2025 15:08:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:08:54,635 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:08:54,642 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:54,642 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:08:54,949 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:08:54,953 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:08:54,953 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:08:55,204 INFO 192.168.1.83 - - [23/Jun/2025 15:08:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:04,780 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:09:04,783 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:04,784 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:05,090 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:09:05,094 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:09:05,094 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:09:05,208 INFO 192.168.1.83 - - [23/Jun/2025 15:09:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:14,934 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:09:14,939 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:14,939 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:15,212 INFO 192.168.1.83 - - [23/Jun/2025 15:09:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:15,239 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:09:15,243 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:09:15,243 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:09:25,080 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:09:25,085 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:25,086 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:25,215 INFO 192.168.1.83 - - [23/Jun/2025 15:09:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:25,386 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:09:25,390 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:09:25,390 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:09:35,219 INFO 192.168.1.83 - - [23/Jun/2025 15:09:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:35,223 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:09:35,226 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:35,226 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:35,561 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:09:35,565 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:09:35,565 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:09:45,223 INFO 192.168.1.83 - - [23/Jun/2025 15:09:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:45,364 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:09:45,367 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:45,367 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:45,703 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:09:45,706 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:09:45,706 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:09:55,227 INFO 192.168.1.83 - - [23/Jun/2025 15:09:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:09:55,503 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:09:55,506 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:55,507 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:09:55,843 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:09:55,846 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:09:55,847 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:10:05,231 INFO 192.168.1.83 - - [23/Jun/2025 15:10:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:10:05,650 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:10:05,654 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:05,655 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:05,982 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:10:05,985 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:10:05,986 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:10:15,234 INFO 192.168.1.83 - - [23/Jun/2025 15:10:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:10:15,796 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:10:15,799 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:15,800 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:16,126 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:10:16,129 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:10:16,130 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:10:25,238 INFO 192.168.1.83 - - [23/Jun/2025 15:10:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:10:25,957 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:10:25,961 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:25,962 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:26,269 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:10:26,273 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:10:26,273 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:10:35,242 INFO 192.168.1.83 - - [23/Jun/2025 15:10:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:10:36,116 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:10:36,119 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:36,119 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:36,414 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:10:36,418 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:10:36,419 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:10:45,246 INFO 192.168.1.83 - - [23/Jun/2025 15:10:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:10:46,251 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:10:46,255 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:46,255 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:46,559 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:10:46,563 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:10:46,564 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:10:55,249 INFO 192.168.1.83 - - [23/Jun/2025 15:10:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:10:56,383 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:10:56,386 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:56,387 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:10:56,691 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:10:56,694 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:10:56,695 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:11:05,253 INFO 192.168.1.83 - - [23/Jun/2025 15:11:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:11:06,529 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:11:06,532 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:06,532 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:06,822 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:11:06,826 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:11:06,826 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:11:15,256 INFO 192.168.1.83 - - [23/Jun/2025 15:11:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:11:16,669 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:11:16,673 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:16,674 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:16,965 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:11:16,968 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:11:16,968 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:11:25,259 INFO 192.168.1.83 - - [23/Jun/2025 15:11:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:11:26,801 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:11:26,805 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:26,805 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:27,094 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:11:27,097 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:11:27,097 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:11:35,264 INFO 192.168.1.83 - - [23/Jun/2025 15:11:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:11:36,932 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:11:36,936 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:36,936 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:37,233 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:11:37,236 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:11:37,237 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:11:45,269 INFO 192.168.1.83 - - [23/Jun/2025 15:11:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:11:47,082 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:11:47,086 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:47,086 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:47,372 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:11:47,375 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:11:47,375 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:11:55,272 INFO 192.168.1.83 - - [23/Jun/2025 15:11:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:11:57,216 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:11:57,220 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:57,220 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:11:57,509 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:11:57,513 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:11:57,513 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:12:05,276 INFO 192.168.1.83 - - [23/Jun/2025 15:12:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:12:07,357 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:12:07,360 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:07,361 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:07,638 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:12:07,642 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:12:07,642 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:12:15,279 INFO 192.168.1.83 - - [23/Jun/2025 15:12:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:12:17,496 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:12:17,501 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:17,501 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:17,780 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:12:17,785 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:12:17,785 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:12:25,283 INFO 192.168.1.83 - - [23/Jun/2025 15:12:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:12:27,629 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:12:27,633 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:27,633 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:27,911 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:12:27,915 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:12:27,915 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:12:35,286 INFO 192.168.1.83 - - [23/Jun/2025 15:12:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:12:37,791 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:12:37,795 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:37,795 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:38,048 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:12:38,052 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:12:38,052 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:12:45,289 INFO 192.168.1.83 - - [23/Jun/2025 15:12:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:12:47,983 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:12:47,987 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:47,987 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:48,219 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:12:48,222 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:12:48,223 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:12:55,293 INFO 192.168.1.83 - - [23/Jun/2025 15:12:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:12:58,129 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:12:58,134 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:58,134 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:12:58,353 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:12:58,357 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:12:58,357 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:13:05,296 INFO 192.168.1.83 - - [23/Jun/2025 15:13:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:13:08,286 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:13:08,290 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:08,290 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:08,494 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:13:08,497 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:13:08,497 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:13:15,300 INFO 192.168.1.83 - - [23/Jun/2025 15:13:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:13:18,432 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:13:18,435 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:18,436 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:18,638 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:13:18,641 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:13:18,642 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:13:25,303 INFO 192.168.1.83 - - [23/Jun/2025 15:13:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:13:28,573 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:13:28,576 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:28,576 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:28,780 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:13:28,783 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:13:28,784 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:13:35,308 INFO 192.168.1.83 - - [23/Jun/2025 15:13:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:13:38,712 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:13:38,715 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:38,715 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:38,916 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:13:38,920 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:13:38,920 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:13:45,312 INFO 192.168.1.83 - - [23/Jun/2025 15:13:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:13:48,878 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:13:48,882 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:48,883 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:49,059 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:13:49,062 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:13:49,062 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:13:55,316 INFO 192.168.1.83 - - [23/Jun/2025 15:13:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:13:59,024 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:13:59,027 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:59,027 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:13:59,198 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:13:59,201 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:13:59,201 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:14:05,320 INFO 192.168.1.83 - - [23/Jun/2025 15:14:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:14:09,155 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:14:09,158 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:09,158 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:09,360 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:14:09,362 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:14:09,363 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:14:15,322 INFO 192.168.1.83 - - [23/Jun/2025 15:14:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:14:19,317 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:14:19,320 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:19,320 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:19,509 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:14:19,512 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:14:19,512 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:14:25,326 INFO 192.168.1.83 - - [23/Jun/2025 15:14:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:14:29,459 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:14:29,463 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:29,463 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:29,663 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:14:29,666 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:14:29,666 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:14:35,330 INFO 192.168.1.83 - - [23/Jun/2025 15:14:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:14:39,619 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:14:39,623 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:39,623 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:39,818 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:14:39,821 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:14:39,822 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:14:45,334 INFO 192.168.1.83 - - [23/Jun/2025 15:14:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:14:49,773 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:14:49,777 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:49,777 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:49,952 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:14:49,956 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:14:49,956 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:14:55,338 INFO 192.168.1.83 - - [23/Jun/2025 15:14:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:14:59,932 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:14:59,936 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:14:59,937 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:00,086 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:15:00,089 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:15:00,090 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:15:05,342 INFO 192.168.1.83 - - [23/Jun/2025 15:15:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:15:10,072 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:15:10,076 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:10,076 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:10,237 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:15:10,240 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:15:10,240 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:15:15,345 INFO 192.168.1.83 - - [23/Jun/2025 15:15:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:15:20,225 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:15:20,229 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:20,229 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:20,408 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:15:20,412 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:15:20,412 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:15:25,349 INFO 192.168.1.83 - - [23/Jun/2025 15:15:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:15:30,367 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:15:30,370 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:30,371 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:30,578 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:15:30,581 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:15:30,582 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:15:35,352 INFO 192.168.1.83 - - [23/Jun/2025 15:15:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:15:40,572 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:15:40,575 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:40,576 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:40,718 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:15:40,722 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:15:40,722 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:15:45,355 INFO 192.168.1.83 - - [23/Jun/2025 15:15:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:15:50,709 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:15:50,713 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:50,713 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:15:50,871 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:15:50,875 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:15:50,875 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:15:55,359 INFO 192.168.1.83 - - [23/Jun/2025 15:15:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:16:00,861 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:16:00,865 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:00,865 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:01,021 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:16:01,025 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:16:01,025 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:16:05,362 INFO 192.168.1.83 - - [23/Jun/2025 15:16:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:16:11,017 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:16:11,021 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:11,022 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:11,180 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:16:11,183 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:16:11,183 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:16:15,366 INFO 192.168.1.83 - - [23/Jun/2025 15:16:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:16:21,152 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:16:21,156 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:21,156 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:21,338 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:16:21,342 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:16:21,342 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:16:25,370 INFO 192.168.1.83 - - [23/Jun/2025 15:16:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:16:31,317 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:16:31,324 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:31,324 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:31,501 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:16:31,505 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:16:31,506 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:16:35,374 INFO 192.168.1.83 - - [23/Jun/2025 15:16:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:16:41,482 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:16:41,485 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:41,485 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:41,634 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:16:41,637 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:16:41,638 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:16:45,378 INFO 192.168.1.83 - - [23/Jun/2025 15:16:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:16:51,653 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:16:51,656 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:51,657 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:16:51,776 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:16:51,780 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:16:51,780 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:16:55,382 INFO 192.168.1.83 - - [23/Jun/2025 15:16:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:17:01,788 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:17:01,792 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:01,792 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:01,941 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:17:01,945 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:17:01,946 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:17:05,385 INFO 192.168.1.83 - - [23/Jun/2025 15:17:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:17:11,922 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:17:11,925 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:11,926 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:12,082 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:17:12,086 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:17:12,086 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:17:15,389 INFO 192.168.1.83 - - [23/Jun/2025 15:17:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:17:22,102 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:17:22,106 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:22,106 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:22,236 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:17:22,239 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:17:22,240 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:17:25,393 INFO 192.168.1.83 - - [23/Jun/2025 15:17:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:17:32,242 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:17:32,246 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:32,246 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:32,399 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:17:32,403 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:17:32,404 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:17:35,397 INFO 192.168.1.83 - - [23/Jun/2025 15:17:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:17:42,390 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:17:42,393 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:42,393 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:42,540 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:17:42,543 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:17:42,543 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:17:45,401 INFO 192.168.1.83 - - [23/Jun/2025 15:17:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:17:52,538 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:17:52,542 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:52,542 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:17:52,669 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:17:52,672 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:17:52,673 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:17:55,405 INFO 192.168.1.83 - - [23/Jun/2025 15:17:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:18:02,677 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:18:02,680 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:02,680 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:02,795 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:18:02,799 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:18:02,799 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:18:05,409 INFO 192.168.1.83 - - [23/Jun/2025 15:18:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:18:12,830 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:18:12,833 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:12,834 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:12,937 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:18:12,941 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:18:12,941 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:18:15,413 INFO 192.168.1.83 - - [23/Jun/2025 15:18:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:18:22,983 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:18:22,986 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:22,986 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:23,083 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:18:23,087 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:18:23,087 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:18:25,416 INFO 192.168.1.83 - - [23/Jun/2025 15:18:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:18:33,148 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:18:33,151 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:33,151 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:33,218 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:18:33,221 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:18:33,222 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:18:35,420 INFO 192.168.1.83 - - [23/Jun/2025 15:18:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:18:43,304 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:18:43,308 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:43,308 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:43,366 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:18:43,369 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:18:43,370 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:18:45,424 INFO 192.168.1.83 - - [23/Jun/2025 15:18:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:18:53,438 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:18:53,442 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:53,442 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:18:53,508 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:18:53,512 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:18:53,513 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:18:55,428 INFO 192.168.1.83 - - [23/Jun/2025 15:18:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:19:03,576 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:19:03,579 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:03,579 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:03,651 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:19:03,653 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:19:03,654 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:19:05,431 INFO 192.168.1.83 - - [23/Jun/2025 15:19:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:19:13,708 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:19:13,710 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:13,710 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:13,792 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:19:13,795 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:19:13,795 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:19:15,433 INFO 192.168.1.83 - - [23/Jun/2025 15:19:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:19:23,867 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:19:23,871 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:23,871 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:23,925 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:19:23,928 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:19:23,928 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:19:25,437 INFO 192.168.1.83 - - [23/Jun/2025 15:19:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:19:34,020 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:19:34,024 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:34,024 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:34,066 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:19:34,070 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:19:34,070 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:19:35,441 INFO 192.168.1.83 - - [23/Jun/2025 15:19:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:19:44,192 INFO Fetched temperature for Ouarzazate: 35.90C, status OK
+2025-06-23 15:19:44,196 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:44,197 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=35.90C
+2025-06-23 15:19:44,221 INFO Fetched temperature for Marrakesh: 28.04C, status OK
+2025-06-23 15:19:44,224 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=28.04C
+2025-06-23 15:19:44,224 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=28.04C
+2025-06-23 15:19:45,445 INFO 192.168.1.83 - - [23/Jun/2025 15:19:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:19:54,348 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:19:54,352 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:19:54,352 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:19:54,361 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:19:54,364 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:19:54,364 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:19:55,450 INFO 192.168.1.83 - - [23/Jun/2025 15:19:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:20:04,524 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:20:04,524 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:20:04,528 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:20:04,528 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:20:04,529 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:04,529 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:05,454 INFO 192.168.1.83 - - [23/Jun/2025 15:20:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:20:14,658 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:20:14,661 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:20:14,662 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:20:14,662 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:20:14,665 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:14,665 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:15,458 INFO 192.168.1.83 - - [23/Jun/2025 15:20:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:20:24,806 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:20:24,809 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:24,810 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:24,823 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:20:24,827 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:20:24,827 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:20:25,462 INFO 192.168.1.83 - - [23/Jun/2025 15:20:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:20:34,953 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:20:34,957 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:34,957 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:34,962 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:20:34,965 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:20:34,966 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:20:35,465 INFO 192.168.1.83 - - [23/Jun/2025 15:20:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:20:45,107 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:20:45,111 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:20:45,111 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:20:45,122 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:20:45,126 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:45,126 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:45,469 INFO 192.168.1.83 - - [23/Jun/2025 15:20:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:20:55,259 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:20:55,262 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:55,262 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:20:55,264 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:20:55,264 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:20:55,473 INFO 192.168.1.83 - - [23/Jun/2025 15:20:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:05,394 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:21:05,398 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:05,398 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:05,409 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:21:05,413 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:21:05,414 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:21:05,477 INFO 192.168.1.83 - - [23/Jun/2025 15:21:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:15,481 INFO 192.168.1.83 - - [23/Jun/2025 15:21:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:15,531 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:21:15,535 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:15,535 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:15,541 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:21:15,545 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:21:15,546 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:21:25,485 INFO 192.168.1.83 - - [23/Jun/2025 15:21:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:25,662 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:21:25,665 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:25,665 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:25,690 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:21:25,693 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:21:25,693 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:21:35,489 INFO 192.168.1.83 - - [23/Jun/2025 15:21:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:35,803 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:21:35,806 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:35,807 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:35,829 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:21:35,832 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:21:35,833 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:21:45,493 INFO 192.168.1.83 - - [23/Jun/2025 15:21:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:45,951 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:21:45,955 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:45,955 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:45,974 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:21:45,977 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:21:45,977 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:21:55,497 INFO 192.168.1.83 - - [23/Jun/2025 15:21:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:21:56,092 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:21:56,096 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:56,096 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:21:56,130 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:21:56,134 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:21:56,134 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:22:05,501 INFO 192.168.1.83 - - [23/Jun/2025 15:22:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:22:06,239 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:22:06,242 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:06,242 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:06,268 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:22:06,272 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:22:06,272 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:22:15,505 INFO 192.168.1.83 - - [23/Jun/2025 15:22:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:22:16,375 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:22:16,379 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:16,379 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:16,394 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:22:16,397 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:22:16,398 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:22:25,509 INFO 192.168.1.83 - - [23/Jun/2025 15:22:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:22:26,510 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:22:26,514 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:26,514 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:26,547 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:22:26,550 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:22:26,550 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:22:35,513 INFO 192.168.1.83 - - [23/Jun/2025 15:22:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:22:36,652 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:22:36,656 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:36,656 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:36,700 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:22:36,703 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:22:36,703 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:22:48,637 INFO 192.168.1.83 - - [23/Jun/2025 15:22:48] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:22:48,777 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:22:48,782 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:22:48,788 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:48,789 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:48,815 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:22:48,816 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:22:58,649 INFO 192.168.1.83 - - [23/Jun/2025 15:22:58] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:22:58,942 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:22:58,945 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:58,945 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:22:58,958 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:22:58,961 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:22:58,961 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:23:08,653 INFO 192.168.1.83 - - [23/Jun/2025 15:23:08] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:23:09,086 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:23:09,090 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:09,090 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:09,099 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:23:09,103 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:23:09,104 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:23:18,657 INFO 192.168.1.83 - - [23/Jun/2025 15:23:18] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:23:19,217 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:23:19,221 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:19,221 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:19,237 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:23:19,241 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:23:19,242 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:23:28,660 INFO 192.168.1.83 - - [23/Jun/2025 15:23:28] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:23:29,358 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:23:29,362 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:29,362 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:29,388 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:23:29,392 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:23:29,393 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:23:38,664 INFO 192.168.1.83 - - [23/Jun/2025 15:23:38] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:23:39,498 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:23:39,501 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:39,502 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:39,526 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:23:39,529 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:23:39,530 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:23:48,667 INFO 192.168.1.83 - - [23/Jun/2025 15:23:48] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:23:49,654 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:23:49,657 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:49,658 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:49,673 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:23:49,676 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:23:49,676 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:23:58,670 INFO 192.168.1.83 - - [23/Jun/2025 15:23:58] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:23:59,810 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:23:59,813 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:59,814 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:23:59,829 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:23:59,832 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:23:59,833 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:08,673 INFO 192.168.1.83 - - [23/Jun/2025 15:24:08] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:24:09,950 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:24:09,953 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:09,953 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:09,967 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:24:09,970 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:24:09,970 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:18,676 INFO 192.168.1.83 - - [23/Jun/2025 15:24:18] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:24:20,078 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:24:20,081 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:20,081 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:20,110 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:24:20,112 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:24:20,113 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:28,680 INFO 192.168.1.83 - - [23/Jun/2025 15:24:28] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:24:30,216 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:24:30,221 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:30,221 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:30,242 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:24:30,246 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:24:30,246 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:38,683 INFO 192.168.1.83 - - [23/Jun/2025 15:24:38] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:24:40,347 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:24:40,351 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:40,351 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:40,379 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:24:40,382 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:24:40,383 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:48,686 INFO 192.168.1.83 - - [23/Jun/2025 15:24:48] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:24:50,485 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:24:50,489 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:50,489 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:24:50,519 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:24:50,522 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:24:50,523 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:52,808 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_Central.py', reloading
+2025-06-23 15:24:52,831 INFO Tabla de taxis vaciada
+2025-06-23 15:24:52,843 INFO Tabla de taxis vaciada
+2025-06-23 15:24:52,880 INFO  * Restarting with stat
+2025-06-23 15:24:53,249 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_Central.py', reloading
+2025-06-23 15:24:53,291 WARNING  * Debugger is active!
+2025-06-23 15:24:53,299 INFO  * Debugger PIN: 539-442-905
+2025-06-23 15:24:53,339 INFO  * Restarting with stat
+2025-06-23 15:24:54,024 WARNING  * Debugger is active!
+2025-06-23 15:24:54,028 INFO  * Debugger PIN: 539-442-905
+2025-06-23 15:24:54,125 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:24:54,129 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:24:54,130 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:24:58,690 INFO 192.168.1.83 - - [23/Jun/2025 15:24:58] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:00,626 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:25:00,630 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:00,630 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:04,261 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:04,265 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:04,266 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:25:08,693 INFO 192.168.1.83 - - [23/Jun/2025 15:25:08] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:10,759 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:25:10,762 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:10,763 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:14,461 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:14,464 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:14,464 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:25:18,696 INFO 192.168.1.83 - - [23/Jun/2025 15:25:18] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:20,918 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:25:20,922 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:20,922 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:24,593 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:24,597 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:24,598 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:25:28,699 INFO 192.168.1.83 - - [23/Jun/2025 15:25:28] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:31,048 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:25:31,052 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:31,052 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:34,738 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:34,741 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:34,741 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:25:38,702 INFO 192.168.1.83 - - [23/Jun/2025 15:25:38] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:41,215 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:25:41,218 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:41,218 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:44,901 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:44,904 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:44,904 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:25:48,705 INFO 192.168.1.83 - - [23/Jun/2025 15:25:48] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:51,429 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:25:51,432 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:51,432 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:25:55,039 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:55,042 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:55,042 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:25:58,708 INFO 192.168.1.83 - - [23/Jun/2025 15:25:58] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:25:58,842 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_ENGINE.py', reloading
+2025-06-23 15:25:58,888 INFO  * Restarting with stat
+2025-06-23 15:25:58,930 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_ENGINE.py', reloading
+2025-06-23 15:25:58,945 INFO Tabla de taxis vaciada
+2025-06-23 15:25:58,956 INFO Tabla de taxis vaciada
+2025-06-23 15:25:59,019 INFO  * Restarting with stat
+2025-06-23 15:25:59,356 WARNING  * Debugger is active!
+2025-06-23 15:25:59,361 INFO  * Debugger PIN: 539-442-905
+2025-06-23 15:25:59,522 WARNING  * Debugger is active!
+2025-06-23 15:25:59,526 INFO  * Debugger PIN: 539-442-905
+2025-06-23 15:25:59,629 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:25:59,634 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:25:59,634 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:26:01,573 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:26:01,577 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:01,577 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:08,712 INFO 192.168.1.83 - - [23/Jun/2025 15:26:08] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:26:09,764 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:26:09,768 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:26:09,768 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:26:11,731 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:26:11,734 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:11,734 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:18,715 INFO 192.168.1.83 - - [23/Jun/2025 15:26:18] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:26:19,894 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:26:19,898 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:26:19,898 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:26:21,876 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:26:21,879 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:21,879 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:28,718 INFO 192.168.1.83 - - [23/Jun/2025 15:26:28] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:26:30,023 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:26:30,027 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:26:30,027 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:26:32,024 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:26:32,028 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:32,028 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:38,721 INFO 192.168.1.83 - - [23/Jun/2025 15:26:38] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:26:40,180 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:26:40,185 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:26:40,185 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:26:42,160 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:26:42,163 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:42,164 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:48,725 INFO 192.168.1.83 - - [23/Jun/2025 15:26:48] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:26:50,323 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:26:50,326 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:26:50,326 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:26:52,321 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:26:52,325 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:52,325 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:26:58,729 INFO 192.168.1.83 - - [23/Jun/2025 15:26:58] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:27:00,469 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:00,472 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:00,473 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:02,455 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:27:02,459 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:02,460 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:08,734 INFO 192.168.1.83 - - [23/Jun/2025 15:27:08] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:27:10,612 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:10,616 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:10,617 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:12,594 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:27:12,598 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:12,598 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:18,737 INFO 192.168.1.83 - - [23/Jun/2025 15:27:18] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:27:20,750 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:20,754 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:20,754 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:22,741 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:27:22,745 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:22,745 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:28,741 INFO 192.168.1.83 - - [23/Jun/2025 15:27:28] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:27:30,889 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:30,893 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:30,893 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:32,868 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 15:27:32,872 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:32,872 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 15:27:43,675 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-23 15:27:43,675 INFO [33mPress CTRL+C to quit[0m
+2025-06-23 15:27:43,677 INFO  * Restarting with stat
+2025-06-23 15:27:43,765 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:43,769 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:43,769 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:44,475 WARNING  * Debugger is active!
+2025-06-23 15:27:44,481 INFO  * Debugger PIN: 539-442-905
+2025-06-23 15:27:44,566 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:44,572 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:44,573 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:53,906 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:53,909 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:53,910 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:54,710 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:27:54,713 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:27:54,714 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:27:55,417 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-23 15:27:55,424 INFO 192.168.1.83 - - [23/Jun/2025 15:27:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:04,045 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:04,049 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:04,049 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:04,847 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:04,851 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:04,851 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:05,428 INFO 192.168.1.83 - - [23/Jun/2025 15:28:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:14,205 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:14,208 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:14,208 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:14,986 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:14,989 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:14,989 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:15,244 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-23 15:28:15,431 INFO 192.168.1.83 - - [23/Jun/2025 15:28:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:16,056 INFO Taxi 2 registrado en Registry
+2025-06-23 15:28:16,057 INFO 192.168.1.83 - - [23/Jun/2025 15:28:16] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-23 15:28:16,058 INFO Taxi 2 registrado correctamente
+2025-06-23 15:28:16,058 INFO Taxi 2 registrado exitosamente
+2025-06-23 15:28:17,657 INFO Taxi 2 conectando con central
+2025-06-23 15:28:17,680 INFO Taxi 2 conectado con Central en ('192.168.1.83', 9002)
+2025-06-23 15:28:17,682 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-23 15:28:24,340 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:24,343 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:24,343 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:25,131 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:25,134 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:25,135 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:25,434 INFO 192.168.1.83 - - [23/Jun/2025 15:28:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:34,481 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:34,484 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:34,485 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:35,305 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:35,308 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:35,308 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:35,437 INFO 192.168.1.83 - - [23/Jun/2025 15:28:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:38,736 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 192.168.1.83
+2025-06-23 15:28:38,737 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-23 15:28:44,632 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:44,636 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:44,636 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:45,442 INFO 192.168.1.83 - - [23/Jun/2025 15:28:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:45,445 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:45,449 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:45,449 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:46,317 INFO 192.168.1.83 - - [23/Jun/2025 15:28:46] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 15:28:46,320 INFO Received update_city request: city=Alicante
+2025-06-23 15:28:46,449 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:28:46,452 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:28:46,453 INFO Updated city to Alicante, temp=31.97C, status=OK
+2025-06-23 15:28:46,453 INFO 192.168.1.83 - - [23/Jun/2025 15:28:46] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 15:28:54,764 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:28:54,768 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:28:54,769 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:28:55,446 INFO 192.168.1.83 - - [23/Jun/2025 15:28:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:28:55,595 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:28:55,597 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:28:55,597 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:29:04,897 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:29:04,900 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:29:04,900 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:29:05,450 INFO 192.168.1.83 - - [23/Jun/2025 15:29:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:29:05,764 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:29:05,769 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:29:05,769 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:29:15,032 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:29:15,035 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:29:15,035 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:29:15,453 INFO 192.168.1.83 - - [23/Jun/2025 15:29:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:29:15,893 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:29:15,896 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:29:15,896 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:29:25,159 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:29:25,162 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:29:25,162 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:29:25,456 INFO 192.168.1.83 - - [23/Jun/2025 15:29:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:29:26,034 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:29:26,038 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:29:26,038 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:29:35,297 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:29:35,301 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:29:35,301 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:29:35,459 INFO 192.168.1.83 - - [23/Jun/2025 15:29:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:29:36,188 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:29:36,191 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:29:36,191 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:29:45,438 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:29:45,442 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:29:45,442 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:29:45,463 INFO 192.168.1.83 - - [23/Jun/2025 15:29:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:29:46,324 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:29:46,328 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:29:46,328 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:29:47,204 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-23 15:29:55,467 INFO 192.168.1.83 - - [23/Jun/2025 15:29:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:29:55,596 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:29:55,599 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:29:55,599 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:29:56,457 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:29:56,461 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:29:56,461 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:30:05,471 INFO 192.168.1.83 - - [23/Jun/2025 15:30:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:30:05,734 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:30:05,738 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:30:05,738 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:30:06,606 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:30:06,609 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:30:06,610 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:30:15,474 INFO 192.168.1.83 - - [23/Jun/2025 15:30:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:30:15,868 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:30:15,872 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:30:15,872 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:30:16,744 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:30:16,747 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:30:16,747 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:30:25,478 INFO 192.168.1.83 - - [23/Jun/2025 15:30:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:30:26,027 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:30:26,030 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:30:26,030 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:30:26,883 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:30:26,886 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:30:26,886 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C
+2025-06-23 15:30:35,482 INFO 192.168.1.83 - - [23/Jun/2025 15:30:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 15:30:36,164 INFO Fetched temperature for Marrakesh: 29.04C, status OK
+2025-06-23 15:30:36,168 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=29.04C
+2025-06-23 15:30:36,168 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=29.04C
+2025-06-23 15:30:37,025 INFO Fetched temperature for Alicante: 31.97C, status OK
+2025-06-23 15:30:37,029 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=31.97C
+2025-06-23 15:30:37,029 INFO Sent traffic status: OK to Central API, city=Alicante, temp=31.97C

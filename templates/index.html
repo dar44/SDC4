@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EasyCab Dashboard</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="mitad-izquierda">
@@ -24,9 +25,14 @@
             <div id="temperature">Temperatura: - °C</div>
             <div>
                 <input type="text" id="new_city" placeholder="Ciudad" />
-                <input type="text" id="api_key" placeholder="API key" />
 
                 <button onclick="updateCity()">Cambiar Ciudad</button>
+                </div>
+            <div style="margin-top:5px;">
+                <input type="text" id="new_api_key" placeholder="API key" />
+                <button onclick="updateApiKey()">Cambiar API Key</button>
+            </div>
+            <div style="margin-top:5px;">
                 <button onclick="sendStatus()">Enviar Estado</button>
             </div>
         </div>
@@ -276,23 +282,18 @@
             }
         }
 
-         async function updateCity() {
+        async function updateCity() {
             const city = document.getElementById('new_city').value.trim();
-            const apiKey = document.getElementById('api_key').value.trim();
-            const payload = {};
-            if (city) payload.city = city;
-            if (apiKey) payload.api_key = apiKey;
-            if (Object.keys(payload).length === 0) return;
+            if (!city) return;
             try {
-                console.log(`Enviando nueva configuración: ciudad='${city || '-'}', apiKey=${apiKey ? '***' : 'no-provided'}`);
+                console.log(`Enviando nueva ciudad: '${city}'`);
                 const resp = await fetch(`http://${IP_CTC}:5001/update_city`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
+                    body: JSON.stringify({ city })
                 });
                 const data = await resp.json();
                 document.getElementById('new_city').value = '';
-                document.getElementById('api_key').value = '';
                 document.getElementById('traffic_status').textContent = `Estado: ${data.status}`;
                 document.getElementById('city_name').textContent = `Ciudad: ${data.city}`;
                 document.getElementById('temperature').textContent = `Temperatura: ${data.temperature.toFixed(2)} °C`;
@@ -300,6 +301,28 @@
                 fetchTrafficStatus();
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error updating city: ${error}`;
+            }
+        }
+
+        async function updateApiKey() {
+            const apiKey = document.getElementById('new_api_key').value.trim();
+            if (!apiKey) return;
+            try {
+                console.log('Actualizando API key');
+                const resp = await fetch(`http://${IP_CTC}:5001/update_api_key`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ api_key: apiKey })
+                });
+                const data = await resp.json();
+                document.getElementById('new_api_key').value = '';
+                document.getElementById('traffic_status').textContent = `Estado: ${data.status}`;
+                document.getElementById('city_name').textContent = `Ciudad: ${data.city}`;
+                document.getElementById('temperature').textContent = `Temperatura: ${data.temperature.toFixed(2)} °C`;
+                console.log(`API key actualizada. Ciudad actual ${data.city}`);
+                fetchTrafficStatus();
+            } catch (error) {
+                document.getElementById('error-messages').textContent = `Error updating API key: ${error}`;
             }
         }
         async function sendStatus() {

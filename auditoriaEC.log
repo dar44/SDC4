@@ -6196,3 +6196,928 @@
 ; city=Punta Arenas, temp=4.06C
 2025-06-23 14:35:46,725 INFO Sent traffic status: OK to Central API, city=Punta Arenas, temp=4.06C
 2025-06-23 14:35:47,414 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:00,135 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-23 14:36:00,136 INFO [33mPress CTRL+C to quit[0m
+2025-06-23 14:36:00,137 INFO  * Restarting with stat
+2025-06-23 14:36:00,262 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:00,741 WARNING  * Debugger is active!
+2025-06-23 14:36:00,745 INFO  * Debugger PIN: 539-442-905
+2025-06-23 14:36:00,855 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:05,572 INFO 192.168.1.83 - - [23/Jun/2025 14:36:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:36:09,299 INFO 192.168.1.83 - - [23/Jun/2025 14:36:09] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:36:09,301 INFO Received update_city request: city=Elche, api_key=provided
+2025-06-23 14:36:09,455 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:36:09,458 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:36:09,458 INFO Updated configuration: city=Elche, temp=32.35C, status=OK
+2025-06-23 14:36:09,458 INFO 192.168.1.83 - - [23/Jun/2025 14:36:09] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:36:10,417 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:10,995 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:36:10,999 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:36:11,000 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:36:15,575 INFO 192.168.1.83 - - [23/Jun/2025 14:36:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:36:20,574 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:21,137 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:36:21,140 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:36:21,140 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:36:25,579 INFO 192.168.1.83 - - [23/Jun/2025 14:36:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:36:30,740 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:31,274 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:36:31,276 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:36:31,276 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:36:35,583 INFO 192.168.1.83 - - [23/Jun/2025 14:36:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:36:40,899 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:41,418 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:36:41,422 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:36:41,422 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:36:45,588 INFO 192.168.1.83 - - [23/Jun/2025 14:36:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:36:51,052 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:36:51,576 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:36:51,580 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:36:51,580 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:36:55,592 INFO 192.168.1.83 - - [23/Jun/2025 14:36:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:36:56,104 INFO Se avisa al cliente de que no hay taxis disponibles. IP: 192.168.1.83
+2025-06-23 14:36:56,104 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-23 14:37:01,243 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:01,720 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:37:01,723 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:37:01,724 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:37:05,596 INFO 192.168.1.83 - - [23/Jun/2025 14:37:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:37:11,398 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:11,877 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:37:11,882 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:37:11,882 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:37:15,600 INFO 192.168.1.83 - - [23/Jun/2025 14:37:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:37:17,414 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:37:17,417 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:37:17,417 INFO Manual status update: city=Elche, temp=32.35C, status=OK
+2025-06-23 14:37:17,418 INFO 192.168.1.83 - - [23/Jun/2025 14:37:17] "POST /send_status HTTP/1.1" 200 -
+2025-06-23 14:37:19,053 INFO 192.168.1.83 - - [23/Jun/2025 14:37:19] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:37:19,055 INFO Received update_city request: city=Murcia, api_key=provided
+2025-06-23 14:37:19,243 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-23 14:37:19,246 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-23 14:37:19,247 INFO Updated configuration: city=Murcia, temp=34.12C, status=OK
+2025-06-23 14:37:19,247 INFO 192.168.1.83 - - [23/Jun/2025 14:37:19] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:37:21,560 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:22,022 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-23 14:37:22,026 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-23 14:37:22,026 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-23 14:37:25,604 INFO 192.168.1.83 - - [23/Jun/2025 14:37:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:37:31,716 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:32,195 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-23 14:37:32,199 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-23 14:37:32,199 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-23 14:37:35,608 INFO 192.168.1.83 - - [23/Jun/2025 14:37:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:37:41,854 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:42,363 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-23 14:37:42,367 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-23 14:37:42,368 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-23 14:37:43,145 INFO 192.168.1.83 - - [23/Jun/2025 14:37:43] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:37:43,148 INFO Received update_city request: city=Elche, api_key=none
+2025-06-23 14:37:43,288 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:43,292 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=-1.00C
+2025-06-23 14:37:43,292 INFO Updated configuration: city=Elche, temp=-1.00C, status=KO
+2025-06-23 14:37:43,292 INFO 192.168.1.83 - - [23/Jun/2025 14:37:43] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:37:45,612 INFO 192.168.1.83 - - [23/Jun/2025 14:37:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:37:52,030 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:52,503 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:37:55,615 INFO 192.168.1.83 - - [23/Jun/2025 14:37:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:38:02,177 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:02,658 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:05,619 INFO 192.168.1.83 - - [23/Jun/2025 14:38:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:38:10,503 INFO 192.168.1.83 - - [23/Jun/2025 14:38:10] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:38:10,506 INFO Received update_city request: city=Elche, api_key=provided
+2025-06-23 14:38:10,667 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:38:10,671 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:38:10,671 INFO Updated configuration: city=Elche, temp=32.35C, status=OK
+2025-06-23 14:38:10,671 INFO 192.168.1.83 - - [23/Jun/2025 14:38:10] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:38:12,324 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:12,804 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:38:12,808 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:38:12,808 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:38:15,623 INFO 192.168.1.83 - - [23/Jun/2025 14:38:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:38:22,487 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:22,967 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:38:22,971 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:38:22,971 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:38:25,627 INFO 192.168.1.83 - - [23/Jun/2025 14:38:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:38:32,627 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:33,125 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:38:33,129 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:38:33,129 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:38:35,631 INFO 192.168.1.83 - - [23/Jun/2025 14:38:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:38:41,943 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-23 14:38:42,778 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:43,290 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:38:43,294 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:38:43,294 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:38:45,634 INFO 192.168.1.83 - - [23/Jun/2025 14:38:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:38:52,934 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:38:53,433 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:38:53,437 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:38:53,438 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:38:55,638 INFO 192.168.1.83 - - [23/Jun/2025 14:38:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:39:03,071 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:39:03,572 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:39:03,574 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:39:03,574 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:39:05,642 INFO 192.168.1.83 - - [23/Jun/2025 14:39:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:39:13,208 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:39:13,709 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:39:13,712 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:39:13,712 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:39:15,644 INFO 192.168.1.83 - - [23/Jun/2025 14:39:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:39:23,347 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:39:23,847 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:39:23,850 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:39:23,850 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:39:25,648 INFO 192.168.1.83 - - [23/Jun/2025 14:39:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:39:33,485 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:39:33,985 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:39:33,988 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:39:33,989 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:39:35,652 INFO 192.168.1.83 - - [23/Jun/2025 14:39:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:39:43,625 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:39:44,124 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:39:44,128 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:39:44,128 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:39:45,656 INFO 192.168.1.83 - - [23/Jun/2025 14:39:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:39:53,760 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:39:54,292 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:39:54,297 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:39:54,297 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:39:55,659 INFO 192.168.1.83 - - [23/Jun/2025 14:39:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:40:03,920 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:40:04,434 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:40:04,438 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:40:04,438 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:40:05,664 INFO 192.168.1.83 - - [23/Jun/2025 14:40:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:40:14,061 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:40:14,578 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:40:14,581 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:40:14,581 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:40:15,667 INFO 192.168.1.83 - - [23/Jun/2025 14:40:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:40:24,140 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:40:24,144 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:40:24,144 INFO Manual status update: city=Elche, temp=32.35C, status=OK
+2025-06-23 14:40:24,145 INFO 192.168.1.83 - - [23/Jun/2025 14:40:24] "POST /send_status HTTP/1.1" 200 -
+2025-06-23 14:40:24,215 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:40:24,735 INFO Fetched temperature for Elche: 32.35C, status OK
+2025-06-23 14:40:24,739 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=32.35C
+2025-06-23 14:40:24,739 INFO Sent traffic status: OK to Central API, city=Elche, temp=32.35C
+2025-06-23 14:40:25,182 INFO 192.168.1.83 - - [23/Jun/2025 14:40:25] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:40:25,185 INFO Received update_city request: city=Almoradi, api_key=provided
+2025-06-23 14:40:25,332 INFO Fetched temperature for Almoradi: 34.27C, status OK
+2025-06-23 14:40:25,335 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Almoradi, temp=34.27C
+2025-06-23 14:40:25,335 INFO Updated configuration: city=Almoradi, temp=34.27C, status=OK
+2025-06-23 14:40:25,335 INFO 192.168.1.83 - - [23/Jun/2025 14:40:25] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:40:25,670 INFO 192.168.1.83 - - [23/Jun/2025 14:40:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:40:34,358 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:40:34,519 INFO 192.168.1.83 - - [23/Jun/2025 14:40:34] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:40:34,521 INFO Received update_city request: city=Marrakesh, api_key=provided
+2025-06-23 14:40:34,670 INFO Fetched temperature for Marrakesh: 27.04C, status OK
+2025-06-23 14:40:34,673 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=27.04C
+2025-06-23 14:40:34,673 INFO Updated configuration: city=Marrakesh, temp=27.04C, status=OK
+2025-06-23 14:40:34,674 INFO 192.168.1.83 - - [23/Jun/2025 14:40:34] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:40:34,878 INFO Fetched temperature for Marrakesh: 27.04C, status OK
+2025-06-23 14:40:34,881 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=27.04C
+2025-06-23 14:40:34,881 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=27.04C
+2025-06-23 14:40:35,673 INFO 192.168.1.83 - - [23/Jun/2025 14:40:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:40:44,495 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:40:45,048 INFO Fetched temperature for Marrakesh: 27.04C, status OK
+2025-06-23 14:40:45,052 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Marrakesh, temp=27.04C
+2025-06-23 14:40:45,052 INFO Sent traffic status: OK to Central API, city=Marrakesh, temp=27.04C
+2025-06-23 14:40:45,677 INFO 192.168.1.83 - - [23/Jun/2025 14:40:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:40:45,740 INFO 192.168.1.83 - - [23/Jun/2025 14:40:45] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-23 14:40:45,742 INFO Received update_city request: city=Ouarzazate, api_key=provided
+2025-06-23 14:40:45,921 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:40:45,923 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:40:45,924 INFO Updated configuration: city=Ouarzazate, temp=36.06C, status=OK
+2025-06-23 14:40:45,924 INFO 192.168.1.83 - - [23/Jun/2025 14:40:45] "POST /update_city HTTP/1.1" 200 -
+2025-06-23 14:40:54,634 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:40:55,208 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:40:55,213 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:40:55,213 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:40:55,680 INFO 192.168.1.83 - - [23/Jun/2025 14:40:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:04,777 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:41:05,350 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:41:05,354 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:05,354 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:05,683 INFO 192.168.1.83 - - [23/Jun/2025 14:41:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:14,915 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:41:15,501 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:41:15,504 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:15,505 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:15,686 INFO 192.168.1.83 - - [23/Jun/2025 14:41:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:25,055 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:41:25,679 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:41:25,681 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:25,682 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:25,689 INFO 192.168.1.83 - - [23/Jun/2025 14:41:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:35,219 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:41:35,692 INFO 192.168.1.83 - - [23/Jun/2025 14:41:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:35,866 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:41:35,869 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:35,869 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:45,359 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:41:45,695 INFO 192.168.1.83 - - [23/Jun/2025 14:41:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:46,013 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:41:46,018 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:46,018 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:55,534 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:41:55,700 INFO 192.168.1.83 - - [23/Jun/2025 14:41:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:41:56,150 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:41:56,153 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:41:56,154 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:05,691 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:42:05,703 INFO 192.168.1.83 - - [23/Jun/2025 14:42:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:42:06,288 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:42:06,291 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:06,292 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:15,708 INFO 192.168.1.83 - - [23/Jun/2025 14:42:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:42:15,834 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:42:16,452 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:42:16,457 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:16,458 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:25,711 INFO 192.168.1.83 - - [23/Jun/2025 14:42:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:42:25,970 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:42:26,586 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:42:26,590 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:26,590 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:35,716 INFO 192.168.1.83 - - [23/Jun/2025 14:42:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:42:36,108 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:42:36,755 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:42:36,758 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:36,758 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:45,719 INFO 192.168.1.83 - - [23/Jun/2025 14:42:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:42:46,257 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:42:46,916 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:42:46,919 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:46,919 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:55,723 INFO 192.168.1.83 - - [23/Jun/2025 14:42:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:42:56,413 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:42:57,042 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:42:57,045 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:42:57,046 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:05,726 INFO 192.168.1.83 - - [23/Jun/2025 14:43:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:43:06,569 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:43:07,197 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:43:07,200 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:07,201 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:15,730 INFO 192.168.1.83 - - [23/Jun/2025 14:43:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:43:16,724 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:43:17,353 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:43:17,357 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:17,357 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:25,734 INFO 192.168.1.83 - - [23/Jun/2025 14:43:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:43:26,889 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:43:27,513 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:43:27,517 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:27,517 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:35,737 INFO 192.168.1.83 - - [23/Jun/2025 14:43:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:43:37,043 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:43:37,673 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:43:37,677 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:37,677 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:45,741 INFO 192.168.1.83 - - [23/Jun/2025 14:43:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:43:47,206 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:43:47,826 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:43:47,829 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:47,829 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:55,746 INFO 192.168.1.83 - - [23/Jun/2025 14:43:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:43:57,359 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:43:57,961 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:43:57,964 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:43:57,964 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:05,752 INFO 192.168.1.83 - - [23/Jun/2025 14:44:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:44:07,486 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:44:08,087 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:44:08,090 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:08,090 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:15,755 INFO 192.168.1.83 - - [23/Jun/2025 14:44:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:44:17,624 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:44:18,228 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:44:18,230 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:18,231 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:25,758 INFO 192.168.1.83 - - [23/Jun/2025 14:44:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:44:27,860 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:44:28,459 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:44:28,462 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:28,463 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:35,762 INFO 192.168.1.83 - - [23/Jun/2025 14:44:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:44:38,001 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:44:38,605 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:44:38,608 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:38,609 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:45,765 INFO 192.168.1.83 - - [23/Jun/2025 14:44:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:44:48,133 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:44:48,748 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:44:48,752 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:48,752 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:55,768 INFO 192.168.1.83 - - [23/Jun/2025 14:44:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:44:58,332 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:44:58,995 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:44:58,999 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:44:58,999 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:05,772 INFO 192.168.1.83 - - [23/Jun/2025 14:45:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:45:08,674 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:45:09,287 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:45:09,290 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:09,290 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:15,775 INFO 192.168.1.83 - - [23/Jun/2025 14:45:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:45:18,929 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:45:19,626 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:45:19,629 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:19,629 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:25,779 INFO 192.168.1.83 - - [23/Jun/2025 14:45:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:45:29,208 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:45:29,911 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:45:29,915 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:29,915 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:35,783 INFO 192.168.1.83 - - [23/Jun/2025 14:45:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:45:39,489 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:45:40,234 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:45:40,237 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:40,238 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:45,787 INFO 192.168.1.83 - - [23/Jun/2025 14:45:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:45:49,777 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:45:50,651 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:45:50,654 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:50,654 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:45:55,791 INFO 192.168.1.83 - - [23/Jun/2025 14:45:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:46:00,003 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:46:00,970 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:46:00,973 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:00,974 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:05,794 INFO 192.168.1.83 - - [23/Jun/2025 14:46:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:46:10,231 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:46:11,249 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:46:11,252 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:11,253 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:15,797 INFO 192.168.1.83 - - [23/Jun/2025 14:46:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:46:20,541 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:46:21,557 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:46:21,561 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:21,561 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:25,801 INFO 192.168.1.83 - - [23/Jun/2025 14:46:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:46:30,742 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:46:31,767 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:46:31,771 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:31,771 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:35,804 INFO 192.168.1.83 - - [23/Jun/2025 14:46:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:46:41,103 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:46:42,164 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:46:42,168 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:42,168 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:45,808 INFO 192.168.1.83 - - [23/Jun/2025 14:46:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:46:51,405 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:46:52,311 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:46:52,315 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:52,315 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:46:55,811 INFO 192.168.1.83 - - [23/Jun/2025 14:46:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:47:01,546 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:47:02,455 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:47:02,459 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:02,459 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:05,815 INFO 192.168.1.83 - - [23/Jun/2025 14:47:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:47:11,694 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:47:12,605 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:47:12,609 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:12,609 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:15,819 INFO 192.168.1.83 - - [23/Jun/2025 14:47:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:47:21,838 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:47:22,745 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:47:22,748 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:22,748 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:25,823 INFO 192.168.1.83 - - [23/Jun/2025 14:47:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:47:31,977 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:47:32,883 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:47:32,886 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:32,886 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:35,826 INFO 192.168.1.83 - - [23/Jun/2025 14:47:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:47:42,123 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:47:43,019 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:47:43,023 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:43,024 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:45,830 INFO 192.168.1.83 - - [23/Jun/2025 14:47:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:47:52,271 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:47:53,159 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:47:53,163 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:53,163 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:47:55,833 INFO 192.168.1.83 - - [23/Jun/2025 14:47:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:02,424 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:48:03,321 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:03,325 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:03,325 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:05,837 INFO 192.168.1.83 - - [23/Jun/2025 14:48:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:12,569 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:48:13,463 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:13,467 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:13,467 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:15,841 INFO 192.168.1.83 - - [23/Jun/2025 14:48:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:22,720 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:48:23,608 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:23,612 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:23,612 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:25,844 INFO 192.168.1.83 - - [23/Jun/2025 14:48:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:32,865 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:48:33,747 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:33,749 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:33,750 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:35,848 INFO 192.168.1.83 - - [23/Jun/2025 14:48:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:43,018 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:48:43,913 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:43,916 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:43,916 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:45,164 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_CTC.py', reloading
+2025-06-23 14:48:45,226 INFO  * Restarting with stat
+2025-06-23 14:48:45,342 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_CTC.py', reloading
+2025-06-23 14:48:45,357 INFO Tabla de taxis vaciada
+2025-06-23 14:48:45,367 INFO Tabla de taxis vaciada
+2025-06-23 14:48:45,405 INFO  * Restarting with stat
+2025-06-23 14:48:45,737 WARNING  * Debugger is active!
+2025-06-23 14:48:45,741 INFO  * Debugger PIN: 539-442-905
+2025-06-23 14:48:45,860 WARNING  * Debugger is active!
+2025-06-23 14:48:45,863 INFO  * Debugger PIN: 539-442-905
+2025-06-23 14:48:45,880 INFO 192.168.1.83 - - [23/Jun/2025 14:48:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:45,971 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:45,998 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:45,999 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:53,159 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:48:55,884 INFO 192.168.1.83 - - [23/Jun/2025 14:48:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:48:56,145 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:48:56,149 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:48:56,149 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:03,297 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:49:05,887 INFO 192.168.1.83 - - [23/Jun/2025 14:49:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:49:06,292 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:49:06,295 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:06,296 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:13,449 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:49:15,890 INFO 192.168.1.83 - - [23/Jun/2025 14:49:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:49:16,431 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:49:16,434 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:16,434 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:23,582 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:49:25,893 INFO 192.168.1.83 - - [23/Jun/2025 14:49:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:49:26,574 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:49:26,578 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:26,579 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:33,726 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:49:35,897 INFO 192.168.1.83 - - [23/Jun/2025 14:49:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:49:36,746 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:49:36,749 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:36,749 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:43,875 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:49:45,900 INFO 192.168.1.83 - - [23/Jun/2025 14:49:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:49:46,901 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:49:46,905 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:46,905 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:54,009 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:49:55,904 INFO 192.168.1.83 - - [23/Jun/2025 14:49:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:49:57,044 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:49:57,047 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:49:57,047 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:04,173 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:50:05,908 INFO 192.168.1.83 - - [23/Jun/2025 14:50:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:50:07,184 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:50:07,187 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:07,188 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:14,322 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:50:15,912 INFO 192.168.1.83 - - [23/Jun/2025 14:50:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:50:17,341 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:50:17,345 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:17,345 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:24,499 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:50:25,916 INFO 192.168.1.83 - - [23/Jun/2025 14:50:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:50:28,485 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:50:28,488 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:28,489 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:34,637 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:50:35,919 INFO 192.168.1.83 - - [23/Jun/2025 14:50:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:50:38,620 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:50:38,624 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:38,624 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:44,765 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:50:45,923 INFO 192.168.1.83 - - [23/Jun/2025 14:50:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:50:48,768 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:50:48,772 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:48,773 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:54,893 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:50:55,926 INFO 192.168.1.83 - - [23/Jun/2025 14:50:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:50:58,904 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:50:58,908 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:50:58,908 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:05,036 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:51:05,930 INFO 192.168.1.83 - - [23/Jun/2025 14:51:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:51:09,062 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:51:09,065 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:09,065 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:15,179 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:51:15,933 INFO 192.168.1.83 - - [23/Jun/2025 14:51:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:51:19,197 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:51:19,201 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:19,201 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:25,314 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:51:25,936 INFO 192.168.1.83 - - [23/Jun/2025 14:51:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:51:29,344 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:51:29,348 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:29,348 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:35,455 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:51:35,940 INFO 192.168.1.83 - - [23/Jun/2025 14:51:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:51:39,484 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:51:39,488 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:39,489 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:45,606 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:51:45,943 INFO 192.168.1.83 - - [23/Jun/2025 14:51:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:51:49,615 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:51:49,618 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:49,618 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:55,731 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:51:55,947 INFO 192.168.1.83 - - [23/Jun/2025 14:51:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:51:59,772 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:51:59,776 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:51:59,777 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:05,889 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:52:05,951 INFO 192.168.1.83 - - [23/Jun/2025 14:52:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:52:09,930 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:52:09,933 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:09,934 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:15,955 INFO 192.168.1.83 - - [23/Jun/2025 14:52:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:52:16,024 ERROR Error fetching temperature for Elche: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Elche&appid=
+2025-06-23 14:52:20,071 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:52:20,075 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:20,075 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:25,469 INFO Tabla de taxis vaciada
+2025-06-23 14:52:25,481 INFO Tabla de taxis vaciada
+2025-06-23 14:52:25,521 INFO Tabla de taxis vaciada
+2025-06-23 14:52:25,532 INFO Tabla de taxis vaciada
+2025-06-23 14:52:36,295 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-23 14:52:36,296 INFO [33mPress CTRL+C to quit[0m
+2025-06-23 14:52:36,297 INFO  * Restarting with stat
+2025-06-23 14:52:36,600 WARNING  * Debugger is active!
+2025-06-23 14:52:36,605 INFO  * Debugger PIN: 539-442-905
+2025-06-23 14:52:40,243 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-23 14:52:40,243 INFO [33mPress CTRL+C to quit[0m
+2025-06-23 14:52:40,244 INFO  * Restarting with stat
+2025-06-23 14:52:40,349 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:52:40,352 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:40,353 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:40,837 WARNING  * Debugger is active!
+2025-06-23 14:52:40,841 INFO  * Debugger PIN: 539-442-905
+2025-06-23 14:52:40,953 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:52:40,957 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:40,957 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:50,497 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:52:50,501 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:50,501 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:51,091 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:52:51,094 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:51,094 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:52:54,837 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-23 14:52:54,842 INFO 192.168.1.83 - - [23/Jun/2025 14:52:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-23 14:53:00,650 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:00,660 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:00,660 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:01,240 INFO Fetched temperature for Ouarzazate: 36.06C, status OK
+2025-06-23 14:53:01,243 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:01,243 INFO Sent traffic status: OK to Central API, city=Ouarzazate, temp=36.06C
+2025-06-23 14:53:04,846 INFO 192.168.1.83 - - [23/Jun/2025 14:53:04] "GET /traffic_status HTTP/1.1" 200 -

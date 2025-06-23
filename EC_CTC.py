@@ -110,28 +110,60 @@ def send_status_route():
 def update_city():
     data = request.get_json(force=True, silent=True) or {}
     city = data.get('city')
-    api_key = data.get('api_key')
-    logging.info(f"Received update_city request: city={city}, api_key={'provided' if api_key else 'none'}")
-    if city:
-        vg.CONFIG['CITY'] = city
-        vg.CITY = city
-    if api_key is not None:
-        vg.CONFIG['APICTC'] = api_key
-        vg.APICTC = api_key
+    logging.info(f"Received update_city request: city={city}")
+    if not city:
+        return jsonify({"error": "city is required"}), 400
+
+    vg.CONFIG['CITY'] = city
+    vg.CITY = city
     vg.save_config()
+
     global current_temperature
     try:
         city_name, temp = _fetch_temperature()
         current_temperature = temp
     except Exception:
-        city_name = city if city else vg.CONFIG.get('CITY', 'Alicante,ES')
+        city_name = city
         temp = -1.0
+
     _send_status(city_name, temp)
     logging.info(
-        f"Updated configuration: city={city_name}, temp={temp:.2f}C, status={traffic_status['status']}"
+        f"Updated city to {city_name}, temp={temp:.2f}C, status={traffic_status['status']}"
     )
     return jsonify({
-        "message": "Configuration updated",
+        "message": "City updated",
+        "status": traffic_status["status"],
+        "city": city_name,
+        "temperature": round(temp, 2)
+    })
+
+@app.route('/update_api_key', methods=['POST'])
+def update_api_key():
+    """Update only the OpenWeather API key."""
+    data = request.get_json(force=True, silent=True) or {}
+    api_key = data.get('api_key')
+    logging.info(f"Received update_api_key request: api_key={'provided' if api_key else 'none'}")
+    if not api_key:
+        return jsonify({"error": "api_key is required"}), 400
+
+    vg.CONFIG['APICTC'] = api_key
+    vg.APICTC = api_key
+    vg.save_config()
+
+    global current_temperature
+    try:
+        city_name, temp = _fetch_temperature()
+        current_temperature = temp
+    except Exception:
+        city_name = vg.CONFIG.get('CITY', 'Alicante,ES')
+        temp = -1.0
+
+    _send_status(city_name, temp)
+    logging.info(
+        f"Updated API key, city={city_name}, temp={temp:.2f}C, status={traffic_status['status']}"
+    )
+    return jsonify({
+        "message": "API key updated",
         "status": traffic_status["status"],
         "city": city_name,
         "temperature": round(temp, 2)

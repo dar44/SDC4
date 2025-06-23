@@ -14,7 +14,7 @@ import json
 from cliente import Cliente 
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
 import sys
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_API, IP_CTC, get_key
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_API, IP_CTC, IP_REG, REGISTRY_TOKEN, get_key
 import time
 import secrets
 import ssl
@@ -210,7 +210,21 @@ def autenticarTaxi(taxiID):
     malId = True
     token = secrets.token_hex(16 // 2)
     key = Fernet.generate_key().decode('utf-8')
-
+    
+    # Comprobar en el Registry que el taxi está dado de alta
+    try:
+        url = f"https://{IP_REG}:5002/is_registered/{taxiID}"
+        headers = {'Authorization': f'Bearer {REGISTRY_TOKEN}'}
+        response = requests.get(url, headers=headers, verify=False)
+        if response.status_code != 200 or not response.json().get('registered'):
+            print("Taxi no registrado en Registry")
+            logging.info(f"Taxi {taxiID} no registrado en Registry")
+            return
+    except Exception as e:
+        print(f"Error al comprobar Registry: {e}")
+        logging.error(f"Error al comprobar Registry para taxi {taxiID}: {e}")
+        return
+    
     conn = sqlite3.connect('easycab.db')
     cursor = conn.cursor()
 

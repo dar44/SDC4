@@ -64,8 +64,8 @@
     </div>
 
     <script>
-        const IP_API = "192.168.1.83";
-        const IP_CTC = "192.168.1.83";
+        const IP_API = "{{ ip_api }}";
+        const IP_CTC = "{{ ip_ctc }}";
         const tablero = document.getElementById('tablero');
         const numeros = document.getElementById('numeros');
         const filaNumeros = document.getElementById('fila-numeros');
@@ -105,6 +105,7 @@
                 document.getElementById('traffic_status').textContent = `Estado: ${data.traffic_status}`;
                 document.getElementById('city_name').textContent = `Ciudad: ${data.city || '-'}`;
                 document.getElementById('temperature').textContent = `Temperatura: ${data.temperature?.toFixed(2) || '-'} °C`;
+                console.log(`Datos tráfico - Ciudad: ${data.city}, Temp: ${data.temperature?.toFixed(2)} °C`);
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error fetching traffic status: ${error}`;
             }
@@ -275,18 +276,27 @@
             }
         }
 
-        async function updateCity() {
-            const city = document.getElementById('new_city').value;
-            const apiKey = document.getElementById('api_key').value;
-            if (!city && !apiKey) return;
+         async function updateCity() {
+            const city = document.getElementById('new_city').value.trim();
+            const apiKey = document.getElementById('api_key').value.trim();
+            const payload = {};
+            if (city) payload.city = city;
+            if (apiKey) payload.api_key = apiKey;
+            if (Object.keys(payload).length === 0) return;
             try {
-                await fetch(`http://${IP_CTC}:5001/update_city`, {
+                console.log(`Enviando nueva configuración: ciudad='${city || '-'}', apiKey=${apiKey ? '***' : 'no-provided'}`);
+                const resp = await fetch(`http://${IP_CTC}:5001/update_city`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ city, api_key: apiKey })
+                    body: JSON.stringify(payload)
                 });
+                const data = await resp.json();
                 document.getElementById('new_city').value = '';
                 document.getElementById('api_key').value = '';
+                document.getElementById('traffic_status').textContent = `Estado: ${data.status}`;
+                document.getElementById('city_name').textContent = `Ciudad: ${data.city}`;
+                document.getElementById('temperature').textContent = `Temperatura: ${data.temperature.toFixed(2)} °C`;
+                console.log(`Ciudad actualizada a ${data.city} (${data.temperature.toFixed(2)} °C)`);
                 fetchTrafficStatus();
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error updating city: ${error}`;
@@ -294,10 +304,14 @@
         }
         async function sendStatus() {
             try {
-                await fetch(`http://${IP_CTC}:5001/send_status`, {
+                const resp = await fetch(`http://${IP_CTC}:5001/send_status`, {
                     method: 'POST'
                 });
-                fetchTrafficStatus();
+                
+                const data = await resp.json();
+                document.getElementById('traffic_status').textContent = `Estado: ${data.status}`;
+                console.log(`Estado enviado. Status: ${data.status}`);
+                //fetchTrafficStatus();
             } catch (error) {
                 document.getElementById('error-messages').textContent = `Error sending status: ${error}`;
             }

@@ -2,23 +2,26 @@ import requests
 import time
 import os
 from flask import Flask, jsonify, request
-from variablesGlobales import CONFIG, IP_API, save_config
+import variablesGlobales as vg
 import threading
 from flask_cors import CORS
+import logging
 
 app = Flask(__name__)
 CORS(app)
+logging.basicConfig(filename='auditoriaEC.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(message)s')
 
 # Variables globales para OpenWeather
-IP = IP_API
+IP = vg.IP_API
 urlUpdate = f"http://{IP}:5000/update-traffic"
 traffic_status = {"status": "OK"}
 current_temperature = 0.0
 
 def _fetch_temperature():
     """Consults OpenWeather and updates ``traffic_status``."""
-    CITYNAME = CONFIG.get('CITY', 'Alicante,ES')
-    api_key = CONFIG.get('APICTC', '')
+    CITYNAME = vg.CONFIG.get('CITY', 'Alicante,ES')
+    api_key = vg.CONFIG.get('APICTC', '')
 
     url = (
         "https://api.openweathermap.org/data/2.5/weather"
@@ -35,10 +38,14 @@ def _fetch_temperature():
         data = response.json()
         temp = data['main']['temp'] - 273.15
         traffic_status["status"] = "KO" if temp < 0 else "OK"
+        logging.info(
+            f"Fetched temperature for {CITYNAME}: {temp:.2f}C, status {traffic_status['status']}"
+        )
         return CITYNAME, temp
-    except Exception:
+    except Exception as e:
         # Ante cualquier error se marca el estado como KO para avisar a la central
         traffic_status["status"] = "KO"
+        logging.error(f"Error fetching temperature for {CITYNAME}: {e}")
         raise
 
 
@@ -52,10 +59,13 @@ def _send_status(city, temperature):
             "temperature": temperature,
         },
     )
-    print(
-        f"POST to {urlUpdate}: Status {resp.status_code}, Response {resp.text}"
+    log_msg = (
+        f"POST to {urlUpdate}: Status {resp.status_code}, Response {resp.text}; "
+        f"city={city}, temp={temperature:.2f}C"
     )
-    
+    print(log_msg)
+    logging.info(log_msg)
+
 def fetch_temperature_and_update_central():
     global current_temperature
     while True:
@@ -63,9 +73,12 @@ def fetch_temperature_and_update_central():
             city, temp = _fetch_temperature()
             current_temperature = temp
             _send_status(city, temp)
-            print(
-                f"Sent traffic status: {traffic_status['status']} to Central API"
+            log_msg = (
+                f"Sent traffic status: {traffic_status['status']} to Central API, "
+                f"city={city}, temp={temp:.2f}C"
             )
+            print(log_msg)
+            logging.info(log_msg)
         except Exception as e:
             print(f"Error updating traffic status: {e}")
         time.sleep(10)  # Actualizar cada 10 segundos
@@ -74,7 +87,7 @@ def fetch_temperature_and_update_central():
 def get_traffic_status():
     return jsonify({
         "traffic_status": traffic_status["status"],
-        "city": CONFIG.get("CITY", ""),
+        "city": vg.CONFIG.get("CITY", ""),
         "temperature": round(current_temperature, 2)
     })
 
@@ -86,28 +99,37 @@ def send_status_route():
         global current_temperature
         current_temperature = temp
         _send_status(city, temp)
+        logging.info(
+            f"Manual status update: city={city}, temp={temp:.2f}C, status={traffic_status['status']}"
+        )
         return jsonify({"message": "Traffic status sent", "status": traffic_status["status"]})
     except Exception as e:
         return jsonify({"error": str(e)}), 500
     
 @app.route('/update_city', methods=['POST'])
 def update_city():
-    data = request.json
+    data = request.get_json(force=True, silent=True) or {}
     city = data.get('city')
     api_key = data.get('api_key')
+    logging.info(f"Received update_city request: city={city}, api_key={'provided' if api_key else 'none'}")
     if city:
-        CONFIG['CITY'] = city
+        vg.CONFIG['CITY'] = city
+        vg.CITY = city
     if api_key is not None:
-        CONFIG['APICTC'] = api_key
-    save_config()
+        vg.CONFIG['APICTC'] = api_key
+        vg.APICTC = api_key
+    vg.save_config()
     global current_temperature
     try:
         city_name, temp = _fetch_temperature()
         current_temperature = temp
     except Exception:
-        city_name = city if city else CONFIG.get('CITY', 'Alicante,ES')
-        temp = 0.0
+        city_name = city if city else vg.CONFIG.get('CITY', 'Alicante,ES')
+        temp = -1.0
     _send_status(city_name, temp)
+    logging.info(
+        f"Updated configuration: city={city_name}, temp={temp:.2f}C, status={traffic_status['status']}"
+    )
     return jsonify({
         "message": "Configuration updated",
         "status": traffic_status["status"],

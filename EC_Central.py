@@ -659,18 +659,30 @@ def enviarTaxisABase():
 #############################################################
 def imprimirTaxis() :
     mensaje = ""
+    conn = sqlite3.connect('easycab.db')
+    cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 0
-        mensaje += taxi.imprimirTaxi() + "/" 
+        cursor.execute("SELECT token FROM taxis2 WHERE id = ?", (taxi.id,))
+        result = cursor.fetchone()
+        token = result[0] if result else ''
+        mensaje += taxi.imprimirTaxi() + f":{token}/"
+    conn.close()
 
     mensaje = mensaje[:-1]
     return mensaje
 
 def imprimirTaxisBase() :
     mensaje = ""
+    conn = sqlite3.connect('easycab.db')
+    cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 1
-        mensaje += taxi.imprimirTaxi() + "/" 
+        cursor.execute("SELECT token FROM taxis2 WHERE id = ?", (taxi.id,))
+        result = cursor.fetchone()
+        token = result[0] if result else ''
+        mensaje += taxi.imprimirTaxi() + f":{token}/"
+    conn.close()
 
     mensaje = mensaje[:-1]
     return mensaje

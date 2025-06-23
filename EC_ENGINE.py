@@ -36,8 +36,7 @@ BASE = False
 CambioEstado = False
 estado_actual = "ok"
 IP = IP_REG
-# Diccionario para almacenar los tokens asociados a cada taxi
-taxi_tokens = {}
+
 
 # Función para registrar el taxi
 def register_taxi(taxi_id):
@@ -302,7 +301,7 @@ def conectarCentral(taxiID):
 def esperandoTaxi( ):
     global CambioEstado
     global taxis
-    global taxi_tokens
+    
     #print("Esperando taxi")
     consumer_conf = {
         'bootstrap.servers': f'{SERVER_K}:{PORT_K}',
@@ -330,7 +329,6 @@ def esperandoTaxi( ):
         # formato: id%mensajeCifrado%token
         try:
             taxi_id, mensaje_cifrado, tokenTaxi = mensaje_completo.split('%')
-            taxi_tokens[taxi_id] = tokenTaxi
             key = get_key(taxi_id)
             if not key:
                 print(f"No se encontró clave para el taxi {taxi_id}")
@@ -367,21 +365,21 @@ def esperandoTaxi( ):
                 taxi.estado = "ko"
                 CambioEstado = False
         #print(taxi)
-        taxis.append(taxi)
+        taxis.append((taxi, tokenTaxi))
         if taxi.base == 1:
             taxi = moverTaxiBase(taxi)
         else :
             taxi = moverTaxiCliente(taxi)
         #print("tu puto taxi se ha movido")
-        enviarMovimiento(taxi)
+        enviarMovimiento(taxi, tokenTaxi)
         break
 
 #############################################################
 #      FUNCIÓN QUE ENVÍA COMUNICACIÓN A CENTRAL POR KAFKA   #
 #############################################################
-def enviarMovimiento(taxi):
+def enviarMovimiento(taxi, token):
     global taxis
-    global taxi_tokens
+    
     producer_conf = {'bootstrap.servers': f'{SERVER_K}:{PORT_K}'}
     producer = Producer(producer_conf)
     
@@ -392,7 +390,7 @@ def enviarMovimiento(taxi):
         print(f"No se encontró clave para el taxi {taxi.id}")
         return
     mensaje_cifrado = encrypt_message(taxi.imprimirTaxi(), key)
-    token = taxi_tokens.get(str(taxi.id), "")
+
     mensaje = f"{taxi.id}%{mensaje_cifrado}%{token}"
     producer.produce(topicRecorrido, key=None, value=mensaje.encode(FORMATO), callback=comprobacion)
     time.sleep(1)
@@ -457,6 +455,9 @@ def reciboMapa():
         taxisstr = mensaje.split("/")
         for taxistr in taxisstr:
             taxiData = taxistr.split(':')
+            tokenTaxi = ''
+            if len(taxiData) > 12:
+                tokenTaxi = taxiData[12]
             taxi = Taxi(
                 id=taxiData[0],
                 estado=taxiData[1],
@@ -472,9 +473,10 @@ def reciboMapa():
                 base=int(taxiData[11])
             )
 
-            taxis.append(taxi)
+            taxis.append((taxi, tokenTaxi))
         #print("Tu lista taxi de taxis")
-        for taxi in taxis:
+        for taxi, tokenTaxi in taxis:
+            
             #print(taxi)
             if taxi.id == taxiID:
                 if CambioEstado:
@@ -501,7 +503,7 @@ def reciboMapa():
                     
                     recogido = False
                     FINALIZADO = False
-                    enviarMovimiento(taxi)
+                    enviarMovimiento(taxi, tokenTaxi)
                 if BASE:
                     taxi.ocupado = False
                     taxi.destino = '-'
@@ -509,9 +511,9 @@ def reciboMapa():
                     
                     recogido = False
                     BASE = False
-                    enviarMovimiento(taxi)
+                    enviarMovimiento(taxi, tokenTaxi)
                 else:
-                    enviarMovimiento(taxi)
+                    enviarMovimiento(taxi, tokenTaxi)
 
                 break
         break

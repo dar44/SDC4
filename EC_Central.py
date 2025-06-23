@@ -501,7 +501,12 @@ def recibirMovimientoEngine():
                 break
         mensaje_bruto = msg.value().decode(FORMATO)
         try:
-            taxi_id, mensaje_cifrado = mensaje_bruto.split('%')
+            taxi_id, mensaje_cifrado, token_recibido = mensaje_bruto.split('%')
+            # Verificar que el token coincide con el registrado para el taxi
+            token_esperado = obtenerTokenTaxi(int(taxi_id))
+            if token_esperado != token_recibido:
+                print(f"Token inválido para el taxi {taxi_id}")
+                continue
             key = get_key(taxi_id)
             if not key:
                 print(f"No se encontró clave para el taxi {taxi_id}")

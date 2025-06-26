@@ -27,7 +27,7 @@ def get_key(taxi_id):
     try:
         conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
-        cursor.execute("SELECT sym_key FROM taxis2 WHERE id = ?", (taxi_id,))
+        cursor.execute("SELECT sym_key FROM taxis2 WHERE id = ? AND active = 1", (taxi_id,))
         result = cursor.fetchone()
         return result[0] if result else None
     finally:
@@ -39,7 +39,7 @@ def set_key(taxi_id, key):
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute(
-        "UPDATE taxis2 SET sym_key = ? WHERE id = ?",
+        "UPDATE taxis2 SET sym_key = ?, active = 1 WHERE id = ?",
         (key, taxi_id),
     )
     conn.commit()

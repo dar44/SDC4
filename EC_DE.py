@@ -334,10 +334,14 @@ def esperandoTaxi( ):
             taxi_id, mensaje_cifrado, tokenTaxi = mensaje_completo.split('%')
             key = get_key(taxi_id)
             if not key:
+                ip_addr = obtener_ip()
+                logging.error(f"Clave no encontrada para el taxi {taxi_id}. IP: {ip_addr}")
                 print(f"No se encontró clave para el taxi {taxi_id}")
                 continue
             mensaje = decrypt_message(mensaje_cifrado.strip(), key)
         except Exception as e:
+            ip_addr = obtener_ip()
+            logging.error(f"Error al descifrar mensaje para taxi {taxi_id}. IP: {ip_addr}")
             print(f"Error al descifrar mensaje para taxi {taxi_id}: {e}")
             continue
         #print("Mensaje recibido")
@@ -461,11 +465,15 @@ def reciboMapa():
                 taxi_id, mensaje_cifrado, tokenTaxi = taxistr.split('%')
                 key = get_key(taxi_id)
                 if not key:
+                    ip_addr = obtener_ip()
+                    logging.error(f"Clave no encontrada para el taxi {taxi_id}. IP: {ip_addr}")
                     print(f"No se encontró clave para el taxi {taxi_id}")
                     continue
                 datos_descif = decrypt_message(mensaje_cifrado.strip(), key)
                 taxiData = datos_descif.split(':')
             except Exception as e:
+                ip_addr = obtener_ip()
+                logging.error(f"Error al descifrar mensaje para taxi {taxi_id}. IP: {ip_addr}")
                 print(f"Error al descifrar mensaje para taxi {taxi_id}: {e}")
                 continue
             taxi = Taxi(

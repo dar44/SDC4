@@ -261,8 +261,8 @@ def autenticarTaxi(taxiID):
         cursor = conn.cursor()
         # Insertar un nuevo taxi en la tabla taxis2
         cursor.execute('''
-            INSERT INTO taxis2 (id, posX, posY, estado, clienteId, token, sym_key)
-            VALUES (?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO taxis2 (id, posX, posY, estado, clienteId, token, sym_key, active)
+            VALUES (?, ?, ?, ?, ?, ?, ?, 1)
         ''', (taxi.id, taxi.posicionX, taxi.posicionY, taxi.estado, taxi.clienteId, token, key))
 
         # Confirmar los cambios
@@ -431,7 +431,7 @@ def comprobacion(error, msg):
 def obtenerTokenTaxi(taxi_id):
     conn = sqlite3.connect('easycab.db')
     cursor = conn.cursor()
-    cursor.execute("SELECT token FROM taxis2 WHERE id = ?", (taxi_id,))
+    cursor.execute("SELECT token FROM taxis2 WHERE id = ? AND active = 1", (taxi_id,))
     token = cursor.fetchone()
     conn.close()
     return token[0] if token else None
@@ -440,7 +440,7 @@ def generar_y_guardar_token(taxi_id):
     token = secrets.token_hex(16 // 2)
     conn = sqlite3.connect('easycab.db')
     cursor = conn.cursor()
-    cursor.execute("UPDATE taxis2 SET token = ? WHERE id = ?", (token, taxi_id))
+    cursor.execute("UPDATE taxis2 SET token = ?, active = 1 WHERE id = ?", (token, taxi_id))
     conn.commit()
     conn.close()
     return token
@@ -518,15 +518,20 @@ def recibirMovimientoEngine():
             taxi_id, mensaje_cifrado, token_recibido = mensaje_bruto.split('%')
             # Verificar que el token coincide con el registrado para el taxi
             token_esperado = obtenerTokenTaxi(int(taxi_id))
+            ip_addr = obtener_ip()
             if token_esperado != token_recibido:
+                logging.error(f"Token inválido para el taxi {taxi_id}. IP: {ip_addr}")
                 print(f"Token inválido para el taxi {taxi_id}")
                 continue
             key = get_key(taxi_id)
             if not key:
+                logging.error(f"Clave no encontrada para el taxi {taxi_id}. IP: {ip_addr}")
                 print(f"No se encontró clave para el taxi {taxi_id}")
                 continue
             mensaje = decrypt_message(mensaje_cifrado.strip(), key)
         except Exception as e:
+            ip_addr = obtener_ip()
+            logging.error(f"Error al descifrar mensaje del taxi {taxi_id}. IP: {ip_addr}")
             print(f"Error al descifrar mensaje del taxi {taxi_id}: {e}")
             continue
         consumer.close()
@@ -607,13 +612,17 @@ def borrarToken(id):
         conn = sqlite3.connect('easycab.db')
         cursor = conn.cursor()
         
-        # Ejecutar la consulta DELETE
-        cursor.execute("DELETE FROM taxis2 WHERE id = ?", (id,))
+        # Marcar el token como inactivo y eliminar la clave
+        cursor.execute(
+            "UPDATE taxis2 SET token = NULL, sym_key = NULL, active = 0 WHERE id = ?",
+            (id,),
+        )
         
         # Confirmar los cambios
         conn.commit()
         
-        print(f"Datos del taxi con id {id} borrados de la base de datos taxis2")
+        print(f"Token y clave del taxi {id} eliminados")
+        
     except sqlite3.Error as e:
         print(f"Error al borrar los datos del taxi con id {id}: {e}")
     finally:
@@ -677,7 +686,7 @@ def imprimirTaxis() :
     cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 0
-        cursor.execute("SELECT token, sym_key FROM taxis2 WHERE id = ?", (taxi.id,))
+        cursor.execute("SELECT token, sym_key FROM taxis2 WHERE id = ? AND active = 1", (taxi.id,))
         result = cursor.fetchone()
         token = result[0] if result else ''
         key = result[1] if result else None
@@ -696,7 +705,7 @@ def imprimirTaxisBase() :
     cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 1
-        cursor.execute("SELECT token, sym_key FROM taxis2 WHERE id = ?", (taxi.id,))
+        cursor.execute("SELECT token, sym_key FROM taxis2 WHERE id = ? AND active = 1", (taxi.id,))
         result = cursor.fetchone()
         token = result[0] if result else ''
         key = result[1] if result else None
@@ -803,7 +812,8 @@ def crearTablas():
             estado TEXT,
             clienteId TEXT,
             token TEXT,
-            sym_key TEXT
+            sym_key TEXT,
+            active INTEGER DEFAULT 0
         )
     ''')
 

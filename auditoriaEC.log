@@ -22694,3 +22694,2309 @@ Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weat
 2025-06-26 19:40:07,602 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
 2025-06-26 19:40:08,449 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\EC_DE.py', reloading
 2025-06-26 19:40:08,519 INFO  * Restarting with stat
+2025-06-26 19:40:09,380 WARNING  * Debugger is active!
+2025-06-26 19:40:09,385 INFO  * Debugger PIN: 539-442-905
+2025-06-26 19:40:09,477 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:40:09,481 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:40:09,482 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:40:13,149 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:40:13,152 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:40:13,152 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:40:19,639 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:40:19,643 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:40:19,643 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:40:23,289 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:40:23,294 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:40:23,294 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:40:29,794 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:40:29,798 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:40:29,798 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:40:33,424 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:40:33,427 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:40:33,427 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:40:39,945 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:40:39,950 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:40:39,950 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:40:43,566 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:40:43,570 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:40:43,571 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:40:50,088 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:40:50,093 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:40:50,093 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:40:53,711 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:40:53,715 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:40:53,715 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:41:00,246 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:41:00,251 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:41:00,252 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:41:03,856 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:41:03,860 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:41:03,860 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:41:10,413 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:41:10,417 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:41:10,417 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:41:14,033 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:41:14,037 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:41:14,038 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:41:20,553 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:41:20,558 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:41:20,559 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:41:24,170 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:41:24,173 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:41:24,174 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:41:30,689 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:41:30,692 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:41:30,693 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:41:34,306 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:41:34,309 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:41:34,309 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:41:40,824 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:41:40,827 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:41:40,827 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:41:44,443 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:41:44,446 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:41:44,446 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:41:50,958 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:41:50,962 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:41:50,962 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:41:54,589 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:41:54,592 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:41:54,592 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:42:01,093 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:42:01,097 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:42:01,097 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:42:04,723 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:42:04,726 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:42:04,727 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:42:11,245 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:42:11,250 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:42:11,250 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:42:14,861 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:42:14,864 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:42:14,865 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:42:21,384 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:42:21,387 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:42:21,387 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:42:24,995 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:42:24,998 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:42:24,999 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:42:31,525 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:42:31,529 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:42:31,529 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:42:35,128 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:42:35,131 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:42:35,131 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:42:41,661 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:42:41,664 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:42:41,664 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:42:45,262 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:42:45,265 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:42:45,265 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:42:51,807 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:42:51,812 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:42:51,812 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:42:55,402 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:42:55,407 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:42:55,407 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:43:01,950 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:43:01,953 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:43:01,953 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:43:05,540 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:43:05,543 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:43:05,543 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:43:12,096 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:43:12,098 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:43:12,099 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:43:15,678 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:43:15,681 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:43:15,681 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:43:22,240 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:43:22,243 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:43:22,243 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:43:25,834 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:43:25,838 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:43:25,839 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:43:32,390 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:43:32,393 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:43:32,393 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:43:35,978 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:43:35,983 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:43:35,983 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:43:42,525 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:43:42,529 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:43:42,529 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:43:46,117 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:43:46,121 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.98C
+2025-06-26 19:43:46,121 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.98C
+2025-06-26 19:43:52,661 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:43:52,664 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:43:52,664 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:43:56,266 INFO Fetched temperature for Elche: 29.98C, status OK
+2025-06-26 19:46:08,730 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-26 19:46:08,730 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 19:46:08,732 INFO  * Restarting with stat
+2025-06-26 19:46:08,822 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:08,825 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:08,825 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:09,303 WARNING  * Debugger is active!
+2025-06-26 19:46:09,306 INFO  * Debugger PIN: 539-442-905
+2025-06-26 19:46:09,411 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:09,415 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:09,415 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:12,595 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-26 19:46:12,596 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 19:46:12,597 INFO  * Restarting with stat
+2025-06-26 19:46:12,894 WARNING  * Debugger is active!
+2025-06-26 19:46:12,897 INFO  * Debugger PIN: 539-442-905
+2025-06-26 19:46:18,975 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:18,979 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:18,979 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:19,565 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:19,568 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:19,568 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:24,951 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-26 19:46:24,956 INFO 192.168.1.83 - - [26/Jun/2025 19:46:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:46:29,109 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:29,112 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:29,112 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:29,704 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:29,707 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:29,707 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:34,960 INFO 192.168.1.83 - - [26/Jun/2025 19:46:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:46:39,266 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:39,271 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:39,271 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:39,853 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:39,857 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:39,857 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:44,216 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-26 19:46:44,965 INFO 192.168.1.83 - - [26/Jun/2025 19:46:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:46:45,437 ERROR Fallo al registrar taxi 1: HTTPSConnectionPool(host='192.168.1.83', port=5002): Max retries exceeded with url: /register (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.1.83'. (_ssl.c:1028)")))
+2025-06-26 19:46:49,418 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:49,422 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:49,422 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:49,992 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:49,996 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:49,997 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:46:54,969 INFO 192.168.1.83 - - [26/Jun/2025 19:46:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:46:59,556 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:46:59,559 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:46:59,559 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:47:00,127 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:47:00,131 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:47:00,132 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:47:04,974 INFO 192.168.1.83 - - [26/Jun/2025 19:47:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:47:09,694 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:47:09,698 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:47:09,698 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:47:10,263 INFO Fetched temperature for Murcia: 32.12C, status OK
+2025-06-26 19:47:10,266 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=32.12C
+2025-06-26 19:47:10,266 INFO Sent traffic status: OK to Central API, city=Murcia, temp=32.12C
+2025-06-26 19:47:14,979 INFO 192.168.1.83 - - [26/Jun/2025 19:47:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:47:19,862 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:19,866 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:19,866 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:20,415 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:20,419 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:20,419 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:24,982 INFO 192.168.1.83 - - [26/Jun/2025 19:47:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:47:30,012 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:30,016 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:30,017 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:30,548 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:30,552 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:30,552 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:34,985 INFO 192.168.1.83 - - [26/Jun/2025 19:47:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:47:37,331 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-26 19:47:38,362 ERROR Fallo al registrar taxi 1: HTTPSConnectionPool(host='192.168.1.83', port=5002): Max retries exceeded with url: /register (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.1.83'. (_ssl.c:1028)")))
+2025-06-26 19:47:40,169 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:40,173 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:40,173 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:40,705 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:40,708 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:40,709 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:44,988 INFO 192.168.1.83 - - [26/Jun/2025 19:47:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:47:50,301 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:50,304 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:50,304 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:50,862 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:47:50,866 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:47:50,866 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:47:54,992 INFO 192.168.1.83 - - [26/Jun/2025 19:47:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:48:00,430 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:00,434 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:00,434 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:00,994 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:00,998 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:00,998 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:04,996 INFO 192.168.1.83 - - [26/Jun/2025 19:48:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:48:10,585 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:10,588 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:10,588 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:11,136 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:11,139 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:11,140 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:14,999 INFO 192.168.1.83 - - [26/Jun/2025 19:48:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:48:20,724 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:20,727 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:20,727 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:21,282 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:21,285 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:21,285 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:25,002 INFO 192.168.1.83 - - [26/Jun/2025 19:48:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:48:30,871 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:30,874 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:30,875 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:31,421 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:31,426 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:31,426 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:35,006 INFO 192.168.1.83 - - [26/Jun/2025 19:48:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:48:41,020 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:41,023 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:41,023 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:41,579 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:41,583 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:41,583 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:45,010 INFO 192.168.1.83 - - [26/Jun/2025 19:48:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:48:51,152 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:51,155 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:51,155 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:51,709 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:48:51,712 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:48:51,713 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:48:55,014 INFO 192.168.1.83 - - [26/Jun/2025 19:48:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:49:01,321 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:01,325 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:01,325 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:01,860 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:01,863 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:01,863 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:05,018 INFO 192.168.1.83 - - [26/Jun/2025 19:49:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:49:11,473 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:11,476 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:11,476 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:12,018 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:12,022 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:12,022 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:15,021 INFO 192.168.1.83 - - [26/Jun/2025 19:49:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:49:21,603 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:21,606 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:21,607 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:22,149 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:22,152 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:22,152 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:25,025 INFO 192.168.1.83 - - [26/Jun/2025 19:49:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:49:31,767 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:31,771 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:31,771 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:32,288 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:32,292 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:32,292 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:35,028 INFO 192.168.1.83 - - [26/Jun/2025 19:49:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:49:41,898 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:41,901 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:41,901 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:42,434 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:42,438 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:42,438 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:45,032 INFO 192.168.1.83 - - [26/Jun/2025 19:49:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:49:52,045 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:52,048 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:52,049 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:52,592 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:49:52,596 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:49:52,596 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:49:55,036 INFO 192.168.1.83 - - [26/Jun/2025 19:49:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:50:02,178 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:02,181 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:02,181 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:02,725 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:02,729 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:02,729 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:05,040 INFO 192.168.1.83 - - [26/Jun/2025 19:50:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:50:12,322 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:12,325 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:12,325 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:12,855 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:12,859 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:12,859 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:15,043 INFO 192.168.1.83 - - [26/Jun/2025 19:50:15] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:50:22,455 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:22,460 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:22,460 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:22,988 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:22,992 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:22,992 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:25,047 INFO 192.168.1.83 - - [26/Jun/2025 19:50:25] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:50:32,588 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:32,591 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:32,591 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:33,136 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:33,139 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:33,140 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:35,049 INFO 192.168.1.83 - - [26/Jun/2025 19:50:35] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:50:42,717 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:42,720 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:42,720 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:43,267 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:43,270 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:43,270 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:45,053 INFO 192.168.1.83 - - [26/Jun/2025 19:50:45] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:50:52,845 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:52,848 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:52,848 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:53,396 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:50:53,399 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:50:53,400 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:50:55,057 INFO 192.168.1.83 - - [26/Jun/2025 19:50:55] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:51:02,975 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:02,979 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:02,979 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:05,060 INFO 192.168.1.83 - - [26/Jun/2025 19:51:05] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 19:51:05,672 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:05,675 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:05,675 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:06,720 INFO Tabla de taxis vaciada
+2025-06-26 19:51:06,732 INFO Tabla de taxis vaciada
+2025-06-26 19:51:06,791 INFO Tabla de taxis vaciada
+2025-06-26 19:51:06,803 INFO Tabla de taxis vaciada
+2025-06-26 19:51:12,383 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-26 19:51:12,383 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 19:51:12,384 INFO  * Restarting with stat
+2025-06-26 19:51:12,781 WARNING  * Debugger is active!
+2025-06-26 19:51:12,787 INFO  * Debugger PIN: 539-442-905
+2025-06-26 19:51:13,107 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:13,111 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:13,112 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:15,802 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:15,806 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:15,806 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:19,918 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-26 19:51:21,549 ERROR Fallo al dar de baja taxi 1: HTTPSConnectionPool(host='192.168.1.83', port=5002): Max retries exceeded with url: /deregister/1 (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: IP address mismatch, certificate is not valid for '192.168.1.83'. (_ssl.c:1028)")))
+2025-06-26 19:51:23,239 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:23,242 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:23,242 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:25,939 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:25,943 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:25,943 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:33,367 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:33,371 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:33,371 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:36,068 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:36,071 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:36,072 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:43,521 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:43,525 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:43,525 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:46,199 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:46,203 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:46,203 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:53,653 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:53,657 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:53,657 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:51:56,332 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:51:56,336 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:51:56,336 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:03,783 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:03,786 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:03,786 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:06,462 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:06,465 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:06,465 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:13,912 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:13,915 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:13,915 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:16,614 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:16,617 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:16,618 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:24,045 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:24,049 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:24,049 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:26,751 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:26,754 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:26,755 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:34,179 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:34,182 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:34,182 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:36,892 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:36,895 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:36,895 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:44,321 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:44,325 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:44,325 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:47,029 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:47,033 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:47,034 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:54,455 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:54,458 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:54,458 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:52:57,164 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:52:57,167 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:52:57,168 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:04,612 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:04,615 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:04,615 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:07,301 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:07,304 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:07,304 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:14,747 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:14,750 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:14,750 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:17,440 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:17,443 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:17,443 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:24,884 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:24,888 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:24,888 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:27,606 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:27,611 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:27,612 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:35,036 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:35,040 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:35,041 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:37,756 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:37,761 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:37,761 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:45,186 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:45,191 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:45,191 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:47,899 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:47,901 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:47,902 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:55,329 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:55,333 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:55,333 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:53:58,053 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:53:58,057 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:53:58,057 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:05,487 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:05,491 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:05,492 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:08,199 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:08,203 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:08,203 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:15,639 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:15,643 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:15,644 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:18,340 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:18,343 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:18,343 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:25,793 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:25,797 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:25,797 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:28,482 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:28,486 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:28,487 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:35,929 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:35,932 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:35,933 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:38,620 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:38,623 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:38,623 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:46,069 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:46,072 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:46,072 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:48,755 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:48,758 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:48,758 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:56,203 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:56,207 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:56,207 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:54:58,892 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:54:58,896 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:54:58,896 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:06,338 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:06,342 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:06,342 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:09,027 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:09,030 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:09,031 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:16,474 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:16,478 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:16,479 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:19,162 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:19,165 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:19,165 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:26,611 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:26,615 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:26,615 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:29,302 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:29,305 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:29,305 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:36,747 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:36,751 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:36,751 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:39,436 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:39,439 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:39,440 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:46,883 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:46,886 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:46,886 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:49,575 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:49,578 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:49,579 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:57,019 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:57,022 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:57,023 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:55:59,716 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:55:59,720 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:55:59,720 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:07,158 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:07,162 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:07,162 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:09,855 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:09,859 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:09,859 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:17,301 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:17,305 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:17,305 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:19,987 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:19,990 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:19,990 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:27,436 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:27,440 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:27,441 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:30,123 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:30,127 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:30,127 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:37,569 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:37,573 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:37,574 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:40,269 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:40,274 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:40,274 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:47,730 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:47,734 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:47,734 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:50,401 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:50,405 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:50,406 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:56:57,868 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:56:57,872 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:56:57,873 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:00,560 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:00,564 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:00,565 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:08,016 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:08,020 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:08,020 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:10,692 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:10,696 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:10,697 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:18,154 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:18,158 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:18,159 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:20,845 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:20,849 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:20,850 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:28,302 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:28,306 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:28,306 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:30,982 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:30,986 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:30,986 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:38,439 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:38,443 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:38,443 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:41,136 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:41,140 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:41,141 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:48,587 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:48,591 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:48,592 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:51,282 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:51,285 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:51,285 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:57:58,724 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:57:58,728 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:57:58,729 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:01,410 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:01,413 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:01,413 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:08,854 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:08,856 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:08,857 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:11,539 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:11,542 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:11,542 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:18,999 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:19,002 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:19,003 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:21,672 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:21,675 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:21,675 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:29,130 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:29,132 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:29,133 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:31,816 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:31,820 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:31,820 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:39,282 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:39,286 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:39,286 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:41,960 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:41,965 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:41,965 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:49,426 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:49,428 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:49,429 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:52,109 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:52,113 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:52,114 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:58:59,554 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:58:59,557 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:58:59,557 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:02,240 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:02,244 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:02,244 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:09,702 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:09,706 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:09,706 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:12,408 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:12,410 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:12,411 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:19,859 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:19,862 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:19,862 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:22,547 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:22,550 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:22,550 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:29,996 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:30,000 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:30,000 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:32,699 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:32,703 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:32,704 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:40,132 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:40,136 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:40,137 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:42,857 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:42,861 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:42,861 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:50,273 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:50,276 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:50,276 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 19:59:53,009 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 19:59:53,014 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 19:59:53,014 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:00,408 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:00,411 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:00,411 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:03,167 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:03,171 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:03,171 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:10,560 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:10,564 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:10,565 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:13,324 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:13,328 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:13,328 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:20,729 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:20,732 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:20,732 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:23,470 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:23,473 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:23,473 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:30,859 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:30,862 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:30,862 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:33,638 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:33,643 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:33,643 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:40,989 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:40,992 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:40,992 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:43,798 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:43,802 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:43,803 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:51,139 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:51,143 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:51,143 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:00:53,944 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:00:53,948 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:00:53,948 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:01,298 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:01,303 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:01,304 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:04,091 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:04,096 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:04,097 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:11,454 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:11,458 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:11,458 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:14,244 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:14,246 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:14,247 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:21,624 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:21,627 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:21,627 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:24,402 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:24,406 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:24,407 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:31,780 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:31,784 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:31,785 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:34,556 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:34,560 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:34,560 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:41,941 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:41,946 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:41,947 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:44,711 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:44,716 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:44,716 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:52,075 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:52,078 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:52,078 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:01:54,842 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:01:54,845 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:01:54,846 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:02,204 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:02,208 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:02,209 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:04,975 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:04,978 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:04,978 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:12,358 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:12,362 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:12,362 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:15,128 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:15,132 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:15,133 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:22,491 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:22,496 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:22,496 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:25,277 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:25,281 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:25,281 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:32,646 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:32,650 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:32,650 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:35,411 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:35,415 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:35,416 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:42,793 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:42,797 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:42,797 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:45,541 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:45,544 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:45,544 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:52,943 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:52,947 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:52,948 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:02:55,699 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:02:55,704 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:02:55,704 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:03,073 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:03,076 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:03,076 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:05,855 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:05,858 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:05,858 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:13,219 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:13,222 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:13,222 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:15,983 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:15,985 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:15,985 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:23,366 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:23,369 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:23,369 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:26,136 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:26,140 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:26,140 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:33,496 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:33,501 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:33,502 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:36,288 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:36,291 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:36,291 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:43,665 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:43,670 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:43,670 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:46,447 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:46,451 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:46,451 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:53,797 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:53,800 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:53,800 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:03:56,597 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:03:56,603 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:03:56,603 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:03,960 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:03,964 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:03,965 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:06,751 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:06,755 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:06,756 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:12,499 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\variablesGlobales.py', reloading
+2025-06-26 20:04:12,535 INFO  * Restarting with stat
+2025-06-26 20:04:13,192 WARNING  * Debugger is active!
+2025-06-26 20:04:13,196 INFO  * Debugger PIN: 539-442-905
+2025-06-26 20:04:13,288 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:13,308 INFO  * Detected change in 'C:\\Users\\DVD\\Downloads\\SD PRUEBA\\variablesGlobales.py', reloading
+2025-06-26 20:04:13,322 INFO Tabla de taxis vaciada
+2025-06-26 20:04:13,334 INFO Tabla de taxis vaciada
+2025-06-26 20:04:13,376 INFO  * Restarting with stat
+2025-06-26 20:04:13,422 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:13,423 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:13,712 WARNING  * Debugger is active!
+2025-06-26 20:04:13,716 INFO  * Debugger PIN: 539-442-905
+2025-06-26 20:04:13,737 INFO Tabla de taxis vaciada
+2025-06-26 20:04:13,749 INFO Tabla de taxis vaciada
+2025-06-26 20:04:13,794 INFO Tabla de taxis vaciada
+2025-06-26 20:04:13,805 INFO Tabla de taxis vaciada
+2025-06-26 20:04:14,094 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:14,097 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:14,097 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:23,553 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:23,557 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:23,557 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:24,248 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:24,252 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:24,252 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:37,253 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-26 20:04:37,253 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 20:04:37,254 INFO  * Restarting with stat
+2025-06-26 20:04:37,345 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:37,348 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:37,349 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:37,838 WARNING  * Debugger is active!
+2025-06-26 20:04:37,841 INFO  * Debugger PIN: 539-442-905
+2025-06-26 20:04:37,939 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:37,942 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:37,943 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:40,321 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-26 20:04:40,321 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 20:04:40,322 INFO  * Restarting with stat
+2025-06-26 20:04:40,613 WARNING  * Debugger is active!
+2025-06-26 20:04:40,617 INFO  * Debugger PIN: 539-442-905
+2025-06-26 20:04:47,498 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:47,503 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:47,503 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:48,081 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:48,084 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:48,084 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:48,359 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-26 20:04:48,363 INFO 192.168.1.83 - - [26/Jun/2025 20:04:48] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:04:57,632 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:57,635 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:57,635 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:58,217 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:04:58,220 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:04:58,220 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:04:58,367 INFO 192.168.1.83 - - [26/Jun/2025 20:04:58] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:05:07,784 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:05:07,788 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:05:07,788 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:05:08,356 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:05:08,361 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:05:08,361 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:05:08,371 INFO 192.168.1.83 - - [26/Jun/2025 20:05:08] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:05:17,940 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:05:17,944 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:05:17,945 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:05:18,376 INFO 192.168.1.83 - - [26/Jun/2025 20:05:18] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:05:18,502 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:05:18,506 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:05:18,506 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:05:27,086 INFO Tabla de taxis vaciada
+2025-06-26 20:05:27,098 INFO Tabla de taxis vaciada
+2025-06-26 20:05:27,160 INFO Tabla de taxis vaciada
+2025-06-26 20:05:27,171 INFO Tabla de taxis vaciada
+2025-06-26 20:05:28,083 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:05:28,087 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:05:28,088 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:05:28,637 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:05:28,640 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:05:28,640 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:06:46,829 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-26 20:06:46,829 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 20:06:46,830 INFO  * Restarting with stat
+2025-06-26 20:06:46,959 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:06:46,962 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:06:46,963 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:06:47,429 WARNING  * Debugger is active!
+2025-06-26 20:06:47,433 INFO  * Debugger PIN: 539-442-905
+2025-06-26 20:06:47,530 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:06:47,533 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:06:47,533 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:06:50,055 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-26 20:06:50,055 INFO [33mPress CTRL+C to quit[0m
+2025-06-26 20:06:50,056 INFO  * Restarting with stat
+2025-06-26 20:06:50,354 WARNING  * Debugger is active!
+2025-06-26 20:06:50,358 INFO  * Debugger PIN: 539-442-905
+2025-06-26 20:06:54,753 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-26 20:06:54,759 INFO 192.168.1.83 - - [26/Jun/2025 20:06:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:06:57,092 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:06:57,095 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:06:57,095 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:06:57,686 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:06:57,689 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:06:57,689 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:01,945 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-26 20:07:03,158 INFO Taxi 1 registrado en Registry
+2025-06-26 20:07:03,159 INFO 192.168.1.83 - - [26/Jun/2025 20:07:03] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-26 20:07:03,160 INFO Taxi 1 registrado correctamente
+2025-06-26 20:07:03,160 INFO Taxi 1 registrado exitosamente
+2025-06-26 20:07:04,763 INFO 192.168.1.83 - - [26/Jun/2025 20:07:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:07:07,223 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:07,227 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:07,227 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:07,819 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:07,823 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:07,824 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:13,078 INFO Taxi 1 conectando con central
+2025-06-26 20:07:13,100 INFO Taxi 1 conectado con Central en ('192.168.1.83', 9000)
+2025-06-26 20:07:13,102 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-26 20:07:13,111 INFO Comprobación registro taxi 1: registrado
+2025-06-26 20:07:13,111 INFO 192.168.1.83 - - [26/Jun/2025 20:07:13] "GET /is_registered/1 HTTP/1.1" 200 -
+2025-06-26 20:07:14,767 INFO 192.168.1.83 - - [26/Jun/2025 20:07:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:07:17,374 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:17,378 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:17,379 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:17,954 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:17,957 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:17,958 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:24,771 INFO 192.168.1.83 - - [26/Jun/2025 20:07:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:07:26,996 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-26 20:07:27,524 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:27,528 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:27,528 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:28,090 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:28,094 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:28,094 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:28,122 INFO Taxi 2 registrado en Registry
+2025-06-26 20:07:28,123 INFO 192.168.1.83 - - [26/Jun/2025 20:07:28] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-26 20:07:28,124 INFO Taxi 2 registrado correctamente
+2025-06-26 20:07:28,124 INFO Taxi 2 registrado exitosamente
+2025-06-26 20:07:28,931 INFO Taxi 2 conectando con central
+2025-06-26 20:07:28,954 INFO Taxi 2 conectado con Central en ('192.168.1.83', 9000)
+2025-06-26 20:07:28,956 INFO Esperando conexión de sensor en ('192.168.1.83', 8889)
+2025-06-26 20:07:28,975 INFO Comprobación registro taxi 2: registrado
+2025-06-26 20:07:28,975 INFO 192.168.1.83 - - [26/Jun/2025 20:07:28] "GET /is_registered/2 HTTP/1.1" 200 -
+2025-06-26 20:07:34,774 INFO 192.168.1.83 - - [26/Jun/2025 20:07:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:07:37,685 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:37,689 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:37,689 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:38,249 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:38,253 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:38,254 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:44,777 INFO 192.168.1.83 - - [26/Jun/2025 20:07:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:07:47,878 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:47,882 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:47,882 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:48,404 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:48,408 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:48,409 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:54,781 INFO 192.168.1.83 - - [26/Jun/2025 20:07:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:07:58,015 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:58,018 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:58,019 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:07:58,560 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:07:58,564 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:07:58,564 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:04,785 INFO 192.168.1.83 - - [26/Jun/2025 20:08:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:08:06,417 INFO Sensor conectado desde ('192.168.1.83', 61768)
+2025-06-26 20:08:06,422 INFO Sensor iniciado. IP: 192.168.1.83 Conectado a ('192.168.1.83', 8888)
+2025-06-26 20:08:08,149 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:08,152 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:08,152 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:08,696 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:08,699 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:08,699 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:14,788 INFO 192.168.1.83 - - [26/Jun/2025 20:08:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:08:15,268 INFO Sensor conectado desde ('192.168.1.83', 61785)
+2025-06-26 20:08:15,273 INFO Sensor iniciado. IP: 192.168.1.83 Conectado a ('192.168.1.83', 8889)
+2025-06-26 20:08:18,286 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:18,289 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:18,290 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:18,833 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:18,836 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:18,836 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:24,791 INFO 192.168.1.83 - - [26/Jun/2025 20:08:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:08:28,421 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:28,425 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:28,425 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:28,990 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:28,994 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:28,994 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:34,794 INFO 192.168.1.83 - - [26/Jun/2025 20:08:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:08:38,558 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:38,562 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:38,562 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:39,125 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:39,131 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:39,131 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:44,798 INFO 192.168.1.83 - - [26/Jun/2025 20:08:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:08:48,714 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:48,718 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:48,719 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:49,274 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:49,277 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:49,278 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:53,574 INFO 192.168.1.83 - - [26/Jun/2025 20:08:53] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-26 20:08:53,576 INFO Received update_city request: city=Elche
+2025-06-26 20:08:53,734 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:08:53,738 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:08:53,739 INFO Updated city to Elche, temp=29.72C, status=OK
+2025-06-26 20:08:53,739 INFO 192.168.1.83 - - [26/Jun/2025 20:08:53] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:08:54,802 INFO 192.168.1.83 - - [26/Jun/2025 20:08:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:08:58,870 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:08:58,874 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:08:58,874 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:08:59,410 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:08:59,413 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:08:59,413 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:09:04,805 INFO 192.168.1.83 - - [26/Jun/2025 20:09:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:09:09,006 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:09:09,010 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:09:09,010 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:09:09,545 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:09:09,549 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:09:09,549 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:09:10,566 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-26 20:09:14,808 INFO 192.168.1.83 - - [26/Jun/2025 20:09:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:09:19,140 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:09:19,143 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:09:19,144 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:09:19,704 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:09:19,707 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:09:19,707 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:09:24,813 INFO 192.168.1.83 - - [26/Jun/2025 20:09:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:09:29,278 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:09:29,282 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:09:29,282 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:09:29,861 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:09:29,865 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:09:29,866 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:09:34,817 INFO 192.168.1.83 - - [26/Jun/2025 20:09:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:09:39,416 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:09:39,419 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:09:39,419 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:09:40,137 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:09:40,140 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:09:40,140 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:09:44,821 INFO 192.168.1.83 - - [26/Jun/2025 20:09:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:09:49,549 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:09:49,552 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:09:49,552 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:09:50,274 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:09:50,278 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:09:50,278 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:09:54,824 INFO 192.168.1.83 - - [26/Jun/2025 20:09:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:09:59,701 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:09:59,706 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:09:59,706 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:10:00,415 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:10:00,419 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:10:00,419 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:10:04,828 INFO 192.168.1.83 - - [26/Jun/2025 20:10:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:10:09,854 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:10:09,858 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:10:09,858 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:10:10,572 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:10:10,576 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:10:10,576 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:10:14,832 INFO 192.168.1.83 - - [26/Jun/2025 20:10:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:10:19,989 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:10:19,991 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:10:19,992 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:10:20,709 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:10:20,712 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:10:20,712 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:10:24,837 INFO 192.168.1.83 - - [26/Jun/2025 20:10:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:10:30,122 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:10:30,126 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:10:30,126 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:10:30,846 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:10:30,849 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:10:30,849 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:10:34,840 INFO 192.168.1.83 - - [26/Jun/2025 20:10:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:10:40,274 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:10:40,278 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:10:40,279 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:10:40,999 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:10:41,002 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:10:41,002 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:10:41,477 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-26 20:10:44,844 INFO 192.168.1.83 - - [26/Jun/2025 20:10:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:10:50,450 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:10:50,454 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:10:50,455 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:10:51,149 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:10:51,152 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:10:51,152 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:10:54,849 INFO 192.168.1.83 - - [26/Jun/2025 20:10:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:10:58,720 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-26 20:11:00,612 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:11:00,614 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:11:00,614 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:11:01,284 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:11:01,288 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:11:01,289 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:11:04,852 INFO 192.168.1.83 - - [26/Jun/2025 20:11:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:11:10,744 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:11:10,747 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:11:10,747 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:11:11,424 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:11:11,429 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:11:11,429 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:11:14,855 INFO 192.168.1.83 - - [26/Jun/2025 20:11:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:11:20,885 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:11:20,889 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:11:20,889 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:11:21,570 INFO Fetched temperature for Elche: 29.72C, status OK
+2025-06-26 20:11:21,574 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Elche, temp=29.72C
+2025-06-26 20:11:21,574 INFO Sent traffic status: OK to Central API, city=Elche, temp=29.72C
+2025-06-26 20:11:24,859 INFO 192.168.1.83 - - [26/Jun/2025 20:11:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:11:25,690 INFO 192.168.1.83 - - [26/Jun/2025 20:11:25] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:25,692 INFO Received update_city request: city=kasbfhkasbfkhjasbd
+2025-06-26 20:11:25,855 ERROR Error fetching temperature for kasbfhkasbfkhjasbd: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=kasbfhkasbfkhjasbd&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:25,859 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=kasbfhkasbfkhjasbd, temp=-1.00C
+2025-06-26 20:11:25,859 INFO Updated city to kasbfhkasbfkhjasbd, temp=-1.00C, status=KO
+2025-06-26 20:11:25,859 INFO 192.168.1.83 - - [26/Jun/2025 20:11:25] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:31,046 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:11:31,051 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:11:31,051 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:11:31,728 ERROR Error fetching temperature for kasbfhkasbfkhjasbd: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=kasbfhkasbfkhjasbd&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:34,863 INFO 192.168.1.83 - - [26/Jun/2025 20:11:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:11:35,824 INFO 192.168.1.83 - - [26/Jun/2025 20:11:35] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:35,826 INFO Received update_city request: city=sadaDasd
+2025-06-26 20:11:36,001 ERROR Error fetching temperature for sadaDasd: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadaDasd&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:36,004 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=sadaDasd, temp=-1.00C
+2025-06-26 20:11:36,004 INFO Updated city to sadaDasd, temp=-1.00C, status=KO
+2025-06-26 20:11:36,005 INFO 192.168.1.83 - - [26/Jun/2025 20:11:36] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:37,503 INFO Received update_city request: city=asdasdasdsad
+2025-06-26 20:11:37,673 ERROR Error fetching temperature for asdasdasdsad: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=asdasdasdsad&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:37,677 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=asdasdasdsad, temp=-1.00C
+2025-06-26 20:11:37,677 INFO Updated city to asdasdasdsad, temp=-1.00C, status=KO
+2025-06-26 20:11:37,678 INFO 192.168.1.83 - - [26/Jun/2025 20:11:37] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:38,785 INFO Received update_city request: city=asdadasd
+2025-06-26 20:11:38,948 ERROR Error fetching temperature for asdadasd: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=asdadasd&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:38,952 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=asdadasd, temp=-1.00C
+2025-06-26 20:11:38,952 INFO Updated city to asdadasd, temp=-1.00C, status=KO
+2025-06-26 20:11:38,952 INFO 192.168.1.83 - - [26/Jun/2025 20:11:38] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:39,965 INFO Received update_city request: city=asdadasd
+2025-06-26 20:11:40,122 ERROR Error fetching temperature for asdadasd: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=asdadasd&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:40,125 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=asdadasd, temp=-1.00C
+2025-06-26 20:11:40,125 INFO Updated city to asdadasd, temp=-1.00C, status=KO
+2025-06-26 20:11:40,126 INFO 192.168.1.83 - - [26/Jun/2025 20:11:40] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:41,191 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:11:41,194 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:11:41,194 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:11:41,276 INFO 192.168.1.83 - - [26/Jun/2025 20:11:41] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:41,279 INFO Received update_city request: city=asdadsad
+2025-06-26 20:11:41,438 ERROR Error fetching temperature for asdadsad: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=asdadsad&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:41,442 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=asdadsad, temp=-1.00C
+2025-06-26 20:11:41,442 INFO Updated city to asdadsad, temp=-1.00C, status=KO
+2025-06-26 20:11:41,442 INFO 192.168.1.83 - - [26/Jun/2025 20:11:41] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:41,864 ERROR Error fetching temperature for asdadsad: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=asdadsad&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:42,487 INFO Received update_city request: city=asdasdsad
+2025-06-26 20:11:42,647 ERROR Error fetching temperature for asdasdsad: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=asdasdsad&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:42,650 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=asdasdsad, temp=-1.00C
+2025-06-26 20:11:42,651 INFO Updated city to asdasdsad, temp=-1.00C, status=KO
+2025-06-26 20:11:42,651 INFO 192.168.1.83 - - [26/Jun/2025 20:11:42] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:43,626 INFO Received update_city request: city=sadsa
+2025-06-26 20:11:43,786 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:43,789 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=sadsa, temp=-1.00C
+2025-06-26 20:11:43,790 INFO Updated city to sadsa, temp=-1.00C, status=KO
+2025-06-26 20:11:43,790 INFO 192.168.1.83 - - [26/Jun/2025 20:11:43] "POST /update_city HTTP/1.1" 200 -
+2025-06-26 20:11:44,866 INFO 192.168.1.83 - - [26/Jun/2025 20:11:44] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:11:51,345 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:11:51,349 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:11:51,349 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:11:52,021 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:11:54,870 INFO 192.168.1.83 - - [26/Jun/2025 20:11:54] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:12:01,492 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:12:01,495 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:12:01,495 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:12:02,152 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:12:04,875 INFO 192.168.1.83 - - [26/Jun/2025 20:12:04] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:12:11,660 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:12:11,665 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:12:11,665 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:12:12,315 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:12:14,879 INFO 192.168.1.83 - - [26/Jun/2025 20:12:14] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:12:21,808 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:12:21,811 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:12:21,811 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:12:22,456 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:12:24,882 INFO 192.168.1.83 - - [26/Jun/2025 20:12:24] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:12:31,960 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:12:31,964 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:12:31,965 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:12:32,595 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:12:34,538 INFO Se avisa al cliente de que el taxi de ha desconectado. IP: 192.168.1.83
+2025-06-26 20:12:34,538 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-26 20:12:34,886 INFO 192.168.1.83 - - [26/Jun/2025 20:12:34] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-26 20:12:42,092 INFO Fetched temperature for Murcia: 31.12C, status OK
+2025-06-26 20:12:42,096 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=31.12C
+2025-06-26 20:12:42,096 INFO Sent traffic status: OK to Central API, city=Murcia, temp=31.12C
+2025-06-26 20:12:42,746 ERROR Error fetching temperature for sadsa: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=sadsa&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-26 20:12:44,891 INFO 192.168.1.83 - - [26/Jun/2025 20:12:44] "GET /traffic_status HTTP/1.1" 200 -

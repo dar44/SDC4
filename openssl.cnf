@@ -1,0 +1,29 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+x509_extensions    = v3_ca # The extentions to add to the self signed cert
+
+[ req_distinguished_name ]
+countryName                 = Country Name (2 letter code)
+countryName_default         = ES
+stateOrProvinceName         = State or Province Name (full name)
+stateOrProvinceName_default = Comunidad Valenciana
+localityName                = Locality Name (eg, city)
+localityName_default        = Alicante
+organizationName            = Organization Name (eg, company)
+organizationName_default    = UA SD RECUPERACION
+commonName                  = Common Name (eg, fully qualified host name)
+commonName_default          = CENTRAL
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ v3_ca ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+IP.1   = 192.168.1.83
+IP.2   = 192.168.1.83
+IP.3   = 192.168.1.83
+DNS.1  = myserver.local

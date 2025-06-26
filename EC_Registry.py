@@ -4,6 +4,7 @@ import atexit
 import os
 import logging
 import socket
+from variablesGlobales import REGISTRY_CERT, REGISTRY_KEY
 
 def load_registry_token():
     secret_file = 'registry_secret.txt'
@@ -132,7 +133,7 @@ if __name__ == '__main__':
     try:
         init_db()
         atexit.register(clear_taxis_table)
-        app.run(debug=True, host='0.0.0.0', port=5002, ssl_context=('cert.pem', 'cert.pem'))
+        app.run(debug=True, host='0.0.0.0', port=5002, ssl_context=(REGISTRY_CERT, REGISTRY_KEY))
     except KeyboardInterrupt:
         print("Registry detenido por el usuario.")
         logging.info("Registry detenido por el usuario.")

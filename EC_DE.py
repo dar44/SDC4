@@ -6,7 +6,7 @@ import sys
 import os
 import logging
 from cliente import Cliente
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN, get_key
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_REG, REGISTRY_TOKEN, REGISTRY_CERT, get_key
 from taxi import Taxi
 import threading
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
@@ -47,7 +47,7 @@ def register_taxi(taxi_id):
     }
     data = json.dumps({"id": taxi_id})
     try:
-        response = requests.post(url, headers=headers, data=data, verify=False)
+        response = requests.post(url, headers=headers, data=data, verify=REGISTRY_CERT)
         if response.status_code == 201:
             logging.info(f"Taxi {taxi_id} registrado correctamente")
         else:
@@ -62,7 +62,7 @@ def deregister_taxi(taxi_id):
     url = f"https://{IP}:5002/deregister/{taxi_id}"
     headers = {'Authorization': f'Bearer {REGISTRY_TOKEN}'}
     try:
-        response = requests.delete(url, headers=headers, verify=False)
+        response = requests.delete(url, headers=headers, verify=REGISTRY_CERT)
         if response.status_code == 200:
             logging.info(f"Taxi {taxi_id} dado de baja correctamente")
         else:

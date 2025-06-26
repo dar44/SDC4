@@ -112,3 +112,5 @@ def save_config():
 #DNS.1  = myserver.local
 
 #openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout certSock.pem -out certSock.pem -config openssl.cnf
+
+#APIKEY CTC Openweather= 34aaac151d5035a79464cbcd83aef7e6

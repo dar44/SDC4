@@ -457,10 +457,17 @@ def reciboMapa():
         consumer.close()
         taxisstr = mensaje.split("/")
         for taxistr in taxisstr:
-            taxiData = taxistr.split(':')
-            tokenTaxi = ''
-            if len(taxiData) > 12:
-                tokenTaxi = taxiData[12]
+            try:
+                taxi_id, mensaje_cifrado, tokenTaxi = taxistr.split('%')
+                key = get_key(taxi_id)
+                if not key:
+                    print(f"No se encontró clave para el taxi {taxi_id}")
+                    continue
+                datos_descif = decrypt_message(mensaje_cifrado.strip(), key)
+                taxiData = datos_descif.split(':')
+            except Exception as e:
+                print(f"Error al descifrar mensaje para taxi {taxi_id}: {e}")
+                continue
             taxi = Taxi(
                 id=taxiData[0],
                 estado=taxiData[1],

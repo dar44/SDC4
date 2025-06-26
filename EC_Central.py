@@ -677,10 +677,14 @@ def imprimirTaxis() :
     cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 0
-        cursor.execute("SELECT token FROM taxis2 WHERE id = ?", (taxi.id,))
+        cursor.execute("SELECT token, sym_key FROM taxis2 WHERE id = ?", (taxi.id,))
         result = cursor.fetchone()
         token = result[0] if result else ''
-        mensaje += taxi.imprimirTaxi() + f":{token}/"
+        key = result[1] if result else None
+        if not key:
+            continue
+        texto_cifrado = encrypt_message(taxi.imprimirTaxi(), key)
+        mensaje += f"{taxi.id}%{texto_cifrado}%{token}/"
     conn.close()
 
     mensaje = mensaje[:-1]
@@ -692,10 +696,14 @@ def imprimirTaxisBase() :
     cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 1
-        cursor.execute("SELECT token FROM taxis2 WHERE id = ?", (taxi.id,))
+        cursor.execute("SELECT token, sym_key FROM taxis2 WHERE id = ?", (taxi.id,))
         result = cursor.fetchone()
         token = result[0] if result else ''
-        mensaje += taxi.imprimirTaxi() + f":{token}/"
+        key = result[1] if result else None
+        if not key:
+            continue
+        texto_cifrado = encrypt_message(taxi.imprimirTaxi(), key)
+        mensaje += f"{taxi.id}%{texto_cifrado}%{token}/"
     conn.close()
 
     mensaje = mensaje[:-1]

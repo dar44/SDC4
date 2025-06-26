@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf4e6;
+    color: #1a3e34;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.logs {
+    background-color: #ffffff;
+    color: #1a3e34;
+    border: 1px solid #1a3e34;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    white-space: pre-wrap;
+}

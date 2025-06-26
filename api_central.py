@@ -63,6 +63,11 @@ def obtener_taxis():
 def map_page():
     return render_template('index.html', ip_api=IP_API, ip_ctc=IP_CTC)
 
+# Página independiente para visualizar la auditoría de seguridad
+@app.route('/audit')
+def audit_page():
+    return render_template('audit.html', ip_api=IP_API)
+    
 # Endpoint: Estado del mapa
 @app.route('/map_data', methods=['GET'])
 def get_map():

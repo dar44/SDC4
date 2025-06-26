@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auditoría de Seguridad</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='audit.css') }}">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Auditoría de Seguridad</h1>
+    <pre id="log-container" class="logs"></pre>
+
+    <script>
+        const IP_API = "{{ ip_api }}";
+        const logContainer = document.getElementById('log-container');
+
+        async function fetchInitialLogs() {
+            try {
+                const response = await fetch(`http://${IP_API}:5000/logs`);
+                const data = await response.json();
+                logContainer.textContent = data.logs.join('\n');
+                logContainer.scrollTop = logContainer.scrollHeight;
+            } catch (error) {
+                console.error('Error fetching logs:', error);
+            }
+        }
+
+        function startLogStream() {
+            const eventSource = new EventSource(`http://${IP_API}:5000/logs/stream`);
+            eventSource.onmessage = (e) => {
+                logContainer.textContent += '\n' + e.data;
+                logContainer.scrollTop = logContainer.scrollHeight;
+            };
+        }
+
+        fetchInitialLogs();
+        startLogStream();
+    </script>
+</body>
+</html>

@@ -612,11 +612,11 @@ def borrarToken(id):
         conn = sqlite3.connect('easycab.db')
         cursor = conn.cursor()
         
-        # Marcar el token como inactivo y eliminar la clave
-        cursor.execute(
-            "UPDATE taxis2 SET token = NULL, sym_key = NULL, active = 0 WHERE id = ?",
-            (id,),
-        )
+        # Ejecutar la consulta DELETE
+        cursor.execute("DELETE FROM taxis2 WHERE id = ?", (id,))
+        
+        print(f"Datos del taxi con id {id} borrados de la base de datos taxis2")
+        
         
         # Confirmar los cambios
         conn.commit()

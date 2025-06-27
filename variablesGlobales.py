@@ -86,7 +86,7 @@ def save_config():
 # Puerto Kafka 9092
 #ejecutar central python .\EC_Central.py 192.168.0.101 9000 192.168.0.101 9092
 
-#ejecutar engine python EC_ENGINE.py 192.168.0.101 9092 192.168.0.101 9000 192.168.0.101 9001 2
+#ejecutar engine python EC_DE.py 192.168.0.101 9092 192.168.0.101 9000 192.168.0.101 9001 2
 #ejecutar customer  python EC_Customer.py 192.168.0.101 9092 a 4 4
 #python .\EC_S.py 192.168.0.101 9001 
 

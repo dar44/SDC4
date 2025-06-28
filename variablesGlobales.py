@@ -20,7 +20,14 @@ def _save_config(cfg):
 
 CONFIG = _load_config()
 
-DB_PATH = os.path.join(os.path.dirname(__file__), 'easycab.db')
+# Ruta al directorio compartido en la red utilizada por todos los componentes
+# para acceder a la misma base de datos. Debe existir en cada máquina con los
+# permisos adecuados.
+SHARED_DIRECTORY = r'\\Desktop-ee5cv8c\sd prueba'
+
+# Ubicación del archivo SQLite común
+DB_PATH = os.path.join(SHARED_DIRECTORY, 'easycab.db')
+#DB_PATH = os.path.join(os.path.dirname(__file__), 'easycab.db')
 
 def get_key(taxi_id):
     """Return the symmetric key for the given taxi ID from the database."""
@@ -111,6 +118,6 @@ def save_config():
 #IP.3   = 192.168.0.103
 #DNS.1  = myserver.local
 
-#openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout certSock.pem -out certSock.pem -config openssl.cnf
+#openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout cert.pem -out cert.pem -config openssl.cnf
 #openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout registry.key -out registry.crt -config openssl.cnf
 #APIKEY CTC Openweather= 34aaac151d5035a79464cbcd83aef7e6

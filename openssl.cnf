@@ -23,7 +23,7 @@ subjectAltName = @alt_names
 subjectAltName = @alt_names
 
 [ alt_names ]
-IP.1   = 172.21.242.84
-IP.2   = 172.21.242.85
-IP.3   = 172.21.242.86
+IP.1   = 192.168.1.83
+IP.2   = 192.168.1.83
+IP.3   = 192.168.1.83
 DNS.1  = myserver.local

@@ -14,7 +14,7 @@ import json
 from cliente import Cliente 
 from confluent_kafka import Producer, Consumer, KafkaException, KafkaError
 import sys
-from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_API, IP_CTC, IP_REG, REGISTRY_TOKEN, REGISTRY_CERT, get_key
+from variablesGlobales import FORMATO, HEADER, VER, FILAS, COLUMNAS, IP_API, IP_CTC, IP_REG, REGISTRY_TOKEN, REGISTRY_CERT, get_key, DB_PATH
 import time
 import secrets
 import ssl
@@ -225,7 +225,7 @@ def autenticarTaxi(taxiID):
         logging.error(f"Error al comprobar Registry para taxi {taxiID}: {e}")
         return
     
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
     cursor.execute("SELECT id, estado, posicionX, posicionY, destino, destinoX, destinoY, ocupado FROM taxis")
@@ -257,7 +257,7 @@ def autenticarTaxi(taxiID):
         print("Ese taxi no existe")
     conn.close()
     if malId == False:
-        conn = sqlite3.connect('easycab.db')
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         # Insertar un nuevo taxi en la tabla taxis2
         cursor.execute('''
@@ -314,8 +314,7 @@ def esperandoCliente():
                 estado=clienteData[4],
             )
             print("\n", "He recibido el cliente ", nuevoCliente.id , "\n")
-            #print("Tu puto cliente")
-            #print(nuevoCliente)
+  
             for cliente in clientes:
                 if cliente.id == nuevoCliente.id:
                     cliente.destino = nuevoCliente.destino
@@ -324,7 +323,7 @@ def esperandoCliente():
                     cliente.estado = "Sin Taxi"
                     clienteActualizado = True
                     consumer.close()
-                    conn = sqlite3.connect('easycab.db')
+                    conn = sqlite3.connect(DB_PATH)
                     cursor = conn.cursor()
                     # Actualizar la tabla clientes
                     cursor.execute('''
@@ -345,7 +344,7 @@ def esperandoCliente():
             if clienteActualizado == False:
                 clientes.append(nuevoCliente)
                 consumer.close()
-                conn = sqlite3.connect('easycab.db')
+                conn = sqlite3.connect(DB_PATH)
                 cursor = conn.cursor()
                 # Insertar un nuevo cliente en la tabla clientes
                 cursor.execute('''
@@ -429,7 +428,7 @@ def comprobacion(error, msg):
         pass
 
 def obtenerTokenTaxi(taxi_id):
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("SELECT token FROM taxis2 WHERE id = ? AND active = 1", (taxi_id,))
     token = cursor.fetchone()
@@ -438,7 +437,7 @@ def obtenerTokenTaxi(taxi_id):
 
 def generar_y_guardar_token(taxi_id):
     token = secrets.token_hex(16 // 2)
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute("UPDATE taxis2 SET token = ?, active = 1 WHERE id = ?", (token, taxi_id))
     conn.commit()
@@ -551,7 +550,7 @@ def recibirMovimientoEngine():
             clienteId=taxiData[10],
             base = taxiData[11]
         )
-        conn = sqlite3.connect('easycab.db')
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         # Actualizar la tabla taxis2
         cursor.execute('''
@@ -609,7 +608,7 @@ def recibirMovimientoEngine():
 def borrarToken(id):
     try:
         # Conectar a la base de datos
-        conn = sqlite3.connect('easycab.db')
+        conn = sqlite3.connect(DB_PATH)
         cursor = conn.cursor()
         
         # Ejecutar la consulta DELETE
@@ -682,7 +681,7 @@ def enviarTaxisABase():
 #############################################################
 def imprimirTaxis() :
     mensaje = ""
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 0
@@ -701,7 +700,7 @@ def imprimirTaxis() :
 
 def imprimirTaxisBase() :
     mensaje = ""
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     for taxi in taxis :
         taxi.base = 1
@@ -751,7 +750,7 @@ def leer_mapa(filename):
     global destinos
 
      # Conectar a la base de datos
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
     # Crear la tabla destinos
@@ -788,7 +787,7 @@ def leer_mapa(filename):
 #          FUNCIÓN QUE INICIALIZA LA BASE DE DATOS          #
 #############################################################
 def crearTablas():
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
     # Crear la tabla clientes

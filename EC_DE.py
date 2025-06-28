@@ -336,7 +336,7 @@ def esperandoTaxi( ):
             if not key:
                 ip_addr = obtener_ip()
                 logging.error(f"Clave no encontrada para el taxi {taxi_id}. IP: {ip_addr}")
-                print(f"No se encontró clave para el taxi {taxi_id}")
+                print(f"esperandoTaxi() No se encontró clave para el taxi {taxi_id}")
                 continue
             mensaje = decrypt_message(mensaje_cifrado.strip(), key)
         except Exception as e:
@@ -361,7 +361,7 @@ def esperandoTaxi( ):
             clienteId = taxiData[10],
             base = int(taxiData[11])
         )
-        #print("Tu puto taxi")
+        
         anyadirTaxi(taxi)
         anyadirCliente(taxi)
         if CambioEstado:
@@ -371,13 +371,13 @@ def esperandoTaxi( ):
             else:
                 taxi.estado = "ko"
                 CambioEstado = False
-        #print(taxi)
+
         taxis.append((taxi, tokenTaxi))
         if taxi.base == 1:
             taxi = moverTaxiBase(taxi)
         else :
             taxi = moverTaxiCliente(taxi)
-        #print("tu puto taxi se ha movido")
+
         enviarMovimiento(taxi, tokenTaxi)
         break
 
@@ -394,7 +394,7 @@ def enviarMovimiento(taxi, token):
     topicRecorrido = 'recorrido'
     key = get_key(taxi.id)
     if not key:
-        print(f"No se encontró clave para el taxi {taxi.id}")
+        print(f"enviarMovimiento()No se encontró clave para el taxi {taxi.id}")
         return
     mensaje_cifrado = encrypt_message(taxi.imprimirTaxi(), key)
 
@@ -467,7 +467,7 @@ def reciboMapa():
                 if not key:
                     ip_addr = obtener_ip()
                     logging.error(f"Clave no encontrada para el taxi {taxi_id}. IP: {ip_addr}")
-                    print(f"No se encontró clave para el taxi {taxi_id}")
+                    print(f"reciboMapa() No se encontró clave para el taxi {taxi_id}")
                     continue
                 datos_descif = decrypt_message(mensaje_cifrado.strip(), key)
                 taxiData = datos_descif.split(':')
@@ -630,6 +630,11 @@ def moverTaxiCliente(taxi):
     finalY = taxi.clienteY
     print("Taxi situado en ", inicioX, ", ", inicioY)
     print("Recojo al cliente en ", finalX, ", ", finalY)
+    
+    if finalX <= 0 or finalY <= 0:
+        print("Taxi sin cliente asignado - permanece en su posición", "\n")
+        anyadirTaxi(taxi)
+        return taxi
 
     direccion_x = calcular_direccion(inicioX, finalX)
     direccion_y = calcular_direccion(inicioY, finalY)
@@ -640,7 +645,7 @@ def moverTaxiCliente(taxi):
 
     if inicioX == finalX and inicioY == finalY:
         print(f"Nueva posición: {inicioX}, {inicioY}")
-        print("¡Ya he regocido al cliente!", "\n") 
+        print("¡Ya he recogido al cliente!", "\n") 
     else:
         print(f"Nueva posición: {inicioX}, {inicioY}", "\n")
 

@@ -4,7 +4,7 @@ import sqlite3
 import threading
 import os
 import time
-from variablesGlobales import IP_API, IP_CTC
+from variablesGlobales import IP_API, IP_CTC, DB_PATH
 
 
 
@@ -21,7 +21,7 @@ LOG_FILE = 'auditoriaEC.log'
 
 # Función para obtener destinos desde la base de datos
 def obtener_destinos():
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('SELECT id, fila, columna FROM destinos')
     destinos = cursor.fetchall()
@@ -30,7 +30,7 @@ def obtener_destinos():
 
 # Función para obtener clientes desde la base de datos
 def obtener_clientes():
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('SELECT id, posX, posY FROM clientes')
     clientes = cursor.fetchall()
@@ -39,7 +39,7 @@ def obtener_clientes():
 
 # Función para obtener taxis desde la base de datos
 def obtener_taxis():
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('SELECT id, posX, posY, estado, clienteId FROM taxis2')
     taxis = cursor.fetchall()
@@ -121,7 +121,7 @@ def add_taxi():
 # Endpoint: Listar clientes
 @app.route('/clientes', methods=['GET'])
 def get_clientes():
-    conn = sqlite3.connect('easycab.db')
+    conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.execute('SELECT id, posX, posY, estado FROM clientes')
     clientes = cursor.fetchall()

@@ -61,7 +61,6 @@ def enchufoAplicacion(mensajeNuevo):
 
     else:
         mensaje = cliente.imprimirCliente()
-        #print(mensaje)
         producer.produce(topicPos, key=None, value=mensaje.encode(FORMATO), callback=comprobacion)
         producer.flush()
         print("Servicio pedido" , "\n", "Si no se le consigue asignar un taxi se le notificará.", "\n")

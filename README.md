@@ -1,55 +1,50 @@
-# EasyCab Deployment Notes
+# Notas de despliegue de EasyCab
 
-The system runs across three different PCs on the same LAN. Two TLS
-certificates are provided:
+El sistema se ejecuta en tres PCs diferentes dentro de la misma LAN. Se suministran dos certificados TLS:
 
-- `cert.pem` – used by the Central and each taxi engine to secure their
-  socket communication.
-- `registry.crt`/`registry.key` – used by the Registry to serve its HTTPS API.
+- `cert.pem` – usado por la Central y cada motor de taxi para cifrar la comunicación por sockets.
+- `registry.crt` / `registry.key` – utilizados por el Registro para exponer su API HTTPS.
 
-Make sure the required certificate files are available on every machine so the
-clients can validate the remote endpoints.
+Asegúrate de que estos certificados estén presentes en cada máquina para que los clientes puedan validar los servicios remotos.
+Install the Python dependencies with `pip install -r requirements.txt` on each machine.
 
-## PC&nbsp;1 – API Central and Front (with Kafka)
-1. Copy `cert.pem` to this machine.
-2. Start Kafka/Zookeeper using the provided `docker-compose.yml`.
-3. Launch the Central:
+## PC 1 – APICentral, Central y Frontend (con Kafka)
+1. Copia `cert.pem` en esta máquina.
+2. Inicia Kafka y Zookeeper mediante el `docker-compose.yml` provisto.
+3. Ejecuta la Central:
    ```bash
-   python EC_Central.py <IP_CENTRAL> <PORT_CENTRAL> <IP_KAFKA> <PORT_KAFKA>
+   python EC_Central.py <IP_CENTRAL> <PUERTO_CENTRAL> <IP_KAFKA> <PUERTO_KAFKA>
    ```
-   The Central listens with TLS using `cert.pem`.
-4. Run `api_central.py` so the front end can display the map.
+   La Central escucha con TLS usando `cert.pem`.
+4. Ejecuta `api_central.py` para que el front muestre el mapa.
 
-## PC&nbsp;2 – CTC and Customers
-No special certificates are required. Configure the IPs of PC1 in
-`config.json` so requests reach the Central and Kafka.
+## PC 2 – CTC y Clientes
+No se requieren certificados. Configura en `config.json` las IP de la PC 1 para que las peticiones alcancen la Central y Kafka.
 
-## PC&nbsp;3 – Registry and Taxis
-1. Copy `registry.crt` and `registry.key` to this machine.
-2. Start the Registry:
+## PC 3 – Registro y Taxis
+1. Copia `registry.crt` y `registry.key` en esta máquina.
+2. Arranca el Registro:
    ```bash
    python EC_Registry.py
    ```
-   It serves HTTPS using those certificates.
-3. Launch each taxi engine:
+   Sirve HTTPS con esos certificados.
+3. Inicia cada motor de taxi:
    ```bash
    python EC_DE.py
    ```
-   The engine verifies the Registry using `registry.crt` and connects to the
-   Central using `cert.pem`.
-4. Start the corresponding sensor:
+   Verifica el Registro con `registry.crt` y se conecta a la Central usando `cert.pem`.
+4. Inicia el sensor correspondiente:
    ```bash
-   python EC_S.py <IP_SENSOR> <PORT_SENSOR>
+   python EC_S.py <IP_SENSOR> <PUERTO_SENSOR>
    ```
 
-With the certificates in place the engines and the Registry establish secure
-channels, preventing eavesdropping of taxi data.
+Con los certificados correctamente instalados, los motores y el Registro establecen canales seguros y evitan la interceptación de datos.
 
-### Launch order
-1. `api_central.py` (PC 1, Docker with Kafka)
-2. `EC_CTC.py` (PC 2)
-3. `EC_Central.py` (PC 1)
-4. `EC_Registry.py` (PC 3)
-5. `EC_DE.py` instances (PC 3)
-6. `EC_S.py` instances (PC 3)
-7. `EC_Customer.py` instances (PC 2)
+### Orden de lanzamiento
+1. `api_central.py` (PC 1, Docker con Kafka)
+2. `EC_CTC.py` (PC 2)
+3. `EC_Central.py` (PC 1)
+4. `EC_Registry.py` (PC 3)
+5. `EC_DE.py` (PC 3)
+6. `EC_S.py` (PC 3)
+7. `EC_Customer.py` (PC 2)

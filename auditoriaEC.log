@@ -28705,3 +28705,1584 @@ Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weat
 ; city=Murcia, temp=34.12C
 2025-06-28 13:59:37,886 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
 2025-06-28 13:59:38,412 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 13:59:43,893 INFO Se avisa al cliente de que el taxi de ha desconectado. IP: 192.168.1.83
+2025-06-28 13:59:43,893 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-28 13:59:46,834 INFO 192.168.1.83 - - [28/Jun/2025 13:59:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 13:59:48,015 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 13:59:48,018 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 13:59:48,018 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 13:59:48,540 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 13:59:56,837 INFO 192.168.1.83 - - [28/Jun/2025 13:59:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 13:59:58,144 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 13:59:58,147 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 13:59:58,147 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 13:59:58,671 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:00:06,841 INFO 192.168.1.83 - - [28/Jun/2025 14:00:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:00:08,275 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:00:08,279 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:00:08,280 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:00:08,815 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:00:16,844 INFO 192.168.1.83 - - [28/Jun/2025 14:00:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:00:18,407 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:00:18,410 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:00:18,410 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:00:18,943 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:00:26,847 INFO 192.168.1.83 - - [28/Jun/2025 14:00:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:00:28,557 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:00:28,560 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:00:28,560 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:00:29,086 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:00:36,851 INFO 192.168.1.83 - - [28/Jun/2025 14:00:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:00:38,701 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:00:38,705 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:00:38,705 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:00:39,213 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:00:46,855 INFO 192.168.1.83 - - [28/Jun/2025 14:00:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:00:48,857 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:00:48,860 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:00:48,860 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:00:49,366 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:00:56,858 INFO 192.168.1.83 - - [28/Jun/2025 14:00:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:00:58,988 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:00:58,991 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:00:58,992 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:00:59,503 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:01:06,862 INFO 192.168.1.83 - - [28/Jun/2025 14:01:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:01:09,130 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:01:09,134 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:01:09,134 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:01:09,655 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:01:16,866 INFO 192.168.1.83 - - [28/Jun/2025 14:01:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:01:19,278 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:01:19,282 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:01:19,282 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:01:19,796 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:01:26,869 INFO 192.168.1.83 - - [28/Jun/2025 14:01:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:01:29,408 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:01:29,411 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:01:29,411 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:01:29,922 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:01:36,872 INFO 192.168.1.83 - - [28/Jun/2025 14:01:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:01:39,542 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:01:39,545 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:01:39,545 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:01:40,073 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:01:46,875 INFO 192.168.1.83 - - [28/Jun/2025 14:01:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:01:49,694 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:01:49,697 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:01:49,697 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:01:50,210 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:01:56,879 INFO 192.168.1.83 - - [28/Jun/2025 14:01:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:01:59,823 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:01:59,827 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:01:59,827 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:02:00,350 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:02:06,882 INFO 192.168.1.83 - - [28/Jun/2025 14:02:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:02:09,954 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:02:09,957 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:02:09,958 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:02:10,474 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:02:16,886 INFO 192.168.1.83 - - [28/Jun/2025 14:02:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:02:20,087 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:02:20,090 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:02:20,090 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:02:20,599 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:02:26,890 INFO 192.168.1.83 - - [28/Jun/2025 14:02:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:02:30,267 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:02:30,270 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:02:30,270 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:02:30,767 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:02:36,893 INFO 192.168.1.83 - - [28/Jun/2025 14:02:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:02:40,438 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:02:40,441 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:02:40,441 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:02:40,902 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:02:46,897 INFO 192.168.1.83 - - [28/Jun/2025 14:02:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:02:50,574 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:02:50,579 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:02:50,579 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:02:51,044 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:02:56,900 INFO 192.168.1.83 - - [28/Jun/2025 14:02:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:03:00,710 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:03:00,714 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:03:00,714 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:03:01,177 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:03:06,904 INFO 192.168.1.83 - - [28/Jun/2025 14:03:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:03:10,859 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:03:10,862 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:03:10,863 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:03:11,334 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:03:16,908 INFO 192.168.1.83 - - [28/Jun/2025 14:03:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:03:20,994 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:03:20,998 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:03:20,998 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:03:21,461 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:03:26,913 INFO 192.168.1.83 - - [28/Jun/2025 14:03:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:03:31,125 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:03:31,130 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:03:31,130 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:03:31,590 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:03:36,917 INFO 192.168.1.83 - - [28/Jun/2025 14:03:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:03:41,256 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:03:41,259 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:03:41,260 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:03:41,718 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:03:46,921 INFO 192.168.1.83 - - [28/Jun/2025 14:03:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:03:51,390 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:03:51,393 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:03:51,394 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:03:51,850 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:03:56,924 INFO 192.168.1.83 - - [28/Jun/2025 14:03:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:04:01,522 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:04:01,525 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:04:01,526 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:04:01,975 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:04:06,928 INFO 192.168.1.83 - - [28/Jun/2025 14:04:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:04:11,658 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:04:11,661 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:04:11,662 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:04:12,128 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:04:16,931 INFO 192.168.1.83 - - [28/Jun/2025 14:04:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:04:21,817 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:04:21,820 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:04:21,820 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:04:22,280 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:04:26,935 INFO 192.168.1.83 - - [28/Jun/2025 14:04:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:04:31,970 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:04:31,973 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:04:31,973 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:04:32,423 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:04:36,938 INFO 192.168.1.83 - - [28/Jun/2025 14:04:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:04:42,111 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:04:42,114 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:04:42,114 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:04:42,566 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:04:46,941 INFO 192.168.1.83 - - [28/Jun/2025 14:04:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:04:52,242 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:04:52,245 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:04:52,245 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:04:52,715 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:04:56,944 INFO 192.168.1.83 - - [28/Jun/2025 14:04:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:05:02,371 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:05:02,374 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:05:02,374 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:05:02,855 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:05:06,948 INFO 192.168.1.83 - - [28/Jun/2025 14:05:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:05:12,515 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:05:12,518 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:05:12,518 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:05:12,993 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:05:16,952 INFO 192.168.1.83 - - [28/Jun/2025 14:05:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:05:22,663 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:05:22,666 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:05:22,666 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:05:23,121 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:05:26,955 INFO 192.168.1.83 - - [28/Jun/2025 14:05:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:05:33,010 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:05:33,013 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:05:33,013 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:05:33,246 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:05:36,959 INFO 192.168.1.83 - - [28/Jun/2025 14:05:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:05:43,165 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:05:43,168 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:05:43,168 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:05:43,371 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:05:46,962 INFO 192.168.1.83 - - [28/Jun/2025 14:05:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:05:53,305 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:05:53,308 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:05:53,308 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:05:53,498 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:05:56,966 INFO 192.168.1.83 - - [28/Jun/2025 14:05:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:06:03,453 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:06:03,456 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:06:03,456 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:06:03,625 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:06:06,970 INFO 192.168.1.83 - - [28/Jun/2025 14:06:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:06:13,590 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:06:13,593 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:06:13,593 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:06:13,752 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:06:16,974 INFO 192.168.1.83 - - [28/Jun/2025 14:06:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:06:23,731 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:06:23,734 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:06:23,735 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:06:23,891 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:06:26,977 INFO 192.168.1.83 - - [28/Jun/2025 14:06:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:06:33,887 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:06:33,890 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:06:33,891 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:06:34,021 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:06:36,981 INFO 192.168.1.83 - - [28/Jun/2025 14:06:36] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:06:44,056 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:06:44,058 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:06:44,059 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:06:44,164 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:06:46,985 INFO 192.168.1.83 - - [28/Jun/2025 14:06:46] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:06:54,199 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:06:54,202 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:06:54,202 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:06:54,307 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:06:56,988 INFO 192.168.1.83 - - [28/Jun/2025 14:06:56] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:07:04,330 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:07:04,334 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:07:04,335 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:07:04,433 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:07:06,991 INFO 192.168.1.83 - - [28/Jun/2025 14:07:06] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:07:14,461 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:07:14,465 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:07:14,465 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:07:14,576 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:07:16,994 INFO 192.168.1.83 - - [28/Jun/2025 14:07:16] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:07:24,602 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:07:24,605 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:07:24,605 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:07:24,726 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:07:26,997 INFO 192.168.1.83 - - [28/Jun/2025 14:07:26] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:07:34,754 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:07:34,758 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:07:34,758 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:07:34,864 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:07:37,000 INFO 192.168.1.83 - - [28/Jun/2025 14:07:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:07:44,890 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:07:44,893 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:07:44,893 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:07:44,990 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:07:47,004 INFO 192.168.1.83 - - [28/Jun/2025 14:07:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:07:55,038 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:07:55,041 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:07:55,042 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:07:55,115 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:07:57,007 INFO 192.168.1.83 - - [28/Jun/2025 14:07:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:08:05,179 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:08:05,182 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:08:05,183 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:08:05,255 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:08:07,011 INFO 192.168.1.83 - - [28/Jun/2025 14:08:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:08:15,333 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:08:15,336 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:08:15,336 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:08:15,392 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:08:17,015 INFO 192.168.1.83 - - [28/Jun/2025 14:08:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:08:25,472 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:08:25,475 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:08:25,475 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:08:25,534 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:08:27,018 INFO 192.168.1.83 - - [28/Jun/2025 14:08:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:08:35,627 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:08:35,630 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:08:35,630 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:08:35,682 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:08:37,021 INFO 192.168.1.83 - - [28/Jun/2025 14:08:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:08:45,782 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:08:45,785 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:08:45,786 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:08:45,833 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:08:47,025 INFO 192.168.1.83 - - [28/Jun/2025 14:08:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:08:55,924 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:08:55,927 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:08:55,927 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:08:55,975 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:08:57,028 INFO 192.168.1.83 - - [28/Jun/2025 14:08:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:09:06,078 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:09:06,081 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:09:06,081 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:09:06,143 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:09:07,032 INFO 192.168.1.83 - - [28/Jun/2025 14:09:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:09:16,230 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:09:16,233 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:09:16,234 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:09:16,292 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:09:17,035 INFO 192.168.1.83 - - [28/Jun/2025 14:09:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:09:26,372 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:09:26,376 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:09:26,376 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:09:26,434 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:09:27,038 INFO 192.168.1.83 - - [28/Jun/2025 14:09:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:09:36,520 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:09:36,523 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:09:36,524 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:09:36,560 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:09:37,042 INFO 192.168.1.83 - - [28/Jun/2025 14:09:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:09:46,659 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:09:46,662 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:09:46,662 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:09:46,704 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:09:47,045 INFO 192.168.1.83 - - [28/Jun/2025 14:09:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:09:56,799 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:09:56,802 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:09:56,802 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:09:56,845 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:09:57,049 INFO 192.168.1.83 - - [28/Jun/2025 14:09:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:06,930 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:10:06,933 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:10:06,933 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:10:06,970 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:10:07,052 INFO 192.168.1.83 - - [28/Jun/2025 14:10:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:17,056 INFO 192.168.1.83 - - [28/Jun/2025 14:10:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:17,059 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:10:17,062 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:10:17,062 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:10:17,096 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:10:27,059 INFO 192.168.1.83 - - [28/Jun/2025 14:10:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:27,209 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:10:27,212 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:10:27,212 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:10:27,240 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:10:37,063 INFO 192.168.1.83 - - [28/Jun/2025 14:10:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:37,361 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:10:37,364 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:10:37,364 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:10:37,366 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:10:47,066 INFO 192.168.1.83 - - [28/Jun/2025 14:10:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:47,498 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:10:47,502 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:10:47,502 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:10:47,515 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:10:57,070 INFO 192.168.1.83 - - [28/Jun/2025 14:10:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:10:57,645 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:10:57,648 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:10:57,648 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:10:57,676 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:11:07,074 INFO 192.168.1.83 - - [28/Jun/2025 14:11:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:11:07,775 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:11:07,779 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:11:07,779 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:11:07,818 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:11:17,078 INFO 192.168.1.83 - - [28/Jun/2025 14:11:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:11:17,930 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:11:17,933 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:11:17,933 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:11:17,979 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:11:27,081 INFO 192.168.1.83 - - [28/Jun/2025 14:11:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:11:28,072 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:11:28,075 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:11:28,075 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:11:28,110 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:11:37,084 INFO 192.168.1.83 - - [28/Jun/2025 14:11:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:11:38,221 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:11:38,224 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:11:38,224 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:11:38,260 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:11:47,087 INFO 192.168.1.83 - - [28/Jun/2025 14:11:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:11:48,350 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:11:48,353 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:11:48,353 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:11:48,385 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:11:57,090 INFO 192.168.1.83 - - [28/Jun/2025 14:11:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:11:58,479 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:11:58,482 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:11:58,482 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:11:58,530 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:07,094 INFO 192.168.1.83 - - [28/Jun/2025 14:12:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:12:08,630 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:12:08,633 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:12:08,633 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:12:08,661 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:17,098 INFO 192.168.1.83 - - [28/Jun/2025 14:12:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:12:18,770 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:12:18,774 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:12:18,775 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:12:18,799 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:27,103 INFO 192.168.1.83 - - [28/Jun/2025 14:12:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:12:28,901 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:12:28,906 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:12:28,906 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:12:28,929 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:37,107 INFO 192.168.1.83 - - [28/Jun/2025 14:12:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:12:39,062 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:12:39,062 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:39,065 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:12:39,066 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:12:47,112 INFO 192.168.1.83 - - [28/Jun/2025 14:12:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:12:49,192 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:12:49,193 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:49,195 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:12:49,196 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:12:57,115 INFO 192.168.1.83 - - [28/Jun/2025 14:12:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:12:59,321 INFO Fetched temperature for Murcia: 34.12C, status OK
+t Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:12:59,324 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:12:59,325 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:13:07,118 INFO 192.168.1.83 - - [28/Jun/2025 14:13:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:13:09,448 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:13:09,449 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:13:09,452 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:13:09,452 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:13:17,121 INFO 192.168.1.83 - - [28/Jun/2025 14:13:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:13:19,573 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:13:19,582 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:13:19,585 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:13:19,585 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:13:27,124 INFO 192.168.1.83 - - [28/Jun/2025 14:13:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:13:29,723 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:13:29,728 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:13:29,728 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:13:37,128 INFO 192.168.1.83 - - [28/Jun/2025 14:13:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:13:39,868 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:13:39,876 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:13:39,879 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:13:39,879 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:13:47,132 INFO 192.168.1.83 - - [28/Jun/2025 14:13:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:13:50,002 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:13:50,019 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:13:50,022 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:13:50,022 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:13:57,136 INFO 192.168.1.83 - - [28/Jun/2025 14:13:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:14:00,146 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:14:00,164 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:14:00,168 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:14:00,168 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:14:07,141 INFO 192.168.1.83 - - [28/Jun/2025 14:14:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:14:10,291 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:14:10,304 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:14:10,308 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:14:10,309 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:14:17,146 INFO 192.168.1.83 - - [28/Jun/2025 14:14:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:14:20,441 INFO Fetched temperature for Murcia: 34.12C, status OK
+t Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:14:20,445 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:14:20,445 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:14:27,149 INFO 192.168.1.83 - - [28/Jun/2025 14:14:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:14:30,579 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:14:30,580 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:14:30,583 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:14:30,583 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:14:37,154 INFO 192.168.1.83 - - [28/Jun/2025 14:14:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:14:40,714 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:14:40,735 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:14:40,739 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:14:40,740 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:14:47,158 INFO 192.168.1.83 - - [28/Jun/2025 14:14:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:14:50,850 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:14:50,872 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:14:50,876 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:14:50,876 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:14:57,163 INFO 192.168.1.83 - - [28/Jun/2025 14:14:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:15:00,997 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:15:01,008 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:15:01,012 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:15:01,012 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:15:07,167 INFO 192.168.1.83 - - [28/Jun/2025 14:15:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:15:11,147 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:15:11,147 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:15:11,151 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:15:11,152 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:15:17,171 INFO 192.168.1.83 - - [28/Jun/2025 14:15:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:15:21,302 INFO Fetched temperature for Murcia: 34.12C, status OK
+t Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:15:21,307 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:15:21,308 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:15:27,175 INFO 192.168.1.83 - - [28/Jun/2025 14:15:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:15:31,438 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:15:31,442 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:15:31,442 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:15:31,453 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:15:37,180 INFO 192.168.1.83 - - [28/Jun/2025 14:15:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:15:41,583 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:15:41,587 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:15:41,587 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:15:41,588 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:15:47,184 INFO 192.168.1.83 - - [28/Jun/2025 14:15:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:15:51,734 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:15:51,738 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:15:51,739 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:15:51,740 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:15:57,189 INFO 192.168.1.83 - - [28/Jun/2025 14:15:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:16:01,872 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:16:01,874 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:16:01,878 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:16:01,878 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:16:07,193 INFO 192.168.1.83 - - [28/Jun/2025 14:16:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:16:12,020 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:16:12,037 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:16:12,041 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:16:12,041 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:16:17,197 INFO 192.168.1.83 - - [28/Jun/2025 14:16:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:16:22,174 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:16:22,190 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:16:22,193 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:16:22,193 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:16:27,202 INFO 192.168.1.83 - - [28/Jun/2025 14:16:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:16:32,306 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:16:32,345 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:16:32,349 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:16:32,349 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:16:37,207 INFO 192.168.1.83 - - [28/Jun/2025 14:16:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:16:42,441 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:16:42,504 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:16:42,507 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:16:42,507 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:16:47,212 INFO 192.168.1.83 - - [28/Jun/2025 14:16:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:16:52,596 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:16:52,640 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:16:52,643 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:16:52,644 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:16:57,216 INFO 192.168.1.83 - - [28/Jun/2025 14:16:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:17:02,751 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:17:02,785 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:17:02,789 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:17:02,789 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:17:07,222 INFO 192.168.1.83 - - [28/Jun/2025 14:17:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:17:12,920 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:17:12,929 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:17:12,933 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:17:12,933 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:17:17,227 INFO 192.168.1.83 - - [28/Jun/2025 14:17:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:17:23,067 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:17:23,085 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:17:23,087 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:17:23,088 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:17:27,232 INFO 192.168.1.83 - - [28/Jun/2025 14:17:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:17:33,225 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:17:33,242 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:17:33,245 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:17:33,245 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:17:37,236 INFO 192.168.1.83 - - [28/Jun/2025 14:17:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:17:43,371 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:17:43,380 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:17:43,384 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:17:43,385 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:17:47,240 INFO 192.168.1.83 - - [28/Jun/2025 14:17:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:17:53,505 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:17:53,538 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:17:53,542 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:17:53,543 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:17:57,245 INFO 192.168.1.83 - - [28/Jun/2025 14:17:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:18:03,637 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:18:03,677 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:18:03,680 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:18:03,680 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:18:07,248 INFO 192.168.1.83 - - [28/Jun/2025 14:18:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:18:13,769 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:18:13,812 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:18:13,815 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:18:13,815 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:18:17,251 INFO 192.168.1.83 - - [28/Jun/2025 14:18:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:18:23,903 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:18:23,953 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:18:23,956 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:18:23,956 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:18:27,254 INFO 192.168.1.83 - - [28/Jun/2025 14:18:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:18:34,052 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:18:34,100 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:18:34,103 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:18:34,103 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:18:37,258 INFO 192.168.1.83 - - [28/Jun/2025 14:18:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:18:44,222 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:18:44,254 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:18:44,258 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:18:44,259 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:18:47,262 INFO 192.168.1.83 - - [28/Jun/2025 14:18:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:18:54,363 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:18:54,408 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:18:54,412 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:18:54,412 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:18:57,266 INFO 192.168.1.83 - - [28/Jun/2025 14:18:57] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:19:04,509 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:19:04,555 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:19:04,559 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:19:04,559 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:19:07,271 INFO 192.168.1.83 - - [28/Jun/2025 14:19:07] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:19:14,642 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:19:14,692 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:19:14,695 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:19:14,695 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:19:17,276 INFO 192.168.1.83 - - [28/Jun/2025 14:19:17] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:19:24,778 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:19:24,861 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:19:24,865 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:19:24,865 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:19:27,279 INFO 192.168.1.83 - - [28/Jun/2025 14:19:27] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:19:34,941 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:19:35,015 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:19:35,018 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:19:35,019 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:19:37,283 INFO 192.168.1.83 - - [28/Jun/2025 14:19:37] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:19:45,091 ERROR Error fetching temperature for Alicante: 401 Client Error: Unauthorized for url: https://api.openweathermap.org/data/2.5/weather?q=Alicante&appid=dsfsfsdf
+2025-06-28 14:19:45,154 INFO Fetched temperature for Murcia: 34.12C, status OK
+2025-06-28 14:19:45,159 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Murcia, temp=34.12C
+2025-06-28 14:19:45,160 INFO Sent traffic status: OK to Central API, city=Murcia, temp=34.12C
+2025-06-28 14:19:47,288 INFO 192.168.1.83 - - [28/Jun/2025 14:19:47] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:45:04,375 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.83:5001
+2025-06-28 14:45:04,375 INFO [33mPress CTRL+C to quit[0m
+2025-06-28 14:45:04,376 INFO  * Restarting with stat
+2025-06-28 14:45:04,495 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:04,498 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:04,498 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:04,959 WARNING  * Debugger is active!
+2025-06-28 14:45:04,963 INFO  * Debugger PIN: 539-442-905
+2025-06-28 14:45:05,080 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:05,084 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:05,085 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:13,153 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5002
+ * Running on https://192.168.1.83:5002
+2025-06-28 14:45:13,154 INFO [33mPress CTRL+C to quit[0m
+2025-06-28 14:45:13,155 INFO  * Restarting with stat
+2025-06-28 14:45:13,444 WARNING  * Debugger is active!
+2025-06-28 14:45:13,448 INFO  * Debugger PIN: 539-442-905
+2025-06-28 14:45:14,643 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:14,646 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:14,646 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:15,241 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:15,246 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:15,246 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:23,520 INFO Central se encuentra escuchando a los demás componentes del proyecto. IP: 192.168.1.83
+2025-06-28 14:45:23,524 INFO 192.168.1.83 - - [28/Jun/2025 14:45:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:45:24,777 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:24,780 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:24,780 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:25,376 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:25,379 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:25,379 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:33,529 INFO 192.168.1.83 - - [28/Jun/2025 14:45:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:45:34,517 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-28 14:45:34,924 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:34,928 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:34,929 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:35,434 INFO Taxi 1 registrado en Registry
+2025-06-28 14:45:35,434 INFO 192.168.1.83 - - [28/Jun/2025 14:45:35] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-28 14:45:35,435 INFO Taxi 1 registrado correctamente
+2025-06-28 14:45:35,435 INFO Taxi 1 registrado exitosamente
+2025-06-28 14:45:35,516 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:35,519 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:35,519 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:36,058 INFO Taxi 1 conectando con central
+2025-06-28 14:45:36,091 INFO Taxi 1 conectado con Central en ('192.168.1.83', 9000)
+2025-06-28 14:45:36,093 INFO Esperando conexión de sensor en ('192.168.1.83', 8888)
+2025-06-28 14:45:36,101 INFO Comprobación registro taxi 1: registrado
+2025-06-28 14:45:36,101 INFO 192.168.1.83 - - [28/Jun/2025 14:45:36] "GET /is_registered/1 HTTP/1.1" 200 -
+2025-06-28 14:45:43,532 INFO 192.168.1.83 - - [28/Jun/2025 14:45:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:45:45,066 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:45,069 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:45,070 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:45,674 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:45,678 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:45,678 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:53,537 INFO 192.168.1.83 - - [28/Jun/2025 14:45:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:45:55,240 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:55,244 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:55,244 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:55,827 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:45:55,829 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:45:55,830 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:45:55,880 INFO Sensor conectado desde ('192.168.1.83', 63892)
+2025-06-28 14:45:55,885 INFO Sensor iniciado. IP: 192.168.1.83 Conectado a ('192.168.1.83', 8888)
+2025-06-28 14:46:03,541 INFO 192.168.1.83 - - [28/Jun/2025 14:46:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:46:05,395 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:05,399 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:05,399 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:05,973 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:05,976 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:05,976 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:07,335 INFO Engine iniciado. IP: 192.168.1.83
+2025-06-28 14:46:08,538 INFO Taxi 2 registrado en Registry
+2025-06-28 14:46:08,538 INFO 192.168.1.83 - - [28/Jun/2025 14:46:08] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2025-06-28 14:46:08,539 INFO Taxi 2 registrado correctamente
+2025-06-28 14:46:08,539 INFO Taxi 2 registrado exitosamente
+2025-06-28 14:46:08,919 INFO Taxi 2 conectando con central
+2025-06-28 14:46:08,941 INFO Taxi 2 conectado con Central en ('192.168.1.83', 9000)
+2025-06-28 14:46:08,943 INFO Esperando conexión de sensor en ('192.168.1.83', 8889)
+2025-06-28 14:46:08,962 INFO Comprobación registro taxi 2: registrado
+2025-06-28 14:46:08,962 INFO 192.168.1.83 - - [28/Jun/2025 14:46:08] "GET /is_registered/2 HTTP/1.1" 200 -
+2025-06-28 14:46:13,546 INFO 192.168.1.83 - - [28/Jun/2025 14:46:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:46:15,544 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:15,547 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:15,548 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:16,122 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:16,126 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:16,127 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:16,674 INFO Sensor conectado desde ('192.168.1.83', 63913)
+2025-06-28 14:46:16,679 INFO Sensor iniciado. IP: 192.168.1.83 Conectado a ('192.168.1.83', 8889)
+2025-06-28 14:46:23,550 INFO 192.168.1.83 - - [28/Jun/2025 14:46:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:46:25,685 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:25,688 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:25,688 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:26,286 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:26,290 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:26,290 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:33,555 INFO 192.168.1.83 - - [28/Jun/2025 14:46:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:46:35,822 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:35,826 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:35,827 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:36,432 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:36,436 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:36,437 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:43,560 INFO 192.168.1.83 - - [28/Jun/2025 14:46:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:46:45,959 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:45,963 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:45,963 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:46,571 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:46,574 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:46,574 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:53,564 INFO 192.168.1.83 - - [28/Jun/2025 14:46:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:46:56,122 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:56,125 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:56,125 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:46:56,718 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:46:56,722 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:46:56,722 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:03,568 INFO 192.168.1.83 - - [28/Jun/2025 14:47:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:47:06,272 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:06,275 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:06,275 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:06,855 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:06,859 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:06,860 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:13,571 INFO 192.168.1.83 - - [28/Jun/2025 14:47:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:47:16,406 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:16,410 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:16,411 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:17,016 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:17,019 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:17,019 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:18,590 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-28 14:47:23,576 INFO 192.168.1.83 - - [28/Jun/2025 14:47:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:47:26,565 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:26,569 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:26,569 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:27,149 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:27,153 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:27,153 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:33,581 INFO 192.168.1.83 - - [28/Jun/2025 14:47:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:47:36,699 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:36,702 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:36,702 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:37,285 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:37,290 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:37,290 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:43,585 INFO 192.168.1.83 - - [28/Jun/2025 14:47:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:47:46,834 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:46,836 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:46,837 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:47,432 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:47,435 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:47,435 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:53,589 INFO 192.168.1.83 - - [28/Jun/2025 14:47:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:47:56,993 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:56,997 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:56,998 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:47:57,576 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:47:57,580 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:47:57,581 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:03,592 INFO 192.168.1.83 - - [28/Jun/2025 14:48:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:48:07,128 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:07,131 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:07,131 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:07,710 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:07,713 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:07,713 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:13,596 INFO 192.168.1.83 - - [28/Jun/2025 14:48:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:48:17,266 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:17,269 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:17,269 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:17,842 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:17,845 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:17,846 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:23,599 INFO 192.168.1.83 - - [28/Jun/2025 14:48:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:48:27,401 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:27,404 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:27,404 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:27,975 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:27,978 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:27,978 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:33,602 INFO 192.168.1.83 - - [28/Jun/2025 14:48:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:48:37,535 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:37,538 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:37,538 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:38,132 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:38,136 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:38,136 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:43,606 INFO 192.168.1.83 - - [28/Jun/2025 14:48:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:48:47,689 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:47,693 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:47,694 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:48,279 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:48,283 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:48,284 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:53,610 INFO 192.168.1.83 - - [28/Jun/2025 14:48:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:48:57,843 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:57,846 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:57,846 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:48:58,414 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:48:58,417 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:48:58,417 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:03,614 INFO 192.168.1.83 - - [28/Jun/2025 14:49:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:49:07,977 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:49:07,980 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:49:07,981 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:08,550 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:49:08,554 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:49:08,554 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:09,920 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-28 14:49:13,618 INFO 192.168.1.83 - - [28/Jun/2025 14:49:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:49:18,110 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:49:18,113 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:49:18,113 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:18,687 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:49:18,690 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:49:18,690 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:23,622 INFO 192.168.1.83 - - [28/Jun/2025 14:49:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:49:28,273 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:49:28,277 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:49:28,277 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:28,819 INFO Fetched temperature for Alicante: 32.67C, status OK
+2025-06-28 14:49:28,823 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.67C
+2025-06-28 14:49:28,823 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.67C
+2025-06-28 14:49:33,625 INFO 192.168.1.83 - - [28/Jun/2025 14:49:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:49:36,343 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-28 14:49:38,442 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:49:38,446 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:49:38,447 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:49:38,967 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:49:38,971 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:49:38,971 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:49:43,629 INFO 192.168.1.83 - - [28/Jun/2025 14:49:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:49:48,604 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:49:48,607 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:49:48,608 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:49:49,115 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:49:49,119 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:49:49,120 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:49:53,632 INFO 192.168.1.83 - - [28/Jun/2025 14:49:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:49:58,760 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:49:58,763 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:49:58,764 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:49:59,273 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:49:59,277 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:49:59,278 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:03,636 INFO 192.168.1.83 - - [28/Jun/2025 14:50:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:50:08,895 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:08,899 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:08,899 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:09,425 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:09,427 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:09,428 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:10,371 INFO 192.168.1.83 - - [28/Jun/2025 14:50:10] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-28 14:50:10,375 INFO Received update_city request: city=subnromal
+2025-06-28 14:50:10,530 ERROR Error fetching temperature for subnromal: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=subnromal&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:50:10,533 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=subnromal, temp=-1.00C
+2025-06-28 14:50:10,533 INFO Updated city to subnromal, temp=-1.00C, status=KO
+2025-06-28 14:50:10,534 INFO 192.168.1.83 - - [28/Jun/2025 14:50:10] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:50:13,641 INFO 192.168.1.83 - - [28/Jun/2025 14:50:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:50:19,031 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:19,035 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:19,036 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:19,559 ERROR Error fetching temperature for subnromal: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=subnromal&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:50:23,645 INFO 192.168.1.83 - - [28/Jun/2025 14:50:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:50:29,189 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:29,193 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:29,193 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:29,704 ERROR Error fetching temperature for subnromal: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=subnromal&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:50:33,273 INFO 192.168.1.83 - - [28/Jun/2025 14:50:33] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-28 14:50:33,276 INFO Received update_city request: city=Alicante
+2025-06-28 14:50:33,406 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:33,410 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:33,411 INFO Updated city to Alicante, temp=32.91C, status=OK
+2025-06-28 14:50:33,411 INFO 192.168.1.83 - - [28/Jun/2025 14:50:33] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:50:33,648 INFO 192.168.1.83 - - [28/Jun/2025 14:50:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:50:39,346 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:39,350 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:39,350 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:39,853 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:39,856 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:39,856 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:43,651 INFO 192.168.1.83 - - [28/Jun/2025 14:50:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:50:49,481 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:49,485 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:49,486 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:49,985 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:49,988 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:49,988 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:50:53,656 INFO 192.168.1.83 - - [28/Jun/2025 14:50:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:50:54,357 INFO 192.168.1.83 - - [28/Jun/2025 14:50:54] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-28 14:50:54,360 INFO Received update_city request: city=subnromal
+2025-06-28 14:50:54,503 ERROR Error fetching temperature for subnromal: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=subnromal&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:50:54,507 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=subnromal, temp=-1.00C
+2025-06-28 14:50:54,507 INFO Updated city to subnromal, temp=-1.00C, status=KO
+2025-06-28 14:50:54,507 INFO 192.168.1.83 - - [28/Jun/2025 14:50:54] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:50:59,639 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:50:59,642 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:50:59,642 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:51:00,121 ERROR Error fetching temperature for subnromal: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=subnromal&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:01,911 INFO 192.168.1.83 - - [28/Jun/2025 14:51:01] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:01,914 INFO Received update_city request: city=culo
+2025-06-28 14:51:02,095 ERROR Error fetching temperature for culo: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=culo&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:02,099 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=culo, temp=-1.00C
+2025-06-28 14:51:02,099 INFO Updated city to culo, temp=-1.00C, status=KO
+2025-06-28 14:51:02,099 INFO 192.168.1.83 - - [28/Jun/2025 14:51:02] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:03,661 INFO 192.168.1.83 - - [28/Jun/2025 14:51:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:51:05,407 INFO Received update_city request: city=pedo
+2025-06-28 14:51:05,579 ERROR Error fetching temperature for pedo: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=pedo&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:05,583 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=pedo, temp=-1.00C
+2025-06-28 14:51:05,583 INFO Updated city to pedo, temp=-1.00C, status=KO
+2025-06-28 14:51:05,583 INFO 192.168.1.83 - - [28/Jun/2025 14:51:05] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:09,795 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:51:09,799 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:51:09,800 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:51:10,279 ERROR Error fetching temperature for pedo: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=pedo&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:10,906 INFO 192.168.1.83 - - [28/Jun/2025 14:51:10] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:10,909 INFO Received update_city request: city=cabronico
+2025-06-28 14:51:11,081 ERROR Error fetching temperature for cabronico: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=cabronico&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:11,085 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=cabronico, temp=-1.00C
+2025-06-28 14:51:11,085 INFO Updated city to cabronico, temp=-1.00C, status=KO
+2025-06-28 14:51:11,085 INFO 192.168.1.83 - - [28/Jun/2025 14:51:11] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:13,665 INFO 192.168.1.83 - - [28/Jun/2025 14:51:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:51:19,944 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:51:19,947 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:51:19,947 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:51:20,105 INFO 192.168.1.83 - - [28/Jun/2025 14:51:20] "OPTIONS /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:20,108 INFO Received update_city request: city=maderfaker
+2025-06-28 14:51:20,261 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:20,264 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=maderfaker, temp=-1.00C
+2025-06-28 14:51:20,264 INFO Updated city to maderfaker, temp=-1.00C, status=KO
+2025-06-28 14:51:20,264 INFO 192.168.1.83 - - [28/Jun/2025 14:51:20] "POST /update_city HTTP/1.1" 200 -
+2025-06-28 14:51:20,426 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:23,668 INFO 192.168.1.83 - - [28/Jun/2025 14:51:23] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:51:30,094 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:51:30,097 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:51:30,098 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:51:30,575 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:33,671 INFO 192.168.1.83 - - [28/Jun/2025 14:51:33] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:51:35,880 INFO Se avisa al cliente de que el taxi de ha desconectado. IP: 192.168.1.83
+2025-06-28 14:51:35,880 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-28 14:51:40,227 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:51:40,230 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:51:40,230 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:51:40,731 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:43,675 INFO 192.168.1.83 - - [28/Jun/2025 14:51:43] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:51:50,373 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:51:50,377 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:51:50,378 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:51:50,864 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:51:53,679 INFO 192.168.1.83 - - [28/Jun/2025 14:51:53] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:51:59,414 INFO Se avisa al cliente de que el taxi de ha desconectado. IP: 192.168.1.83
+2025-06-28 14:51:59,414 INFO Se avisa al cliente de que ya ha acabado el servicio. IP: 192.168.1.83
+2025-06-28 14:52:00,532 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:52:00,536 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:52:00,536 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:52:00,994 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:52:03,683 INFO 192.168.1.83 - - [28/Jun/2025 14:52:03] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:52:10,688 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:52:10,691 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:52:10,691 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:52:11,128 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:52:13,687 INFO 192.168.1.83 - - [28/Jun/2025 14:52:13] "GET /traffic_status HTTP/1.1" 200 -
+2025-06-28 14:52:20,826 INFO Fetched temperature for Alicante: 32.91C, status OK
+2025-06-28 14:52:20,829 INFO POST to http://192.168.1.83:5000/update-traffic: Status 200, Response {
+  "message": "Traffic status updated"
+}
+; city=Alicante, temp=32.91C
+2025-06-28 14:52:20,829 INFO Sent traffic status: OK to Central API, city=Alicante, temp=32.91C
+2025-06-28 14:52:21,264 ERROR Error fetching temperature for maderfaker: 404 Client Error: Not Found for url: https://api.openweathermap.org/data/2.5/weather?q=maderfaker&appid=34aaac151d5035a79464cbcd83aef7e6
+2025-06-28 14:52:23,691 INFO 192.168.1.83 - - [28/Jun/2025 14:52:23] "GET /traffic_status HTTP/1.1" 200 -

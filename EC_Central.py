@@ -88,9 +88,7 @@ def fetch_traffic_status():
 #############################################################
 def imprimirMapa(tablero, ventana):
     global matriz
-    
-    # tablero.actualizar_tabla_taxis(taxis)
-    # tablero.actualizar_tabla_clientes(clientes)
+
     tablero.actualizarTablero(matriz)
     ventana.after(200, imprimirMapa, tablero, ventana)
 
@@ -127,7 +125,6 @@ def anyadirDestino(destinos):
             matriz[fila-1][columna-1] = []
         matriz[fila-1][columna-1].append(destino)
 
-    #enviar_matriz_a_api_central()
 
 def anyadirTaxi(taxi):
     global matriz
@@ -141,7 +138,6 @@ def anyadirTaxi(taxi):
         matriz[fila-1][columna-1] = []
     matriz[fila-1][columna-1].insert(0, taxi)
 
-    #enviar_matriz_a_api_central()
 
 def anyadirTaxisAutenticados(taxi):
     anyadirTaxi(taxi)
@@ -163,8 +159,6 @@ def anyadirCliente(taxi):
     if not matriz[fila-1][columna-1]:
         matriz[fila-1][columna-1] = []
     matriz[fila-1][columna-1].append(cliente) 
-
-    #enviar_matriz_a_api_central() 
 
 
 def limpiarCliente(taxi):
@@ -374,7 +368,7 @@ def asignarTaxi(cliente):
     global taxis
     taxiOcupados = 0
     for taxi in taxis:
-        #print(taxi)
+
         if taxi.ocupado == False and cliente.estado == "Sin Taxi":
             taxi.ocupado = True
             taxi.estado = "ok"
@@ -383,15 +377,15 @@ def asignarTaxi(cliente):
             taxi.clienteX = cliente.posX
             taxi.clienteY = cliente.posY
             taxi.clienteId = cliente.id
-            #if TodosBase == True:
+
             if traffic_status == "KO":
                 taxi.base == 1
-            else :
+            else:
                 taxi.base == 0
             anyadirCliente(taxi)
-            #print(cliente)
-            print(f"Taxi {taxi.id} asignado a cliente: {taxi.clienteId}") 
-            print("Comienza el serivicio" , "\n")
+
+            print(f"Taxi {taxi.id} asignado a cliente: {taxi.clienteId}")
+            print("Comienza el servicio", "\n")
             modificarDestinoTaxi()  
            
             moverTaxi(taxi)
@@ -492,7 +486,6 @@ def recibirMovimientoEngine():
     global taxis
     global traffic_status
 
-    #print("Recibiendo mensaje")
     consumer_conf = {
         'bootstrap.servers': f'{SERVER_K}:{PORT_K}',
         'group.id': 'grupo_consumidor',
@@ -566,7 +559,7 @@ def recibirMovimientoEngine():
         conn.close()
 
         print("Nueva posición del taxi: ", taxirecibido.id, "recibida" , "\n")
-        #print(taxirecibido)
+
         anyadirTaxi(taxirecibido)
         #Actualizar taxi en el array de todos los taxis
 
@@ -585,7 +578,7 @@ def recibirMovimientoEngine():
                 taxi.clienteX = taxirecibido.clienteX
                 taxi.clienteY = taxirecibido.clienteY
                 taxi.clienteId = taxirecibido.clienteId
-                #if TodosBase == True:
+
                 if traffic_status == "KO":
                     taxi.base = 1
                 else:  
@@ -854,8 +847,6 @@ if __name__ == "__main__":
         context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
         context.load_cert_chain(certfile=cert, keyfile=cert)
 
-        #map_thread = threading.Thread(target=iniciarMapa)
-        #map_thread.start()
 
         kafka_thread = threading.Thread(target=esperandoCliente)
         kafka_thread.start()

@@ -275,14 +275,7 @@ def iniciar_servidor():
 #             FUNCIÓN QUE CONECTA CON CENTRAL               #
 #############################################################
 def conectarCentral(taxiID):
-    #global conexion
 
-    #ADDR_C = (SERVER_C, PORT_C)
-    #context = ssl._create_unverified_context()
-    #with socket.create_connection(ADDR_C) as sock:
-    #    conexion = context.wrap_socket(sock, server_hostname=SERVER_C)
-    #    print(f"Establecida conexión con Central en [{ADDR_C}]")
-    #    enviar(taxiID)
     global conexion
     context = ssl.create_default_context()
     context.check_hostname = False
@@ -304,8 +297,7 @@ def conectarCentral(taxiID):
 def esperandoTaxi( ):
     global CambioEstado
     global taxis
-    
-    #print("Esperando taxi")
+
     consumer_conf = {
         'bootstrap.servers': f'{SERVER_K}:{PORT_K}',
         'group.id': 'grupo_consumidor3',
@@ -344,7 +336,7 @@ def esperandoTaxi( ):
             logging.error(f"Error al descifrar mensaje para taxi {taxi_id}. IP: {ip_addr}")
             print(f"Error al descifrar mensaje para taxi {taxi_id}: {e}")
             continue
-        #print("Mensaje recibido")
+
         consumer.close()
         taxiData = mensaje.split(':')
         taxi = Taxi(
@@ -445,7 +437,7 @@ def reciboMapa():
     topicMapa = 'mapa'
 
     consumer.subscribe([topicMapa])
-    #print("Recibiendo mensaje")
+
     while True:
         msg = consumer.poll(1.0)
         if msg is None:
@@ -492,10 +484,9 @@ def reciboMapa():
             )
 
             taxis.append((taxi, tokenTaxi))
-        #print("Tu lista taxi de taxis")
+
         for taxi, tokenTaxi in taxis:
             
-            #print(taxi)
             if taxi.id == taxiID:
                 if CambioEstado:
                     if taxi.estado == "ko":
@@ -689,8 +680,7 @@ if __name__ == "__main__":
 
             # Registrar el taxi
             menu(taxiID)
-            #map_thread = threading.Thread(target=iniciarMapa)
-            #map_thread.start()
+
 
             destinos = leer_mapa('EC_locations.json')
 

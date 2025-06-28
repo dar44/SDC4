@@ -95,12 +95,11 @@ def escuchoSiLlego():
         else:
             mensaje = msg.value().decode(FORMATO)
             split = mensaje.split(':')
-            # print("Id recibido: " + split[0])
-            # print("Id cliente: " + CLIENTEID)
+
 
             if split[0] == CLIENTEID:
                 consumer.commit(msg, asynchronous=False)  # Realizar commit manual
-                #print(mensaje)
+
                 if len(split) < 3:
                     if split[1] == "Taxi desconectado":
                         print("Taxi desconectado")
@@ -110,11 +109,10 @@ def escuchoSiLlego():
                     sys.exit()
                     break
                 else:
-                    #print("Se te ha asignado el taxi.")
+
                     cliente.posX = int(split[3])
                     cliente.posY = int(split[4])
-                    # print("Tu cliente")
-                    # print(cliente)
+
                     consumer.close()
                     actualizarDestinos()
                     break
@@ -133,7 +131,7 @@ def actualizarDestinos():
         destino = destinos[0]
         cliente.destino = destino
         print("Ya ha llegado a su destino")
-        #print(cliente)
+
         print("Espere 4 segundos y pida un taxi nuevo", "\n")
         time.sleep(4)
         mensaje = "Otro taxi"
@@ -160,4 +158,3 @@ if __name__ == "__main__":
             print("Necesito estos argumentos: <KAFKA IP> <Puerto KAFKA> <ID CLIENTE>")
     except KeyboardInterrupt:
         print("Cliente detenido por el usuario.")
-    #establecer_conexion()

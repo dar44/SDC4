@@ -27,11 +27,7 @@ def _fetch_temperature():
         "https://api.openweathermap.org/data/2.5/weather"
         f"?q={CITYNAME}&appid={api_key}"
     )
-    #response = requests.get(url)
-    #data = response.json()
-    #temp = data['main']['temp'] - 273.15
-    #traffic_status["status"] = "KO" if temp < 0 else "OK"
-    #return CITYNAME, temp
+
     try:
         response = requests.get(url, timeout=10)
         response.raise_for_status()
